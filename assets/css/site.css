@@ -30,3 +30,6 @@
 .lang-switch:hover,.lang-switch:focus-visible{border-color:var(--red);color:var(--ink);background:var(--surface)}
 .lang-symbol{color:var(--red);font-size:1.2rem;font-weight:950;line-height:1}
 @media(max-width:550px){.lang-switch{min-height:37px;padding:7px 8px;gap:5px;font-size:.78rem}.lang-symbol{font-size:1.04rem}}
+
+/* Keep language, theme and mobile menu visible on 320px screens. */
+@media(max-width:370px){.header-row{gap:4px}.brand{font-size:.86rem;gap:5px;letter-spacing:-.6px}.brand-mark{padding:6px 5px}.brand-small{font-size:.47rem;letter-spacing:.03em}.header-actions{gap:4px}.lang-switch{gap:3px;padding:5px 6px;min-height:34px;font-size:.73rem}.lang-symbol{font-size:.98rem}.theme-toggle,.menu-toggle{padding:6px;min-width:33px;min-height:34px}}
