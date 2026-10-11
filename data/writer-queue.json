@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 125,
-  "remaining": 175,
+  "published": 126,
+  "remaining": 174,
   "queue": [
-    {
-      "id": "KOR-126",
-      "status": "WRITING",
-      "parent_id": "yamaha",
-      "child_id": "yamaha-1",
-      "parent_label": "야마하 오토바이",
-      "child_label": "Yamaha Nouvo",
-      "category_url": "/야마하-오토바이/야마하-누보/",
-      "draft_file": "_factory/inbox/KOR-126.json",
-      "working_title": "Yamaha Nouvo 처음 알아보기: 기본 정보와 준비 순서",
-      "primary_keyword": "Yamaha Nouvo",
-      "search_intent": "informational",
-      "content_brief": "분야: 야마하 오토바이. 하위 주제: Yamaha Nouvo. Nouvo 모델의 선택 요소를 살펴봅니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/야마하-오토바이/",
-        "/야마하-오토바이/야마하-누보/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-127",
       "status": "WRITING",
@@ -110,6 +88,28 @@
       "internal_link_targets": [
         "/야마하-오토바이/",
         "/야마하-오토바이/야마하-누보/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-131",
+      "status": "WRITING",
+      "parent_id": "yamaha",
+      "child_id": "yamaha-2",
+      "parent_label": "야마하 오토바이",
+      "child_label": "Yamaha Janus",
+      "category_url": "/야마하-오토바이/야마하-야누스/",
+      "draft_file": "_factory/inbox/KOR-131.json",
+      "working_title": "Yamaha Janus 처음 알아보기: 기본 정보와 준비 순서",
+      "primary_keyword": "Yamaha Janus",
+      "search_intent": "informational",
+      "content_brief": "분야: 야마하 오토바이. 하위 주제: Yamaha Janus. Janus의 사용 목적과 특징을 비교합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/야마하-오토바이/",
+        "/야마하-오토바이/야마하-야누스/",
         "/문의/"
       ],
       "target_min_korean_eojeol": 1500,
