@@ -26,7 +26,7 @@ function search(query){
   let chosen=null,score=top;
   for(const section of item.s||[]){
    const content=normalize(section.h+" "+(section.p||[]).join(" "));
-   let sub=0;for(const term of terms)if(content.includes(term))sub+=Math.min(5,term.length+1);
+   let sub=0;const heading=normalize(section.h);for(const term of terms){if(heading.includes(term))sub+=Math.min(9,term.length+5);else if(content.includes(term))sub+=Math.min(4,term.length+1)}
    if(phrase.length>2&&content.includes(phrase))sub+=14;
    if(sub>score-top){chosen=section;score=top+sub}
   }
