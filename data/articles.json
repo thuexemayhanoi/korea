@@ -1570,5 +1570,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-132",
+    "parentId": "yamaha",
+    "childId": "yamaha-2",
+    "path": "/야마하-오토바이/야마하-야누스/야마하-야누스-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-132.html",
+    "title": "하노이 Yamaha Janus 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 Yamaha Janus를 고를 때 이용 기간, 이동 동선, 운전 경험, 동승과 짐, 여행 시기의 기준으로 비교하는 방법을 정리했습니다. 야마하 누보와 혼다 계열 차종, 택시나 투어 같은 대안과의 장단점과 기간별 판단 예시, 비교표 만들기까지 여행 일정별로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
