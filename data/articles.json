@@ -790,5 +790,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-067",
+    "parentId": "beginners",
+    "childId": "beginners-4",
+    "path": "/50cc-초보자-가이드/주차-기초/주차-기초-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-067.html",
+    "title": "하노이 주차 기초 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 스쿠터 이용 시 주차 조건을 기간, 이동 횟수, 예정지 환경, 짐, 세우기 실력의 기준으로 비교하는 방법을 정리했습니다. 상황별 판단 예시와 대안 교통수단과의 비교, 비교표 만들기까지 여행 일정별로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
