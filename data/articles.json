@@ -202,5 +202,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-018",
+    "parentId": "rental",
+    "childId": "rental-4",
+    "path": "/하노이-오토바이-렌트/외국인-렌트/외국인-렌트-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-018.html",
+    "title": "하노이 외국인 렌트 실전 체크리스트: 예약부터 반납까지 확인 순서",
+    "description": "하노이에서 해외 여행자가 오토바이를 빌릴 때 예약 문의, 계약서 확인, 인수 점검, 주행 중 점검, 반납 체크까지 전 과정을 순서대로 정리한 실전 체크리스트입니다. 외국인이 놓치기 쉬운 항목을 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
