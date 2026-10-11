@@ -82,5 +82,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-008",
+    "parentId": "rental",
+    "childId": "rental-2",
+    "path": "/하노이-오토바이-렌트/단기-렌트/단기-렌트-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-008.html",
+    "title": "하노이 단기 렌트 실전 체크리스트: 예약부터 반납까지 확인 순서",
+    "description": "하노이에서 오토바이를 단기로 빌릴 때 예약 전 문의, 계약서 확인, 인수 점검, 하루 운행 점검, 반납 체크까지 전 과정을 순서대로 점검할 수 있는 실전 체크리스트입니다. 짧은 대여일수록 놓치기 쉬운 항목을 미리 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
