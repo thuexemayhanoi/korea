@@ -216,7 +216,7 @@ function processBatch(rows,st,index){
   st.last_successful_id=row.id;st.last_error=null;
   console.log("KOREA_PUBLISHED "+JSON.stringify({id:row.id,path:result.record.path,eojeol:result.korean_eojeol,score:result.score}));
  }
- st.last_run=new Date().toISOString();
+ if(published>0||invalid>0)st.last_run=new Date().toISOString();
  claim(rows,st);
  persist(rows,st,index,true);
  if(published){
