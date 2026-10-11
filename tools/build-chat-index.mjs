@@ -21,6 +21,7 @@ for(const f of await walk(root)){
   const p=[...chunk.matchAll(/<(?:p|li)\b[^>]*>([\s\S]*?)<\/(?:p|li)>/gi)].map(x=>cut(strip(x[1]))).filter(x=>x.length>=18).slice(0,3);
   if(p.length)sections.push({h:heading,p});if(sections.length>=18)break;
  }
+ for(const match of m.matchAll(/<details\b[^>]*class="[^"]*faq-item[^"]*"[^>]*>([\s\S]*?)<\/details>/gi)){const block=match[1],question=strip((block.match(/<summary[^>]*>([\s\S]*?)<\/summary>/i)||[])[1]);const answers=[...block.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(x=>cut(strip(x[1]),550)).filter(Boolean);if(question&&answers.length)sections.push({h:question,p:answers})}
  const p=[...m.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(x=>cut(strip(x[1]))).filter(x=>x.length>=18).slice(0,3);
  entries.push({u:url,t,d:cut(d,240),h,p,s:sections});
 }
