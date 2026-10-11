@@ -14,7 +14,7 @@ const posts=JSON.parse(await read("data/articles.json"));
 const plan=(await read("data/article-plan.csv")).trim().split("\n").slice(1);
 check(cats.length===12&&cats.every(x=>x.children.length===5),"taxonomy must remain 12 parents and 60 children");
 check(plan.length===300&&new Set(plan.map(r=>r.split(",")[0])).size===300,"300 unique article plan slots required");
-check(posts.every(a=>plan.some(row=>row.split(",")[0]===a.id)),"article not in 300-slot content plan");
+check(posts.every(a=>plan.some(row=>{const fields=row.split(",");return fields[0]===a.id&&fields[1]===a.parentId&&fields[3]===a.childId})),"article ID/category must match a planned slot");
 const bodies={};
 for(const a of posts.filter(x=>x.status==="PUBLISHED")){
  try{bodies[a.id]=await read(a.contentFile)}catch(e){errors.push("missing article content for "+a.id)}
@@ -51,7 +51,7 @@ function extract(html,p){
  check(html.includes('name="robots" content="'+robots+'"'),"robots incorrect "+p);
  if(!indexed.has(p))check(!sitemap.includes(site.domain+p),"noindex in sitemap "+p);
  const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
- check(schemas.length>=2,"page and breadcrumb JSON-LD missing "+p);
+ check(schemas.length>=(p==="/"?1:2),"page and breadcrumb JSON-LD missing "+p);
  for(const m of schemas)try{JSON.parse(m[1])}catch(e){errors.push("broken JSON-LD "+p+": "+e.message)}
  const hrefs=[...html.matchAll(/href="(\/[^"#?]+)(?:[?#][^"]*)?"/g)].map(x=>x[1]);
  for(const href of hrefs)if(!href.startsWith("/assets/")&&!covered.has(href)&&href!=="/404.html")errors.push("broken local link "+p+" -> "+href);

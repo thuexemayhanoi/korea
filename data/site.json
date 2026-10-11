@@ -108,5 +108,12 @@
   "footerBrandParts": [
     "HANOI",
     "RIDE."
-  ]
+  ],
+  "businessName": "Cho Thuê Xe Máy Nguyễn Tú",
+  "postalAddress": {
+    "streetAddress": "112 Nguyễn Văn Cừ",
+    "addressLocality": "Long Biên, Hà Nội",
+    "addressCountry": "VN"
+  },
+  "openingHoursSchema": "Mo-Su 09:00-21:00"
 }
