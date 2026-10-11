@@ -334,5 +334,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-029",
+    "parentId": "price",
+    "childId": "price-1",
+    "path": "/렌트-가격-예약/가격표-읽기/가격표-읽기-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-029.html",
+    "title": "하노이 가격표 이해하기 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 오토바이 렌트 가격표에서 확인 없이 넘기기 쉬운 네 가지 오해와 실제로 자주 생기는 위험 상황을 정리했습니다. 확인되지 않은 정보를 걸러내는 세 가지 질문과 안전하게 시작하는 대안까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]

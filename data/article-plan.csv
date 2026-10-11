@@ -27,12 +27,12 @@ KOR-025,rental,하노이-오토바이-렌트,rental-5,렌트-체크리스트,5,P
 KOR-026,price,렌트-가격-예약,price-1,가격표-읽기,1,PUBLISHED
 KOR-027,price,렌트-가격-예약,price-1,가격표-읽기,2,PUBLISHED
 KOR-028,price,렌트-가격-예약,price-1,가격표-읽기,3,PUBLISHED
-KOR-029,price,렌트-가격-예약,price-1,가격표-읽기,4,WRITING
+KOR-029,price,렌트-가격-예약,price-1,가격표-읽기,4,PUBLISHED
 KOR-030,price,렌트-가격-예약,price-1,가격표-읽기,5,WRITING
 KOR-031,price,렌트-가격-예약,price-2,일일-대여요금,1,WRITING
 KOR-032,price,렌트-가격-예약,price-2,일일-대여요금,2,WRITING
 KOR-033,price,렌트-가격-예약,price-2,일일-대여요금,3,WRITING
-KOR-034,price,렌트-가격-예약,price-2,일일-대여요금,4,PLANNED
+KOR-034,price,렌트-가격-예약,price-2,일일-대여요금,4,WRITING
 KOR-035,price,렌트-가격-예약,price-2,일일-대여요금,5,PLANNED
 KOR-036,price,렌트-가격-예약,price-3,주간-월간-렌트,1,PLANNED
 KOR-037,price,렌트-가격-예약,price-3,주간-월간-렌트,2,PLANNED
