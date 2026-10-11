@@ -1450,5 +1450,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-122",
+    "parentId": "honda",
+    "childId": "honda-5",
+    "path": "/혼다-오토바이/혼다-모델-비교/혼다-모델-비교-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-122.html",
+    "title": "하노이 혼다 모델 비교 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 혼다 계열 차종을 고를 때 이용 기간, 이동 반경, 조작 경험, 동승과 짐, 여행 시기와 체감의 기준으로 비교하는 방법을 정리했습니다. 비전, 웨이브, 에어블레이드, 클릭이 후보가 되는 시점과 대안 교통수단과의 비교, 기간별 판단 예시와 비교표 만들기까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
