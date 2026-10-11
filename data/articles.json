@@ -586,5 +586,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-050",
+    "parentId": "price",
+    "childId": "price-5",
+    "path": "/렌트-가격-예약/예약-문의/예약-문의-방법-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-050.html",
+    "title": "하노이 예약·문의 방법 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 오토바이 대여에서 한국인 여행자가 예약·문의 방법에 관해 자주 묻는 연락 시점, 전달 내용, 답변 확인, 인수 소통, 반납 후 문의 같은 질문을 상황별로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
