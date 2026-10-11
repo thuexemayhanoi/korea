@@ -31,12 +31,12 @@ KOR-029,price,렌트-가격-예약,price-1,가격표-읽기,4,PUBLISHED
 KOR-030,price,렌트-가격-예약,price-1,가격표-읽기,5,PUBLISHED
 KOR-031,price,렌트-가격-예약,price-2,일일-대여요금,1,PUBLISHED
 KOR-032,price,렌트-가격-예약,price-2,일일-대여요금,2,PUBLISHED
-KOR-033,price,렌트-가격-예약,price-2,일일-대여요금,3,WRITING
+KOR-033,price,렌트-가격-예약,price-2,일일-대여요금,3,PUBLISHED
 KOR-034,price,렌트-가격-예약,price-2,일일-대여요금,4,WRITING
 KOR-035,price,렌트-가격-예약,price-2,일일-대여요금,5,WRITING
 KOR-036,price,렌트-가격-예약,price-3,주간-월간-렌트,1,WRITING
 KOR-037,price,렌트-가격-예약,price-3,주간-월간-렌트,2,WRITING
-KOR-038,price,렌트-가격-예약,price-3,주간-월간-렌트,3,PLANNED
+KOR-038,price,렌트-가격-예약,price-3,주간-월간-렌트,3,WRITING
 KOR-039,price,렌트-가격-예약,price-3,주간-월간-렌트,4,PLANNED
 KOR-040,price,렌트-가격-예약,price-3,주간-월간-렌트,5,PLANNED
 KOR-041,price,렌트-가격-예약,price-4,보증금-안내,1,PLANNED

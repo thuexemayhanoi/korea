@@ -382,5 +382,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-033",
+    "parentId": "price",
+    "childId": "price-2",
+    "path": "/렌트-가격-예약/일일-대여요금/일일-대여요금-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-033.html",
+    "title": "하노이 일일 대여요금 실전 체크리스트: 준비와 확인 순서",
+    "description": "하루 단위 오토바이 대여를 문의 전 정리, 견적 대조, 계약, 인수 점검, 주행 중 점검, 반납 후 기록까지 아홉 단계 체크리스트로 정리했습니다. 하루 대여에서 자주 놓치는 항목과 확인 질문도 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
