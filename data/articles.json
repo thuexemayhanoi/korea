@@ -394,5 +394,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-034",
+    "parentId": "price",
+    "childId": "price-2",
+    "path": "/렌트-가격-예약/일일-대여요금/일일-대여요금-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-034.html",
+    "title": "하노이 일일 대여요금 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하루 대여에서 자주 생기는 네 가지 오해와 반납 지연, 연료 기준, 첫 주행 같은 실제 위험 상황을 정리했습니다. 확인되지 않은 정보를 걸러내는 세 가지 질문과 안전한 대안, 문제 대응 순서까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
