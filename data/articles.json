@@ -850,5 +850,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-072",
+    "parentId": "beginners",
+    "childId": "beginners-5",
+    "path": "/50cc-초보자-가이드/주행-전-점검/주행-전-점검-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-072.html",
+    "title": "하노이 주행 전 점검 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 오토바이 여행에서 주행 전 점검을 이용 기간, 이동 거리, 운전 경험, 짐과 동행, 날씨의 기준으로 비교하는 방법을 정리했습니다. 점검 방식끼리의 장단점과 대안 교통수단과의 비교, 나만의 비교표 만들기까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
