@@ -898,5 +898,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-076",
+    "parentId": "types",
+    "childId": "types-1",
+    "path": "/오토바이-종류/50cc-오토바이/50cc-오토바이-기본-안내/",
+    "contentFile": "content/articles/KOR-076.html",
+    "title": "하노이 50cc 오토바이 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 50cc 오토바이 렌트를 처음 알아보는 한국인 여행자를 위해 기본 개념, 어울리는 여행자 유형, 주행 목적별 고려 사항, 예약 전 질문 목록과 현장 확인 준비사항, 초보자의 첫 단계까지 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
