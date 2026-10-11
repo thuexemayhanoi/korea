@@ -1546,5 +1546,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-130",
+    "parentId": "yamaha",
+    "childId": "yamaha-1",
+    "path": "/야마하-오토바이/야마하-누보/야마하-누보-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-130.html",
+    "title": "하노이 Yamaha Nouvo 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 Yamaha Nouvo 렌트를 고민하는 한국인 여행자가 자주 묻는 초보 적응, 동승과 짐, 요금과 보증금, 연료, 우천 대응, 고장 대응, 연장과 반납 질문을 여행 단계 순서로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
