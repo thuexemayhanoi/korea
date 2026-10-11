@@ -1258,5 +1258,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-106",
+    "parentId": "honda",
+    "childId": "honda-2",
+    "path": "/혼다-오토바이/혼다-웨이브/혼다-웨이브-기본-안내/",
+    "contentFile": "content/articles/KOR-106.html",
+    "title": "하노이 Honda Wave 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 Honda Wave 렌트를 처음 알아보는 한국인 여행자를 위해 차종의 기본 성격, 스쿠터와의 차이, 변속 조작, 어울리는 일정과 렌트 전 확인 질문, 첫 이용 준비 순서를 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
