@@ -12,6 +12,11 @@ export function validateArticles(articles,taxonomy,bodies){
   if(!/^\d{4}-\d{2}-\d{2}$/.test(a.publishedAt)||Number.isNaN(Date.parse(a.publishedAt+"T00:00:00Z")))throw Error("Invalid date "+a.id);
   if(!["rental","travel","safety","guide"].includes(a.type||"guide"))throw Error("Invalid article type "+a.id);
   if(!bodies[a.id]||bodies[a.id].length<100||/<script\b|<iframe\b|<style\b/i.test(bodies[a.id])||!/<h2\b/i.test(bodies[a.id]))throw Error("Missing or unsafe editorial HTML "+a.id);
+  const publishedText=bodies[a.id].replace(/<[^>]*>/g," ").replace(/&[a-zA-Z#0-9]+;/g," ").replace(/\s+/g," ").trim();
+  const koreanEojeol=publishedText.split(/\s+/).filter(token=>/[가-힣]/u.test(token)).length;
+  if(koreanEojeol<1500)throw Error("Published article "+a.id+" has "+koreanEojeol+" Korean eojeol; minimum is 1500");
+  if((bodies[a.id].match(/<h2\b/gi)||[]).length<3)throw Error("Published article "+a.id+" must have at least 3 H2 sections");
+
  }
 }
 
