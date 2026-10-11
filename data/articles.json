@@ -310,5 +310,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-027",
+    "parentId": "price",
+    "childId": "price-1",
+    "path": "/렌트-가격-예약/가격표-읽기/가격표-읽기-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-027.html",
+    "title": "하노이 가격표 이해하기 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 오토바이 렌트에서 가격표를 조건별로 비교하는 기준을 정리했습니다. 이용 기간과 차종, 포함 범위에 따른 비교 방법, 택시나 투어 같은 대안과의 장단점, 견적 요청과 비교표 만들기까지 여행 일정별로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
