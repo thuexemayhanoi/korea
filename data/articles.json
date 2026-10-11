@@ -550,5 +550,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-047",
+    "parentId": "price",
+    "childId": "price-5",
+    "path": "/렌트-가격-예약/예약-문의/예약-문의-방법-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-047.html",
+    "title": "하노이 예약·문의 방법 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 오토바이 대여에서 예약과 문의 방식을 답이 필요한 시점, 전달할 내용의 양, 기록의 필요성, 확인의 종류로 비교하는 방법을 정리했습니다. 여행사와 당일 방문 같은 대안과의 장단점과 혼자 여행, 가족 여행, 장기 체류별 판단 기준까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
