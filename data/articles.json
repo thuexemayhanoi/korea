@@ -1174,5 +1174,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-099",
+    "parentId": "types",
+    "childId": "types-5",
+    "path": "/오토바이-종류/초보자용-차종/초보자용-차종-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-099.html",
+    "title": "하노이 초보자용 차종 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 초보자용 차종으로 오토바이를 이용할 때 피해야 할 오해와 실제 위험을 정리했습니다. 공식 정보 확인 방법, 안전한 대안, 문제 발생 시 대응까지 여행자가 미리 알아야 할 내용을 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
