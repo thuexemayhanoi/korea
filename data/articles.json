@@ -1078,5 +1078,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-091",
+    "parentId": "types",
+    "childId": "types-4",
+    "path": "/오토바이-종류/전기-오토바이/전기-오토바이-기본-안내/",
+    "contentFile": "content/articles/KOR-091.html",
+    "title": "하노이 전기 오토바이 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 전기 오토바이를 처음 이용하려는 분을 위한 기본 안내입니다. 차량의 구조와 엔진 차량과의 차이, 배터리와 충전의 기본, 렌트 전 준비사항과 첫 주행 연습까지 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
