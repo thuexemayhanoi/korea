@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "READY",
+  "target_articles": 300,
+  "published": 0,
+  "remaining": 300,
+  "queue": [
+    {
+      "id": "KOR-001",
+      "status": "WRITING",
+      "parent_id": "rental",
+      "child_id": "rental-1",
+      "parent_label": "하노이 오토바이 렌트",
+      "child_label": "렌트 시작하기",
+      "category_url": "/하노이-오토바이-렌트/렌트-시작하기/",
+      "draft_file": "_factory/inbox/KOR-001.json",
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-002",
+      "status": "WRITING",
+      "parent_id": "rental",
+      "child_id": "rental-1",
+      "parent_label": "하노이 오토바이 렌트",
+      "child_label": "렌트 시작하기",
+      "category_url": "/하노이-오토바이-렌트/렌트-시작하기/",
+      "draft_file": "_factory/inbox/KOR-002.json",
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-003",
+      "status": "WRITING",
+      "parent_id": "rental",
+      "child_id": "rental-1",
+      "parent_label": "하노이 오토바이 렌트",
+      "child_label": "렌트 시작하기",
+      "category_url": "/하노이-오토바이-렌트/렌트-시작하기/",
+      "draft_file": "_factory/inbox/KOR-003.json",
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-004",
+      "status": "WRITING",
+      "parent_id": "rental",
+      "child_id": "rental-1",
+      "parent_label": "하노이 오토바이 렌트",
+      "child_label": "렌트 시작하기",
+      "category_url": "/하노이-오토바이-렌트/렌트-시작하기/",
+      "draft_file": "_factory/inbox/KOR-004.json",
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-005",
+      "status": "WRITING",
+      "parent_id": "rental",
+      "child_id": "rental-1",
+      "parent_label": "하노이 오토바이 렌트",
+      "child_label": "렌트 시작하기",
+      "category_url": "/하노이-오토바이-렌트/렌트-시작하기/",
+      "draft_file": "_factory/inbox/KOR-005.json",
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "production_domain": "https://ko.rentbikehanoi.com",
+  "target_articles": 300,
+  "batch_size": 5,
+  "min_korean_eojeol": 1500,
+  "min_korean_eojeol_ratio": 0.75,
+  "min_unique_korean_words": 100,
+  "min_h2": 3,
+  "min_paragraphs": 12,
+  "min_internal_links": 3,
+  "seo_score_min": 85,
+  "max_repair_attempts": 3,
+  "watchdog_interval_minutes": 30,
+  "inbox_dir": "_factory/inbox",
+  "state_path": "data/factory-state.json",
+  "plan_path": "data/article-plan.csv",
+  "queue_path": "data/writer-queue.json",
+  "article_index_path": "data/articles.json",
+  "article_body_dir": "content/articles"
+}

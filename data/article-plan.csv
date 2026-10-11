@@ -1,9 +1,9 @@
 id,parent_id,parent_slug,subcategory_id,subcategory_slug,slot,status
-KOR-001,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,1,PLANNED
-KOR-002,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,2,PLANNED
-KOR-003,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,3,PLANNED
-KOR-004,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,4,PLANNED
-KOR-005,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,5,PLANNED
+KOR-001,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,1,WRITING
+KOR-002,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,2,WRITING
+KOR-003,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,3,WRITING
+KOR-004,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,4,WRITING
+KOR-005,rental,하노이-오토바이-렌트,rental-1,렌트-시작하기,5,WRITING
 KOR-006,rental,하노이-오토바이-렌트,rental-2,단기-렌트,1,PLANNED
 KOR-007,rental,하노이-오토바이-렌트,rental-2,단기-렌트,2,PLANNED
 KOR-008,rental,하노이-오토바이-렌트,rental-2,단기-렌트,3,PLANNED
