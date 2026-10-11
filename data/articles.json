@@ -634,5 +634,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-054",
+    "parentId": "beginners",
+    "childId": "beginners-1",
+    "path": "/50cc-초보자-가이드/50cc-특징/50cc-특징-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-054.html",
+    "title": "하노이 50cc 특징 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 50cc급 오토바이를 고려하는 한국인 여행자가 흔히 빠지는 오해와 실제로 자주 생기는 위험 상황, 미리 물어보면 피할 수 있는 확인 질문과 안전한 대안을 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
