@@ -1054,5 +1054,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-089",
+    "parentId": "types",
+    "childId": "types-3",
+    "path": "/오토바이-종류/반자동-오토바이/반자동-오토바이-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-089.html",
+    "title": "하노이 반자동 오토바이 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 반자동 오토바이를 이용할 때 흔히 빠지기 쉬운 오해와 실제 위험을 정리합니다. 렌트 전 확인할 공식 정보와 이용 중 실수 예방 요령, 상황에 따른 더 안전한 대안까지 여행자 눈높이로 설명합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
