@@ -1486,5 +1486,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-125",
+    "parentId": "honda",
+    "childId": "honda-5",
+    "path": "/혼다-오토바이/혼다-모델-비교/혼다-모델-비교-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-125.html",
+    "title": "하노이 혼다 모델 비교 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 혼다 계열 차종을 비교하는 한국인 여행자가 자주 묻는 모델 선택, 자동과 반자동, 동승과 짐, 요금과 보증금, 연료, 우천 대응, 재고와 교체, 단기와 장기 이용, 문의 방법 질문을 여행 단계 순서로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
