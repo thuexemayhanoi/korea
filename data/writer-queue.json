@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 122,
-  "remaining": 178,
+  "published": 123,
+  "remaining": 177,
   "queue": [
-    {
-      "id": "KOR-123",
-      "status": "WRITING",
-      "parent_id": "honda",
-      "child_id": "honda-5",
-      "parent_label": "혼다 오토바이",
-      "child_label": "혼다 모델 비교",
-      "category_url": "/혼다-오토바이/혼다-모델-비교/",
-      "draft_file": "_factory/inbox/KOR-123.json",
-      "working_title": "혼다 모델 비교 실전 체크리스트: 준비와 확인 순서",
-      "primary_keyword": "혼다 모델 비교",
-      "search_intent": "informational",
-      "content_brief": "분야: 혼다 오토바이. 하위 주제: 혼다 모델 비교. 혼다 차량의 크기와 조작 방식을 비교합니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/혼다-오토바이/",
-        "/혼다-오토바이/혼다-모델-비교/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-124",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "Yamaha Nouvo",
       "search_intent": "commercial",
       "content_brief": "분야: 야마하 오토바이. 하위 주제: Yamaha Nouvo. Nouvo 모델의 선택 요소를 살펴봅니다. 이번 글의 관점: 주요 선택 기준, 다른 대안과의 장단점, 이용 기간 및 개인 상황에 따른 판단. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/야마하-오토바이/",
+        "/야마하-오토바이/야마하-누보/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-128",
+      "status": "WRITING",
+      "parent_id": "yamaha",
+      "child_id": "yamaha-1",
+      "parent_label": "야마하 오토바이",
+      "child_label": "Yamaha Nouvo",
+      "category_url": "/야마하-오토바이/야마하-누보/",
+      "draft_file": "_factory/inbox/KOR-128.json",
+      "working_title": "Yamaha Nouvo 실전 체크리스트: 준비와 확인 순서",
+      "primary_keyword": "Yamaha Nouvo",
+      "search_intent": "informational",
+      "content_brief": "분야: 야마하 오토바이. 하위 주제: Yamaha Nouvo. Nouvo 모델의 선택 요소를 살펴봅니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
       "internal_link_targets": [
         "/야마하-오토바이/",
