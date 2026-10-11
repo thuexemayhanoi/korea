@@ -742,5 +742,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-063",
+    "parentId": "beginners",
+    "childId": "beginners-3",
+    "path": "/50cc-초보자-가이드/초보-출발/첫-출발-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-063.html",
+    "title": "하노이 첫 출발 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 스쿠터를 처음 빌릴 때 놓치기 쉬운 항목을 순서대로 정리한 실전 체크리스트입니다. 문의부터 계약 대조, 인수 점검, 첫 주행, 반납까지 단계별로 확인할 수 있어 초보자도 차분하게 준비할 수 있습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
