@@ -130,5 +130,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-012",
+    "parentId": "rental",
+    "childId": "rental-3",
+    "path": "/하노이-오토바이-렌트/장기-렌트/장기-렌트-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-012.html",
+    "title": "하노이 장기 렌트 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 오토바이를 주 단위와 월 단위로 오래 빌릴 때 기간, 차종, 관리 조건을 고르는 기준을 정리했습니다. 통근과 근교 여행 같은 이용 목적별 비교, 택시와 투어 같은 대안과의 장단점, 체류 형태별 판단 예시까지 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
