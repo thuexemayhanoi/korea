@@ -70,5 +70,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-007",
+    "parentId": "rental",
+    "childId": "rental-2",
+    "path": "/하노이-오토바이-렌트/단기-렌트/단기-렌트-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-007.html",
+    "title": "하노이 단기 렌트 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 단기 오토바이 렌트를 고를 때 기간, 이동 반경, 운전 경험, 짐과 날씨 같은 기준으로 판단하는 방법을 정리했습니다. 차종 방향, 이용 기간별 비교와 택시, 버스, 자전거, 투어 같은 대안과의 장단점까지 상황별로 비교해 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
