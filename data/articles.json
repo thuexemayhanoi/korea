@@ -682,5 +682,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-058",
+    "parentId": "beginners",
+    "childId": "beginners-2",
+    "path": "/50cc-초보자-가이드/50cc-선택/50cc-선택-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-058.html",
+    "title": "하노이 50cc 선택 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 50cc 차량을 고르고 빌리는 과정을 열 단계 체크리스트로 정리했습니다. 여행 조건 정리와 문의 목록, 견적 대조, 계약 확인, 인수와 첫 주행, 매일 점검, 반납까지 확인 순서를 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
