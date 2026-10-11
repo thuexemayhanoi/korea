@@ -106,5 +106,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-010",
+    "parentId": "rental",
+    "childId": "rental-2",
+    "path": "/하노이-오토바이-렌트/단기-렌트/단기-렌트-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-010.html",
+    "title": "하노이 단기 렌트 자주 묻는 질문: 여행 상황별 답변 정리",
+    "description": "하노이에서 오토바이를 짧게 빌리려는 여행자가 실제로 자주 묻는 예약, 기간, 차량, 반납과 상황별 질문을 모아 답했습니다. 짧은 대여에서 놓치기 쉬운 조건 확인 방법과 문의 요령까지 함께 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
