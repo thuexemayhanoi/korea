@@ -1630,5 +1630,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-137",
+    "parentId": "yamaha",
+    "childId": "yamaha-3",
+    "path": "/야마하-오토바이/야마하-그란데/야마하-그란데-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-137.html",
+    "title": "하노이 Yamaha Grande 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 Yamaha Grande를 고를 때 이용 기간, 이동 동선, 운전 경험, 동승과 짐, 여행 시기의 기준으로 비교하는 방법을 정리했습니다. 야마하 계열 차종과 혼다 계열, 반자동 방식, 택시나 자전거 같은 대안과의 장단점과 기간별 판단 예시, 비교표 만들기까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
