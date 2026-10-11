@@ -430,5 +430,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-037",
+    "parentId": "price",
+    "childId": "price-3",
+    "path": "/렌트-가격-예약/주간-월간-렌트/주간-월간-렌트-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-037.html",
+    "title": "하노이 주간·월간 렌트 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 주 단위와 월 단위 오토바이 이용을 고를 때 기간, 빈도, 반경, 경험의 네 기준으로 비교하는 방법과 택시, 대중교통, 자전거, 투어 같은 대안과의 장단점을 정리했습니다. 상황별 판단 예시와 비교표 만들기까지 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
