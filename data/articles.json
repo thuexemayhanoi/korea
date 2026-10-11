@@ -1774,5 +1774,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-149",
+    "parentId": "yamaha",
+    "childId": "yamaha-5",
+    "path": "/야마하-오토바이/야마하-모델-비교/야마하-모델-비교-주의사항-실수-예방-kor-149/",
+    "contentFile": "content/articles/KOR-149.html",
+    "title": "하노이 야마하 모델 비교 주의사항: 예약·실물 점검·반납 실수 예방",
+    "description": "하노이 여행에서 야마하 오토바이를 비교할 때 모델명이나 사진만 믿지 않고 실제 차량 상태, 여행 조건, 계약과 반납 절차까지 확인하는 방법을 정리했습니다. 선택을 서두르기 전에 점검할 질문과 대안도 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
