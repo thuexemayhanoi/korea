@@ -118,5 +118,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-011",
+    "parentId": "rental",
+    "childId": "rental-3",
+    "path": "/하노이-오토바이-렌트/장기-렌트/장기-렌트-기본-안내/",
+    "contentFile": "content/articles/KOR-011.html",
+    "title": "하노이 장기 렌트 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에 한 달 이상 머무는 한국인을 위해 오토바이 장기 렌트의 기본 개념, 어울리는 체류 형태, 주 단위와 월 단위 조건에서 확인할 항목, 첫 계약과 생활 리듬까지 준비 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
