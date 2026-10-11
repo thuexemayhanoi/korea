@@ -3,21 +3,8 @@
   "enabled": true,
   "blocked": false,
   "target_reached": false,
-  "last_successful_id": "KOR-025",
-  "last_run": "2026-10-11T11:33:25.259Z",
+  "last_successful_id": "KOR-026",
+  "last_run": "2026-10-11T11:34:54.610Z",
   "last_error": null,
-  "repair": {
-    "KOR-026": {
-      "hash": "7ccd170f279935f4f0e18bbafb598aaf285d5bc3cbe4f38c92ad2cd705cc9dd1",
-      "attempts": 1,
-      "errors": [
-        "Broken or unpublished local link: /렌트-가격-예약/가격표-읽기/가격표-읽기-선택-기준-비교/",
-        "Broken or unpublished local link: /렌트-가격-예약/가격표-읽기/가격표-읽기-실전-체크리스트/",
-        "Broken or unpublished local link: /렌트-가격-예약/가격표-읽기/가격표-읽기-자주-묻는-질문/",
-        "SEO score 61 below 85"
-      ],
-      "score": 61,
-      "words": 1799
-    }
-  }
+  "repair": {}
 }
