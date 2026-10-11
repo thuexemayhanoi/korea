@@ -862,5 +862,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-073",
+    "parentId": "beginners",
+    "childId": "beginners-5",
+    "path": "/50cc-초보자-가이드/주행-전-점검/주행-전-점검-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-073.html",
+    "title": "하노이 주행 전 점검 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 오토바이를 빌린 초보 여행자를 위한 주행 전 점검 실전 체크리스트입니다. 인수 장소 확인 순서, 타이어와 브레이크, 조명과 연료 점검, 매일 아침 루틴, 이상 발견 시 행동 순서와 반납 전 마무리까지 단계별로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
