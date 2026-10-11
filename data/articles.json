@@ -1126,5 +1126,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-095",
+    "parentId": "types",
+    "childId": "types-4",
+    "path": "/오토바이-종류/전기-오토바이/전기-오토바이-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-095.html",
+    "title": "하노이 전기 오토바이 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 전기 오토바이 이용 전 여행자가 자주 묻는 질문을 상황별로 모았습니다. 충전 방식과 주행 거리, 우천 대비, 동승과 짐, 계약 확인과 반납까지 실전 답변으로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
