@@ -1006,5 +1006,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-085",
+    "parentId": "types",
+    "childId": "types-2",
+    "path": "/오토바이-종류/자동-스쿠터/자동-스쿠터-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-085.html",
+    "title": "하노이 자동 스쿠터 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 자동 스쿠터 렌트에 관해 한국인 여행자가 자주 묻는 경험, 보증금, 요금, 연료, 장비, 동승, 우천 대응, 반납과 차종 교체 질문을 여행 단계 순서로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
