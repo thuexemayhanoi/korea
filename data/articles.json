@@ -814,5 +814,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-069",
+    "parentId": "beginners",
+    "childId": "beginners-4",
+    "path": "/50cc-초보자-가이드/주차-기초/주차-기초-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-069.html",
+    "title": "하노이 주차 기초 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 오토바이 여행에서 주차 기초와 관련해 흔히 빠지는 오해와 실제로 자주 생기는 위험 상황을 정리했습니다. 확인되지 않은 정보를 걸러내는 질문과 안전한 대안, 문제 대응 순서까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
