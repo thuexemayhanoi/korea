@@ -1138,5 +1138,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-096",
+    "parentId": "types",
+    "childId": "types-5",
+    "path": "/오토바이-종류/초보자용-차종/초보자용-차종-기본-안내/",
+    "contentFile": "content/articles/KOR-096.html",
+    "title": "하노이 초보자용 차종 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 처음 오토바이를 빌리는 초보자를 위한 차종 기본 안내입니다. 초보자가 차량에서 먼저 볼 조건과 대표 차종의 특성, 렌트 전 확인사항과 첫 이용 흐름을 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
