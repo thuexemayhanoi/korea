@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 141,
-  "remaining": 159,
+  "published": 142,
+  "remaining": 158,
   "queue": [
-    {
-      "id": "KOR-142",
-      "status": "WRITING",
-      "parent_id": "yamaha",
-      "child_id": "yamaha-4",
-      "parent_label": "야마하 오토바이",
-      "child_label": "Yamaha Exciter",
-      "category_url": "/야마하-오토바이/야마하-엑사이터/",
-      "draft_file": "_factory/inbox/KOR-142.json",
-      "working_title": "Yamaha Exciter 선택 기준과 비교: 여행 일정별 확인사항",
-      "primary_keyword": "Yamaha Exciter",
-      "search_intent": "commercial",
-      "content_brief": "분야: 야마하 오토바이. 하위 주제: Yamaha Exciter. Exciter 관련 주행 경험과 적합성을 살펴봅니다. 이번 글의 관점: 주요 선택 기준, 다른 대안과의 장단점, 이용 기간 및 개인 상황에 따른 판단. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/야마하-오토바이/",
-        "/야마하-오토바이/야마하-엑사이터/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-143",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "야마하 모델 비교",
       "search_intent": "informational",
       "content_brief": "분야: 야마하 오토바이. 하위 주제: 야마하 모델 비교. 야마하 차종 선택 시 비교할 사항을 모았습니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/야마하-오토바이/",
+        "/야마하-오토바이/야마하-모델-비교/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-147",
+      "status": "WRITING",
+      "parent_id": "yamaha",
+      "child_id": "yamaha-5",
+      "parent_label": "야마하 오토바이",
+      "child_label": "야마하 모델 비교",
+      "category_url": "/야마하-오토바이/야마하-모델-비교/",
+      "draft_file": "_factory/inbox/KOR-147.json",
+      "working_title": "야마하 모델 비교 선택 기준과 비교: 여행 일정별 확인사항",
+      "primary_keyword": "야마하 모델 비교",
+      "search_intent": "commercial",
+      "content_brief": "분야: 야마하 오토바이. 하위 주제: 야마하 모델 비교. 야마하 차종 선택 시 비교할 사항을 모았습니다. 이번 글의 관점: 주요 선택 기준, 다른 대안과의 장단점, 이용 기간 및 개인 상황에 따른 판단. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
       "internal_link_targets": [
         "/야마하-오토바이/",
