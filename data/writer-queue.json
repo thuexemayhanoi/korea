@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 73,
-  "remaining": 227,
+  "published": 74,
+  "remaining": 226,
   "queue": [
-    {
-      "id": "KOR-074",
-      "status": "WRITING",
-      "parent_id": "beginners",
-      "child_id": "beginners-5",
-      "parent_label": "50cc·초보자 안내",
-      "child_label": "주행 전 점검",
-      "category_url": "/50cc-초보자-가이드/주행-전-점검/",
-      "draft_file": "_factory/inbox/KOR-074.json",
-      "working_title": "주행 전 점검 주의사항과 실수 예방: 안전 중심 안내",
-      "primary_keyword": "주행 전 점검",
-      "search_intent": "informational",
-      "content_brief": "분야: 50cc·초보자 안내. 하위 주제: 주행 전 점검. 타이어와 브레이크 등 기본 확인 항목을 안내합니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/50cc-초보자-가이드/",
-        "/50cc-초보자-가이드/주행-전-점검/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-075",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "50cc 오토바이",
       "search_intent": "informational",
       "content_brief": "분야: 오토바이 종류. 하위 주제: 50cc 오토바이. 주행 목적에 따른 50cc 차량 고려 사항입니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/오토바이-종류/",
+        "/오토바이-종류/50cc-오토바이/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-079",
+      "status": "WRITING",
+      "parent_id": "types",
+      "child_id": "types-1",
+      "parent_label": "오토바이 종류",
+      "child_label": "50cc 오토바이",
+      "category_url": "/오토바이-종류/50cc-오토바이/",
+      "draft_file": "_factory/inbox/KOR-079.json",
+      "working_title": "50cc 오토바이 주의사항과 실수 예방: 안전 중심 안내",
+      "primary_keyword": "50cc 오토바이",
+      "search_intent": "informational",
+      "content_brief": "분야: 오토바이 종류. 하위 주제: 50cc 오토바이. 주행 목적에 따른 50cc 차량 고려 사항입니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
       "internal_link_targets": [
         "/오토바이-종류/",

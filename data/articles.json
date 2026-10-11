@@ -874,5 +874,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-074",
+    "parentId": "beginners",
+    "childId": "beginners-5",
+    "path": "/50cc-초보자-가이드/주행-전-점검/주행-전-점검-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-074.html",
+    "title": "하노이 주행 전 점검 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 오토바이 이용에서 주행 전 점검을 건너뛰게 만드는 세 가지 오해와 서두를 때 생기는 실제 위험 상황을 정리했습니다. 확인되지 않은 정보를 걸러내는 세 가지 질문, 날씨별 점검 포인트와 안전한 대안까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
