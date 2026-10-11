@@ -94,3 +94,9 @@ node tools/build-chat-index.mjs --check
 ```
 
 QA-only GitHub Actions validates the static chat index; there is no auto-writer agent or additional publishing workflow.
+
+## Korea 300 external writer factory · 1,500 Korean eojeol per article
+
+The **only** source repo is `thuexemayhanoi/korea`. The editorial queue is `data/writer-queue.json`. Articles are written by an external AI/human in `_factory/inbox/KOR-XXX.json`, never by GitHub Actions. The Korea-specific `tools/factory.mjs` checks at least **1,500 Korean eojeol**, Korean SEO metadata, 3 H2, 12 distinct paragraphs, 3 working internal links, parent/child silo link, originality heuristics, safety sources, 85/100 QA score, and duplicate IDs/URLs. It publishes up to **five** per workflow run, stops at 300, and leaves original site design, URLs, navigation and footer intact.
+
+Instructions: [External writer handbook](_factory/EXTERNAL-WRITER.md). Actions: [KOREA 300 External Writer Factory](https://github.com/thuexemayhanoi/korea/actions/workflows/korea-article-factory.yml). For read-only inspection run `node tools/factory.mjs next` or `node tools/factory.mjs status`.

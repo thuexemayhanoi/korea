@@ -177,7 +177,7 @@ function statusAction(rows,st){console.log("KOREA_FACTORY "+JSON.stringify({stat
 function refresh(rows,st,index){
  claim(rows,st);persist(rows,st,index,false);statusAction(rows,st);
 }
-function processBatch(rows,st,index){
+function process(rows,st,index){
  if(!st.enabled||st.blocked||st.target_reached){statusAction(rows,st);return}
  claim(rows,st);
  const candidates=rows.filter(r=>r.status==="WRITING"||r.status==="REPAIR").slice(0,config.batch_size);
@@ -232,7 +232,7 @@ function main(){
   statusAction(rows,st);
  }
  else if(action==="refresh-queue")refresh(rows,st,index);
- else if(action==="process")processBatch(rows,st,index);
+ else if(action==="process")process(rows,st,index);
  else if(action==="pause"){st.enabled=false;persist(rows,st,index);statusAction(rows,st)}
  else if(action==="resume"){
   if(publishedCount(rows)>=300)throw Error("Target already reached");

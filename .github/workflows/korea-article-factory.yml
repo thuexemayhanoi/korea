@@ -1,0 +1,101 @@
+name: KOREA 300 External Writer Factory
+
+# Content is written by an external Korean-language writer and placed in _factory/inbox.
+# This workflow only validates, publishes, rebuilds, and updates the writer queue.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_factory/inbox/**'
+      - 'tools/factory.mjs'
+      - 'data/factory-config.json'
+      - '.github/workflows/korea-article-factory.yml'
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Factory control'
+        required: true
+        default: status
+        type: choice
+        options:
+          - status
+          - process
+          - refresh-queue
+          - pause
+          - resume
+
+permissions:
+  contents: write
+
+concurrency:
+  group: korea-external-writer-factory
+  cancel-in-progress: false
+
+jobs:
+  publish-approved-quality-drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prevent publishing a stale checkout
+        shell: bash
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Main advanced. This run will not write; a later run can retry." >&2
+            exit 1
+          fi
+      - name: Choose factory action
+        id: control
+        shell: bash
+        env:
+          REQUEST: ${{ github.event.inputs.action }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "action=${REQUEST:-status}" >> "$GITHUB_OUTPUT"
+          else
+            echo "action=process" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Execute queue control or publish up to five Korean posts
+        env:
+          ACTION: ${{ steps.control.outputs.action }}
+        run: |
+          node --check tools/factory.mjs
+          node tools/factory.mjs "$ACTION"
+      - name: Check complete site and queue consistency
+        if: steps.control.outputs.action != 'status'
+        run: |
+          node tools/factory.mjs verify
+          node tools/build.mjs --check
+          node tools/build-chat-index.mjs --check
+          node tools/qa.mjs
+      - name: Commit only current-run state, with safe fast-forward push
+        if: steps.control.outputs.action != 'status'
+        shell: bash
+        env:
+          ACTION: ${{ steps.control.outputs.action }}
+        run: |
+          set -euo pipefail
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No new Korean post or queue changes. No commit needed."
+            exit 0
+          fi
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Main changed concurrently. Abort instead of merging stale registry." >&2
+            exit 1
+          fi
+          git config user.name "korea-article-factory[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "korea factory: $ACTION queue and reviewed Korean content"
+          git push origin HEAD:main

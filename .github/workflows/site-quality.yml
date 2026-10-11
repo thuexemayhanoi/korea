@@ -16,6 +16,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate the external writer factory matrix and queue
+        run: node tools/factory.mjs verify
       - name: Verify generated pages are in sync
         run: node tools/build.mjs --check
       - name: Validate Korean SEO and internal links
