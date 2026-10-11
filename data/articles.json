@@ -1150,5 +1150,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-097",
+    "parentId": "types",
+    "childId": "types-5",
+    "path": "/오토바이-종류/초보자용-차종/초보자용-차종-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-097.html",
+    "title": "하노이 초보자용 차종 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 초보자용 차종을 고를 때 확인할 선택 기준을 정리했습니다. 운전 경험과 이동 계획, 이용 기간과 체형, 차종별 장단점 비교까지 상황별 판단 기준을 제시합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
