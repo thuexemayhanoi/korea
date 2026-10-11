@@ -934,5 +934,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-079",
+    "parentId": "types",
+    "childId": "types-1",
+    "path": "/오토바이-종류/50cc-오토바이/50cc-오토바이-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-079.html",
+    "title": "하노이 50cc 오토바이 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 50cc 오토바이를 빌릴 때 흔히 빠지는 네 가지 오해와 도로에서 실제로 자주 생기는 위험 상황을 정리했습니다. 공식 정보를 확인하는 세 가지 질문, 이상 대응 순서와 안전한 대안 선택까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
