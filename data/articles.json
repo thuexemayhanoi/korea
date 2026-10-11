@@ -1558,5 +1558,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-131",
+    "parentId": "yamaha",
+    "childId": "yamaha-2",
+    "path": "/야마하-오토바이/야마하-야누스/야마하-야누스-기본-안내/",
+    "contentFile": "content/articles/KOR-131.html",
+    "title": "하노이 Yamaha Janus 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 Yamaha Janus 렌트를 처음 알아보는 한국인 여행자를 위해 차종의 기본 성격과 자동 변속 조작 방식, 어울리는 일정, 렌트 전 확인 질문과 첫 이용 준비 순서를 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
