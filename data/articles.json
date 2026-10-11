@@ -1438,5 +1438,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-121",
+    "parentId": "honda",
+    "childId": "honda-5",
+    "path": "/혼다-오토바이/혼다-모델-비교/혼다-모델-비교-기본-안내/",
+    "contentFile": "content/articles/KOR-121.html",
+    "title": "하노이 혼다 모델 비교 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 혼다 계열 오토바이를 비교하는 기본 개념을 정리했습니다. 크기와 조작 방식의 두 축, 자동과 반자동 변속의 성격, 비전과 웨이브, 에어블레이드, 클릭의 대표 모델 소개, 문의 전 정리 사항과 인수 확인 순서까지 처음 시작하는 여행자를 위해 준비 순서대로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
