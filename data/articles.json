@@ -1234,5 +1234,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-104",
+    "parentId": "honda",
+    "childId": "honda-1",
+    "path": "/혼다-오토바이/혼다-비전/혼다-비전-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-104.html",
+    "title": "하노이 Honda Vision 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 Honda Vision을 이용할 때 피해야 할 오해와 실제 위험을 정리했습니다. 가벼운 차체의 양면성, 낯선 교통 흐름, 공식 정보 확인 방법과 안전한 대안까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
