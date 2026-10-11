@@ -1702,5 +1702,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-143",
+    "parentId": "yamaha",
+    "childId": "yamaha-4",
+    "path": "/야마하-오토바이/야마하-엑사이터/야마하-엑사이터-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-143.html",
+    "title": "하노이 Yamaha Exciter 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 Yamaha Exciter를 빌릴 때 출국 전 정리, 문의와 견적 대조, 계약 확인, 인수 점검과 변속 연습, 첫 주행, 매일 루틴, 주차와 우천 대응, 문제 대응, 연장과 반납, 기록 정리까지 전 과정을 단계별 체크리스트로 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
