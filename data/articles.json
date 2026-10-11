@@ -910,5 +910,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-077",
+    "parentId": "types",
+    "childId": "types-1",
+    "path": "/오토바이-종류/50cc-오토바이/50cc-오토바이-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-077.html",
+    "title": "하노이 50cc 오토바이 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 50cc 오토바이를 고를 때 이동 반경, 이용 기간, 운전 경험, 짐과 동행, 여행 시기의 다섯 기준으로 비교하는 방법을 정리했습니다. 비슷한 차급과 택시, 대중교통 같은 대안과의 장단점, 기간별 판단 예시와 비교표 만들기까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
