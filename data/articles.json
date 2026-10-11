@@ -1354,5 +1354,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-114",
+    "parentId": "honda",
+    "childId": "honda-3",
+    "path": "/혼다-오토바이/혼다-에어블레이드/혼다-에어블레이드-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-114.html",
+    "title": "하노이 Honda Air Blade 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 Honda Air Blade를 이용할 때 흔히 빠지는 다섯 가지 오해와 교차로, 노면, 주차, 반납에서 실제로 자주 생기는 위험 상황을 정리했습니다. 정보를 걸러내는 세 가지 질문, 문제 대응 순서와 안전한 대안까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
