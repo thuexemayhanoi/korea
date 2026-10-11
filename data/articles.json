@@ -1606,5 +1606,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-135",
+    "parentId": "yamaha",
+    "childId": "yamaha-2",
+    "path": "/야마하-오토바이/야마하-야누스/야마하-야누스-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-135.html",
+    "title": "하노이 Yamaha Janus 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 Yamaha Janus 렌트를 고민하는 한국인 여행자가 자주 묻는 초보 적응, 기간과 동승, 요금과 보증, 연료, 우천 대응, 차종 교체, 연장과 반납 질문을 여행 단계 순서로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
