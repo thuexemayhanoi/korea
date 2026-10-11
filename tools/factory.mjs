@@ -128,8 +128,8 @@ function draftErrors(d,row,index){
  if(d.id!==row.id)problem("ID must match active queue item");
  if(!/^[가-힣a-z0-9]+(?:-[가-힣a-z0-9]+)*$/u.test(slug)||slug.length>100)problem("Korean URL slug invalid");
  if(!["rental","travel","safety","guide"].includes(type))problem("Invalid article type");
- if([...title].length<14||[...title].length>95||!/[가-힣]{4,}/u.test(title))problem("Korean SEO title must be 14-95 characters");
- if([...desc].length<70||[...desc].length>210||!/[가-힣]{6,}/u.test(desc))problem("Korean meta description must be 70-210 characters");
+ if([...title].length<14||[...title].length>95||[...title].filter(c=>/[가-힣]/u.test(c)).length<10)problem("Korean SEO title must be 14-95 characters");
+ if([...desc].length<70||[...desc].length>210||[...desc].filter(c=>/[가-힣]/u.test(c)).length<25)problem("Korean meta description must be 70-210 characters");
  if(index.some(a=>a.title.trim()===title||a.path===route(row,slug)))problem("Duplicate title or canonical URL");
  if(!body||/<\s*(script|style|iframe|object|embed|form|input|button|link|meta|html|body|head|svg)\b/i.test(body)||
    /\bon[a-z]+\s*=/i.test(body)||/javascript\s*:/i.test(body))problem("Unsafe or empty HTML body");
