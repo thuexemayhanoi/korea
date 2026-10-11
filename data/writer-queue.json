@@ -7,7 +7,7 @@
   "queue": [
     {
       "id": "KOR-026",
-      "status": "WRITING",
+      "status": "REPAIR",
       "parent_id": "price",
       "child_id": "price-1",
       "parent_label": "렌트 가격·예약",
