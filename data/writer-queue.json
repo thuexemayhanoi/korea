@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 55,
-  "remaining": 245,
+  "published": 56,
+  "remaining": 244,
   "queue": [
-    {
-      "id": "KOR-056",
-      "status": "WRITING",
-      "parent_id": "beginners",
-      "child_id": "beginners-2",
-      "parent_label": "50cc·초보자 안내",
-      "child_label": "50cc 선택",
-      "category_url": "/50cc-초보자-가이드/50cc-선택/",
-      "draft_file": "_factory/inbox/KOR-056.json",
-      "working_title": "50cc 선택 처음 알아보기: 기본 정보와 준비 순서",
-      "primary_keyword": "50cc 선택",
-      "search_intent": "informational",
-      "content_brief": "분야: 50cc·초보자 안내. 하위 주제: 50cc 선택. 체격과 주행 계획에 맞는 차량을 비교합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/50cc-초보자-가이드/",
-        "/50cc-초보자-가이드/50cc-선택/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-057",
       "status": "WRITING",
@@ -110,6 +88,28 @@
       "internal_link_targets": [
         "/50cc-초보자-가이드/",
         "/50cc-초보자-가이드/50cc-선택/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-061",
+      "status": "WRITING",
+      "parent_id": "beginners",
+      "child_id": "beginners-3",
+      "parent_label": "50cc·초보자 안내",
+      "child_label": "첫 출발",
+      "category_url": "/50cc-초보자-가이드/초보-출발/",
+      "draft_file": "_factory/inbox/KOR-061.json",
+      "working_title": "첫 출발 처음 알아보기: 기본 정보와 준비 순서",
+      "primary_keyword": "첫 출발",
+      "search_intent": "informational",
+      "content_brief": "분야: 50cc·초보자 안내. 하위 주제: 첫 출발. 차량 조작에 익숙해지는 준비 순서를 정리합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/50cc-초보자-가이드/",
+        "/50cc-초보자-가이드/초보-출발/",
         "/문의/"
       ],
       "target_min_korean_eojeol": 1500,
