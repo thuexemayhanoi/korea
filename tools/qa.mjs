@@ -47,6 +47,7 @@ function extract(html,p){
  check(html.includes('property="og:url"'),"Open Graph URL "+p);
  check(html.includes('id="main-nav"')&&html.includes('class="site-footer"'),"shared layout "+p);
  check(html.includes('data-lang-switch')&&html.includes('data-lang-text'),"translation switch missing "+p);
+ check(html.includes("onclick=\"if(location.hostname.endsWith('.translate.goog'))"),"Korean return handler missing "+p);
  const translatedURL="https://ko-rentbikehanoi-com.translate.goog"+encodeURI(p)+"?_x_tr_sl=ko&amp;_x_tr_tl=en&amp;_x_tr_hl=en";
  check(html.includes('href="'+translatedURL+'"'),"translation URL invalid "+p);
  check(html.includes('href="/assets/css/site.css"'),"shared stylesheet "+p);
