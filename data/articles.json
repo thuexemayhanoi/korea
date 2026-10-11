@@ -970,5 +970,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-082",
+    "parentId": "types",
+    "childId": "types-2",
+    "path": "/오토바이-종류/자동-스쿠터/자동-스쿠터-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-082.html",
+    "title": "하노이 자동 스쿠터 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 자동 스쿠터를 고를 때 이용 기간, 이동 반경, 운전 경험, 동행과 여행 시기의 기준으로 비교하는 방법을 정리했습니다. 50cc 오토바이와 수동 차종, 택시나 투어 같은 대안과의 장단점과 상황별 판단 예시까지 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
