@@ -418,5 +418,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-036",
+    "parentId": "price",
+    "childId": "price-3",
+    "path": "/렌트-가격-예약/주간-월간-렌트/주간-월간-렌트-기본-안내/",
+    "contentFile": "content/articles/KOR-036.html",
+    "title": "하노이 주간·월간 렌트 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에 일주일 이상 머무는 한국인 여행자를 위해 주간·월간 렌트의 기본 개념, 어울리는 체류 형태, 하루 대여와의 차이, 문의 전 준비 목록과 첫 계약까지의 순서를 정리했습니다. 요금과 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
