@@ -190,5 +190,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-017",
+    "parentId": "rental",
+    "childId": "rental-4",
+    "path": "/하노이-오토바이-렌트/외국인-렌트/외국인-렌트-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-017.html",
+    "title": "하노이 외국인 렌트 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이를 찾은 해외 여행자가 오토바이 렌트를 고를 때 체류 기간, 이동 반경, 운전 경험, 짐과 계절 같은 기준으로 판단하는 방법을 정리했습니다. 택시와 투어 같은 대안과의 장단점과 상황별 비교 예시까지 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
