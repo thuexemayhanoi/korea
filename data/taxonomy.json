@@ -1,0 +1,530 @@
+[
+  {
+    "id": "rental",
+    "title": "하노이 오토바이 렌트",
+    "slug": "하노이-오토바이-렌트",
+    "description": "하노이에서 오토바이를 빌리기 전 알아야 할 절차와 선택 기준을 정리합니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "rental-1",
+        "title": "렌트 시작하기",
+        "slug": "렌트-시작하기",
+        "description": "첫 렌트에 필요한 질문과 순서를 차근차근 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "rental-2",
+        "title": "단기 렌트",
+        "slug": "단기-렌트",
+        "description": "짧은 체류 일정에 맞는 대여 계획을 세워 봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "rental-3",
+        "title": "장기 렌트",
+        "slug": "장기-렌트",
+        "description": "주 단위와 월 단위 대여 시 확인할 사항을 모았습니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "rental-4",
+        "title": "외국인 렌트",
+        "slug": "외국인-렌트",
+        "description": "해외 여행자가 계약 전 확인할 정보를 안내합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "rental-5",
+        "title": "렌트 체크리스트",
+        "slug": "렌트-체크리스트",
+        "description": "차량 인수 전후 확인할 항목을 정리합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "price",
+    "title": "렌트 가격·예약",
+    "slug": "렌트-가격-예약",
+    "description": "가격표, 이용 기간, 보증금, 예약 문의에서 확인해야 할 점을 안내합니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "price-1",
+        "title": "가격표 이해하기",
+        "slug": "가격표-읽기",
+        "description": "표시 금액에 무엇이 포함되는지 확인하는 방법입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "price-2",
+        "title": "일일 대여요금",
+        "slug": "일일-대여요금",
+        "description": "하루 이용을 계획할 때 고려할 사항을 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "price-3",
+        "title": "주간·월간 렌트",
+        "slug": "주간-월간-렌트",
+        "description": "장기 일정에 따라 비교할 기준을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "price-4",
+        "title": "보증금 안내",
+        "slug": "보증금-안내",
+        "description": "보증금과 반환 조건을 사전에 확인하는 방법입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "price-5",
+        "title": "예약·문의 방법",
+        "slug": "예약-문의",
+        "description": "원하는 차종과 기간을 정확히 전달하는 방법입니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "beginners",
+    "title": "50cc·초보자 안내",
+    "slug": "50cc-초보자-가이드",
+    "description": "50cc 및 초보자용 차량을 살펴보고 주행 전 안전 사항을 확인합니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "beginners-1",
+        "title": "50cc 특징",
+        "slug": "50cc-특징",
+        "description": "50cc 차량의 특징과 사용 목적을 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "beginners-2",
+        "title": "50cc 선택",
+        "slug": "50cc-선택",
+        "description": "체격과 주행 계획에 맞는 차량을 비교합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "beginners-3",
+        "title": "첫 출발",
+        "slug": "초보-출발",
+        "description": "차량 조작에 익숙해지는 준비 순서를 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "beginners-4",
+        "title": "주차 기초",
+        "slug": "주차-기초",
+        "description": "여행자가 알아둘 주차 관련 기본 사항입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "beginners-5",
+        "title": "주행 전 점검",
+        "slug": "주행-전-점검",
+        "description": "타이어와 브레이크 등 기본 확인 항목을 안내합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "types",
+    "title": "오토바이 종류",
+    "slug": "오토바이-종류",
+    "description": "스쿠터, 반자동, 50cc, 전기 오토바이의 차이를 이해합니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "types-1",
+        "title": "50cc 오토바이",
+        "slug": "50cc-오토바이",
+        "description": "주행 목적에 따른 50cc 차량 고려 사항입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "types-2",
+        "title": "자동 스쿠터",
+        "slug": "자동-스쿠터",
+        "description": "자동 스쿠터의 특징과 선택 기준을 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "types-3",
+        "title": "반자동 오토바이",
+        "slug": "반자동-오토바이",
+        "description": "반자동 차량의 조작 방식과 용도를 안내합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "types-4",
+        "title": "전기 오토바이",
+        "slug": "전기-오토바이",
+        "description": "배터리와 충전 계획 등 확인 사항입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "types-5",
+        "title": "초보자용 차종",
+        "slug": "초보자용-차종",
+        "description": "주행 경험에 따라 살펴볼 차량 조건을 정리합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "honda",
+    "title": "혼다 오토바이",
+    "slug": "혼다-오토바이",
+    "description": "하노이에서 자주 비교하는 혼다 모델의 특징을 알아봅니다. 실제 대여 가능 여부는 별도 확인이 필요합니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "honda-1",
+        "title": "Honda Vision",
+        "slug": "혼다-비전",
+        "description": "Vision의 사용 목적과 비교 항목을 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "honda-2",
+        "title": "Honda Wave",
+        "slug": "혼다-웨이브",
+        "description": "Wave의 기본 특징과 확인 사항을 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "honda-3",
+        "title": "Honda Air Blade",
+        "slug": "혼다-에어블레이드",
+        "description": "Air Blade 선택 시 고려할 점을 모았습니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "honda-4",
+        "title": "Honda Click",
+        "slug": "혼다-클릭",
+        "description": "Click 모델에 대해 확인할 요소를 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "honda-5",
+        "title": "혼다 모델 비교",
+        "slug": "혼다-모델-비교",
+        "description": "혼다 차량의 크기와 조작 방식을 비교합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "yamaha",
+    "title": "야마하 오토바이",
+    "slug": "야마하-오토바이",
+    "description": "야마하 모델별 특징을 소개합니다. 언급된 모델의 재고나 대여 여부를 보장하지 않습니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "yamaha-1",
+        "title": "Yamaha Nouvo",
+        "slug": "야마하-누보",
+        "description": "Nouvo 모델의 선택 요소를 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "yamaha-2",
+        "title": "Yamaha Janus",
+        "slug": "야마하-야누스",
+        "description": "Janus의 사용 목적과 특징을 비교합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "yamaha-3",
+        "title": "Yamaha Grande",
+        "slug": "야마하-그란데",
+        "description": "Grande에 관해 확인할 기본 항목을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "yamaha-4",
+        "title": "Yamaha Exciter",
+        "slug": "야마하-엑사이터",
+        "description": "Exciter 관련 주행 경험과 적합성을 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "yamaha-5",
+        "title": "야마하 모델 비교",
+        "slug": "야마하-모델-비교",
+        "description": "야마하 차종 선택 시 비교할 사항을 모았습니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "hanoi",
+    "title": "하노이 지역별 가이드",
+    "slug": "하노이-지역별-가이드",
+    "description": "구시가지부터 롱비엔까지 하노이 지역별 이동 계획을 알아봅니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "hanoi-1",
+        "title": "호안끼엠·올드쿼터",
+        "slug": "호안끼엠-올드쿼터",
+        "description": "구시가지 방문과 도심 이동 시 고려할 점입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "hanoi-2",
+        "title": "롱비엔",
+        "slug": "롱비엔",
+        "description": "롱비엔 지역과 매장 방문 정보를 안내합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "hanoi-3",
+        "title": "떠이호",
+        "slug": "떠이호",
+        "description": "서호 주변 이동을 계획할 때의 참고 사항입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "hanoi-4",
+        "title": "바딘",
+        "slug": "바딘",
+        "description": "바딘 지역 방문과 교통 관련 참고 정보입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "hanoi-5",
+        "title": "공항 이동",
+        "slug": "하노이-공항-이동",
+        "description": "공항 도착 후 시내 이동 선택을 비교합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "nearby",
+    "title": "하노이 근교 라이딩",
+    "slug": "하노이-근교-라이딩",
+    "description": "하노이 근교를 여행할 때 거리·날씨·안전 정보를 먼저 살펴봅니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "nearby-1",
+        "title": "바비",
+        "slug": "바비",
+        "description": "바비 지역 여행 계획을 세울 때 참고할 점입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "nearby-2",
+        "title": "닌빈",
+        "slug": "닌빈",
+        "description": "닌빈 방문을 위한 이동 계획을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "nearby-3",
+        "title": "땀다오",
+        "slug": "땀다오",
+        "description": "땀다오 이동과 날씨 점검에 관한 안내입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "nearby-4",
+        "title": "박닌",
+        "slug": "박닌",
+        "description": "박닌 근교 방문을 준비하는 데 필요한 정보입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "nearby-5",
+        "title": "근교 출발 준비",
+        "slug": "근교-여행-준비",
+        "description": "출발 전 차량·날씨·경로 확인 방법입니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "north",
+    "title": "베트남 북부 여행",
+    "slug": "베트남-북부-여행",
+    "description": "북부 장거리 여행은 이동 거리와 도로 상황을 확인한 뒤 계획하세요.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "north-1",
+        "title": "하장",
+        "slug": "하장",
+        "description": "하장 지역 여행 준비 사항을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "north-2",
+        "title": "사파",
+        "slug": "사파",
+        "description": "사파 방문 전 확인할 날씨와 이동 정보를 살펴봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "north-3",
+        "title": "까오방",
+        "slug": "까오방",
+        "description": "까오방 여행 전 경로와 시간을 검토합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "north-4",
+        "title": "목쩌우",
+        "slug": "목쩌우",
+        "description": "목쩌우 이동 계획에 필요한 항목을 모았습니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "north-5",
+        "title": "마이쩌우",
+        "slug": "마이쩌우",
+        "description": "마이쩌우를 방문할 때 알아둘 점을 정리합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "safety",
+    "title": "면허·교통안전",
+    "slug": "면허-교통안전",
+    "description": "베트남 운전면허, 교통 규정, 보험과 안전 수칙을 공식 정보와 함께 확인하도록 돕습니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "safety-1",
+        "title": "외국인 운전면허",
+        "slug": "외국인-운전면허",
+        "description": "국적과 차량에 따른 면허 요건은 공식 기관에 확인하세요.",
+        "targetArticles": 5
+      },
+      {
+        "id": "safety-2",
+        "title": "헬멧·보호장비",
+        "slug": "헬멧-보호장비",
+        "description": "헬멧 선택 및 기본 보호장비에 관해 알아봅니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "safety-3",
+        "title": "교통표지",
+        "slug": "베트남-교통표지",
+        "description": "도로 표지와 교통 흐름을 이해할 때 참고하세요.",
+        "targetArticles": 5
+      },
+      {
+        "id": "safety-4",
+        "title": "사고 대응",
+        "slug": "사고-대응",
+        "description": "긴급 상황에 대비해 연락 방법을 확인합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "safety-5",
+        "title": "보험 확인",
+        "slug": "보험-확인",
+        "description": "보험 보장 범위와 예외 조건을 확인하는 방법입니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "planning",
+    "title": "베트남 여행 준비",
+    "slug": "베트남-여행-준비",
+    "description": "날씨·예산·지도·짐 등 여행을 준비하는 데 필요한 체크리스트입니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "planning-1",
+        "title": "날씨·우기",
+        "slug": "날씨-우기",
+        "description": "기후와 강수 상황을 확인하며 일정을 계획합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "planning-2",
+        "title": "여행 예산",
+        "slug": "여행-예산",
+        "description": "교통과 숙박 등 비용 항목을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "planning-3",
+        "title": "지도·내비게이션",
+        "slug": "지도-내비게이션",
+        "description": "경로 확인과 오프라인 지도 준비 방법입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "planning-4",
+        "title": "짐 꾸리기",
+        "slug": "여행-짐-준비",
+        "description": "이동 시 필요한 소지품을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "planning-5",
+        "title": "장거리 점검",
+        "slug": "장거리-주행-점검",
+        "description": "장거리 출발 전 점검해야 할 항목을 안내합니다.",
+        "targetArticles": 5
+      }
+    ]
+  },
+  {
+    "id": "korean",
+    "title": "한국인 여행자 가이드",
+    "slug": "한국인-여행자-가이드",
+    "description": "한국어로 렌트 문의와 여행 준비를 쉽게 시작할 수 있도록 돕습니다.",
+    "targetArticles": 25,
+    "children": [
+      {
+        "id": "korean-1",
+        "title": "한국어 렌트 표현",
+        "slug": "한국어-렌트-표현",
+        "description": "예약 문의에 사용할 표현과 질문을 정리합니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "korean-2",
+        "title": "베트남 교통문화",
+        "slug": "베트남-교통문화",
+        "description": "한국과 다른 도로 환경을 이해하는 참고 자료입니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "korean-3",
+        "title": "여행자 질문",
+        "slug": "한국인-여행자-질문",
+        "description": "한국인 여행자가 자주 묻는 내용을 모았습니다.",
+        "targetArticles": 5
+      },
+      {
+        "id": "korean-4",
+        "title": "픽업 문의",
+        "slug": "픽업-문의",
+        "description": "인수 장소와 가능 여부를 사전에 확인하세요.",
+        "targetArticles": 5
+      },
+      {
+        "id": "korean-5",
+        "title": "반납 안내",
+        "slug": "차량-반납-안내",
+        "description": "반납 시간 및 상태 확인에 관한 안내입니다.",
+        "targetArticles": 5
+      }
+    ]
+  }
+]

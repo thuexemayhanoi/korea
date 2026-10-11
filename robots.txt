@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ko.rentbikehanoi.com/sitemap.xml

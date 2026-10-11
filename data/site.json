@@ -1,0 +1,81 @@
+{
+  "name": "하노이 오토바이 렌트 | Nguyễn Tú",
+  "shortName": "HANOI RIDE",
+  "brand": "Nguyễn Tú",
+  "domain": "https://ko.rentbikehanoi.com",
+  "language": "ko",
+  "locale": "ko_KR",
+  "phone": "+84942467674",
+  "phoneDisplay": "+84 942 467 674",
+  "email": "nguyentuantu8x@gmail.com",
+  "address": "112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, Việt Nam",
+  "hours": "09:00–21:00 (베트남 시간)",
+  "whatsapp": "https://wa.me/84942467674",
+  "zalo": "https://zalo.me/84942467674",
+  "maps": "https://maps.google.com/maps?cid=7448790013669858019",
+  "mainBusiness": "https://thuexemaynguyentu.com/",
+  "navGroups": [
+    {
+      "label": "렌트 안내",
+      "ids": [
+        "rental",
+        "price",
+        "beginners"
+      ]
+    },
+    {
+      "label": "차량 선택",
+      "ids": [
+        "types",
+        "honda",
+        "yamaha"
+      ]
+    },
+    {
+      "label": "하노이·여행",
+      "ids": [
+        "hanoi",
+        "nearby",
+        "north"
+      ]
+    },
+    {
+      "label": "실용 가이드",
+      "ids": [
+        "safety",
+        "planning",
+        "korean"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": "홈",
+      "path": "/"
+    },
+    {
+      "label": "전체 가이드",
+      "path": "/블로그/"
+    },
+    {
+      "label": "소개",
+      "path": "/소개/"
+    },
+    {
+      "label": "자주 묻는 질문",
+      "path": "/자주-묻는-질문/"
+    },
+    {
+      "label": "문의",
+      "path": "/문의/"
+    },
+    {
+      "label": "개인정보 처리방침",
+      "path": "/개인정보-처리방침/"
+    },
+    {
+      "label": "이용약관",
+      "path": "/이용약관/"
+    }
+  ]
+}
