@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 115,
-  "remaining": 185,
+  "published": 116,
+  "remaining": 184,
   "queue": [
-    {
-      "id": "KOR-116",
-      "status": "WRITING",
-      "parent_id": "honda",
-      "child_id": "honda-4",
-      "parent_label": "혼다 오토바이",
-      "child_label": "Honda Click",
-      "category_url": "/혼다-오토바이/혼다-클릭/",
-      "draft_file": "_factory/inbox/KOR-116.json",
-      "working_title": "Honda Click 처음 알아보기: 기본 정보와 준비 순서",
-      "primary_keyword": "Honda Click",
-      "search_intent": "informational",
-      "content_brief": "분야: 혼다 오토바이. 하위 주제: Honda Click. Click 모델에 대해 확인할 요소를 정리합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/혼다-오토바이/",
-        "/혼다-오토바이/혼다-클릭/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-117",
       "status": "WRITING",
@@ -110,6 +88,28 @@
       "internal_link_targets": [
         "/혼다-오토바이/",
         "/혼다-오토바이/혼다-클릭/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-121",
+      "status": "WRITING",
+      "parent_id": "honda",
+      "child_id": "honda-5",
+      "parent_label": "혼다 오토바이",
+      "child_label": "혼다 모델 비교",
+      "category_url": "/혼다-오토바이/혼다-모델-비교/",
+      "draft_file": "_factory/inbox/KOR-121.json",
+      "working_title": "혼다 모델 비교 처음 알아보기: 기본 정보와 준비 순서",
+      "primary_keyword": "혼다 모델 비교",
+      "search_intent": "informational",
+      "content_brief": "분야: 혼다 오토바이. 하위 주제: 혼다 모델 비교. 혼다 차량의 크기와 조작 방식을 비교합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/혼다-오토바이/",
+        "/혼다-오토바이/혼다-모델-비교/",
         "/문의/"
       ],
       "target_min_korean_eojeol": 1500,
