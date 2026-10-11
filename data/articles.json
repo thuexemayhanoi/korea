@@ -694,5 +694,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-059",
+    "parentId": "beginners",
+    "childId": "beginners-2",
+    "path": "/50cc-초보자-가이드/50cc-선택/50cc-선택-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-059.html",
+    "title": "하노이 50cc 선택 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 50cc 선택을 앞둔 여행자가 흔히 빠지는 오해와 실수를 정리합니다. 저배기량에 대한 착각, 체격과 주행 계획의 누락, 계약 조건 확인 질문과 안전한 대안까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
