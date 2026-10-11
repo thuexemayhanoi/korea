@@ -442,5 +442,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-038",
+    "parentId": "price",
+    "childId": "price-3",
+    "path": "/렌트-가격-예약/주간-월간-렌트/주간-월간-렌트-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-038.html",
+    "title": "하노이 주간·월간 렌트 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 오토바이를 주 단위와 월 단위로 빌릴 때 일정 정리와 문의, 견적 대조, 계약서 확인, 인수 점검, 주간 점검, 중간 소통, 연장과 반납까지 열두 단계로 나누어 정리한 실전 체크리스트입니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
