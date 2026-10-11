@@ -646,5 +646,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-055",
+    "parentId": "beginners",
+    "childId": "beginners-1",
+    "path": "/50cc-초보자-가이드/50cc-특징/50cc-특징-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-055.html",
+    "title": "하노이 50cc 특징 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 50cc급 오토바이를 고려하는 한국인 여행자가 실제로 자주 묻는 예약, 차량, 이용, 반납 질문을 여행 단계와 상황별로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
