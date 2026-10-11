@@ -1162,5 +1162,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-098",
+    "parentId": "types",
+    "childId": "types-5",
+    "path": "/오토바이-종류/초보자용-차종/초보자용-차종-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-098.html",
+    "title": "하노이 초보자용 차종 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 초보자용 차종으로 오토바이를 빌릴 때 예약 전부터 반납까지 단계별로 확인할 실전 체크리스트를 정리했습니다. 매장 상담 질문, 수령 시 점검 순서, 이용 중 점검 습관까지 여행자 상황에 맞춰 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
