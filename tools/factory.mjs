@@ -177,7 +177,7 @@ function statusAction(rows,st){console.log("KOREA_FACTORY "+JSON.stringify({stat
 function refresh(rows,st,index){
  claim(rows,st);persist(rows,st,index,false);statusAction(rows,st);
 }
-function process(rows,st,index){
+function processBatch(rows,st,index){
  if(!st.enabled||st.blocked||st.target_reached){statusAction(rows,st);return}
  claim(rows,st);
  const candidates=rows.filter(r=>r.status==="WRITING"||r.status==="REPAIR").slice(0,config.batch_size);
@@ -197,7 +197,7 @@ function process(rows,st,index){
    row.status="REPAIR";
    st.repair[row.id]={hash:fingerprint,attempts,errors:result.errors,score:result.score,words:result.korean_eojeol};
    console.error("KOREA_REPAIR "+row.id+" "+JSON.stringify(st.repair[row.id]));
-   if(attempts>=config.max_repair_attempts){st.blocked=true;st.last_error=row.id+": exceeds revision limit"}
+   if(attempts>=config.max_repair_attempts){st.blocked=true;st.last_error=row.id+": exceeds revision limit";break}
    continue;
   }
   // Existing ID and URL collision are hard failures. No overwrite on rerun.
@@ -232,11 +232,11 @@ function main(){
   statusAction(rows,st);
  }
  else if(action==="refresh-queue")refresh(rows,st,index);
- else if(action==="process")process(rows,st,index);
+ else if(action==="process")processBatch(rows,st,index);
  else if(action==="pause"){st.enabled=false;persist(rows,st,index);statusAction(rows,st)}
  else if(action==="resume"){
   if(publishedCount(rows)>=300)throw Error("Target already reached");
-  st.enabled=true;st.blocked=false;st.last_error=null;refresh(rows,st,index);
+  st.enabled=true;st.blocked=false;st.last_error=null;st.repair={};refresh(rows,st,index);
  }else throw Error("Unknown action. Use next/status/verify/refresh-queue/process/pause/resume");
 }
 try{main()}catch(e){console.error("KOREA_FACTORY_FATAL "+e.message);process.exitCode=1}
