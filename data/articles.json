@@ -322,5 +322,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-028",
+    "parentId": "price",
+    "childId": "price-1",
+    "path": "/렌트-가격-예약/가격표-읽기/가격표-읽기-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-028.html",
+    "title": "하노이 가격표 이해하기 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이 오토바이 렌트에서 가격표를 확인하는 전 과정을 여덟 단계 체크리스트로 정리했습니다. 문의 전 정리, 표의 기본 정보, 포함 항목과 별도 항목 질문, 계약서 대조, 인수부터 반납까지 매 단계에서 확인할 질문과 기록 방법을 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
