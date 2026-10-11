@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 42,
-  "remaining": 258,
+  "published": 43,
+  "remaining": 257,
   "queue": [
-    {
-      "id": "KOR-043",
-      "status": "WRITING",
-      "parent_id": "price",
-      "child_id": "price-4",
-      "parent_label": "렌트 가격·예약",
-      "child_label": "보증금 안내",
-      "category_url": "/렌트-가격-예약/보증금-안내/",
-      "draft_file": "_factory/inbox/KOR-043.json",
-      "working_title": "보증금 안내 실전 체크리스트: 준비와 확인 순서",
-      "primary_keyword": "보증금 안내",
-      "search_intent": "informational",
-      "content_brief": "분야: 렌트 가격·예약. 하위 주제: 보증금 안내. 보증금과 반환 조건을 사전에 확인하는 방법입니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/렌트-가격-예약/",
-        "/렌트-가격-예약/보증금-안내/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-044",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "예약·문의 방법",
       "search_intent": "commercial",
       "content_brief": "분야: 렌트 가격·예약. 하위 주제: 예약·문의 방법. 원하는 차종과 기간을 정확히 전달하는 방법입니다. 이번 글의 관점: 주요 선택 기준, 다른 대안과의 장단점, 이용 기간 및 개인 상황에 따른 판단. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/렌트-가격-예약/",
+        "/렌트-가격-예약/예약-문의/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-048",
+      "status": "WRITING",
+      "parent_id": "price",
+      "child_id": "price-5",
+      "parent_label": "렌트 가격·예약",
+      "child_label": "예약·문의 방법",
+      "category_url": "/렌트-가격-예약/예약-문의/",
+      "draft_file": "_factory/inbox/KOR-048.json",
+      "working_title": "예약·문의 방법 실전 체크리스트: 준비와 확인 순서",
+      "primary_keyword": "예약·문의 방법",
+      "search_intent": "informational",
+      "content_brief": "분야: 렌트 가격·예약. 하위 주제: 예약·문의 방법. 원하는 차종과 기간을 정확히 전달하는 방법입니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
       "internal_link_targets": [
         "/렌트-가격-예약/",
