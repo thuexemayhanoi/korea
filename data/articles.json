@@ -1762,5 +1762,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-148",
+    "parentId": "yamaha",
+    "childId": "yamaha-5",
+    "path": "/야마하-오토바이/야마하-모델-비교/야마하-모델-비교-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-148.html",
+    "title": "하노이 야마하 모델 비교 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 야마하 계열 차종을 비교하고 빌릴 때 출국 전 정리, 문의와 견적 대조, 계약 대조, 인수 점검과 체감 확인, 첫 주행, 매일 루틴, 문제 대응, 연장과 반납까지 전 과정을 단계별 체크리스트로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
