@@ -1210,5 +1210,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-102",
+    "parentId": "honda",
+    "childId": "honda-1",
+    "path": "/혼다-오토바이/혼다-비전/혼다-비전-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-102.html",
+    "title": "하노이 Honda Vision 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 Honda Vision을 고를 때 세울 여러 가지 선택 기준과 대안 차종과의 비교 관점을 정리했습니다. 이용 기간, 경로, 인원, 가격 조건 비교까지 여행 일정별로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
