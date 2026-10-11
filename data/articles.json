@@ -1018,5 +1018,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-086",
+    "parentId": "types",
+    "childId": "types-3",
+    "path": "/오토바이-종류/반자동-오토바이/반자동-오토바이-기본-안내/",
+    "contentFile": "content/articles/KOR-086.html",
+    "title": "하노이 반자동 오토바이 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 반자동 오토바이를 처음 알아보는 한국인 여행자를 위해 클러치 없이 변속하는 기본 구조와 조작 방식, 자동 스쿠터와 수동과의 차이, 어울리는 여행자 상황과 렌트 전 확인 질문, 초보자의 준비 순서를 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
