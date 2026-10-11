@@ -24,3 +24,9 @@
 .site-banner a{font-weight:800;color:var(--red-ink)}
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:550px){.article-cta{padding:18px}.related-posts .grid{grid-template-columns:1fr}}
+
+/* Compact Korean ⇄ English reader language selector beside the menu. */
+.lang-switch{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex-shrink:0;border:1px solid var(--line);color:var(--ink);background:var(--paper);min-height:43px;padding:8px 11px;font-size:.86rem;font-weight:900;letter-spacing:.01em;text-decoration:none;line-height:1}
+.lang-switch:hover,.lang-switch:focus-visible{border-color:var(--red);color:var(--ink);background:var(--surface)}
+.lang-symbol{color:var(--red);font-size:1.2rem;font-weight:950;line-height:1}
+@media(max-width:550px){.lang-switch{min-height:37px;padding:7px 8px;gap:5px;font-size:.78rem}.lang-symbol{font-size:1.04rem}}

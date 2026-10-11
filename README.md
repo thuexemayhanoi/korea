@@ -70,3 +70,9 @@ Commit changed source files and generated HTML together. Failure in the QA-only 
 Future article metadata must declare `id` matching an allocated `KOR-001`…`KOR-300` plan slot, `status: "PUBLISHED"`, matching taxonomy `parentId`/`childId`, an unmodified Korean URL prefix `path`, `title`, `description`, `publishedAt` and a real HTML `contentFile` under `content/articles/`. The generator automatically indexes its category hubs and adds only **published** URLs to sitemap. Be sure to verify licensing, safety, prices, inventory and source accuracy before approval.
 
 **No automatic writer workflow or 300 filler articles were added.**
+
+## KO ⇄ EN automatic reader translation
+
+The compact `文 EN` link in the shared header opens the same Korean URL using Google Translate’s translated web proxy (`translate.goog`). English text is machine-translated for readers, not stored as separate English SEO content. The original Korean canonical, metadata, sitemap and URLs remain unchanged. On a translated page the switch becomes `KO` and points back to the original Korean path. No old Google Website Translator embed, paid API, or writing workflow is installed.
+
+Translation requires the external Google service; it may be delayed, unavailable in some networks or imperfect. If SEO-targeted English pages become necessary, create verified English pages with dedicated canonical URLs and reciprocal hreflang instead of indexing proxy translations.
