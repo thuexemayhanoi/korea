@@ -7,7 +7,7 @@
 
 ## Start here — read the queue, not the /web or /china repo
 
-1. Read `README.md`, `data/writer-queue.json` and `data/taxonomy.json`.
+1. Read `README.md`, `data/writer-queue.json`, `data/editorial-briefs.json` and `data/taxonomy.json`. Queue entries include a unique **suggested working title, search intent, content brief and internal-link targets**; the external writer may improve titles but must preserve the ID and silo. Keyword volume and difficulty have **not** been verified.
 2. Run `node tools/factory.mjs next` on a clone of this repository, or read the committed queue JSON.
 3. Write only the IDs currently in `queue[]` (first queue: KOR-001 to KOR-005).
 4. Save one complete, original and well-checked draft per ID at the exact `draft_file` path in `_factory/inbox/`.

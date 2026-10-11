@@ -16,6 +16,8 @@ const write=(p,s)=>{fs.mkdirSync(path.dirname(file(p)),{recursive:true});fs.writ
 const writeJson=(p,v)=>write(p,JSON.stringify(v,null,2)+"\n");
 const config=json("data/factory-config.json");
 const taxonomy=json("data/taxonomy.json");
+const briefs=json("data/editorial-briefs.json");
+const briefById=new Map(briefs.map(b=>[b.id,b]));
 const site=json("data/site.json");
 const PLAN="data/article-plan.csv";
 const INDEX="data/articles.json";
@@ -53,6 +55,7 @@ function knownRoutes(index){
 }
 function validateMatrix(rows,index){
  if(rows.length!==300||taxonomy.length!==12||taxonomy.some(t=>t.children.length!==5))throw Error("Expected 300 planned IDs and existing 12x5 taxonomy");
+ if(briefs.length!==300||briefById.size!==300)throw Error("Expected 300 distinct Korean editorial briefs");
  const names=new Set(),published=new Set(index.filter(a=>a.status==="PUBLISHED").map(a=>a.id));
  if(published.size!==index.filter(a=>a.status==="PUBLISHED").length)throw Error("Duplicate published record IDs");
  if(publishedCount(rows)!==published.size)throw Error("Published count inconsistent with articles.json");
@@ -61,6 +64,7 @@ function validateMatrix(rows,index){
   names.add(r.id);
   const p=taxonomy.find(t=>t.id===r.parent_id),c=p?.children.find(t=>t.id===r.subcategory_id);
   if(!p||!c||p.slug!==r.parent_slug||c.slug!==r.subcategory_slug||String(r.slot)!==String(i%5+1))throw Error("Taxonomy mismatch "+r.id);
+  const brief=briefById.get(r.id);if(!brief||brief.parent_id!==r.parent_id||brief.child_id!==r.subcategory_id||brief.target_min_korean_eojeol!==1500)throw Error("Brief/matrix mismatch "+r.id);
   if((r.status==="PUBLISHED")!==published.has(r.id))throw Error("Status/index inconsistency "+r.id);
  });
  const paths=new Set();
@@ -96,6 +100,9 @@ function queuePayload(rows,st){
    return {id:r.id,status:r.status,parent_id:r.parent_id,child_id:r.subcategory_id,
     parent_label:parent.title,child_label:child.title,category_url:baseRoute(r),
     draft_file:config.inbox_dir+"/"+r.id+".json",
+    working_title:briefById.get(r.id).working_title,primary_keyword:briefById.get(r.id).primary_keyword,
+    search_intent:briefById.get(r.id).search_intent,content_brief:briefById.get(r.id).content_brief,
+    source_policy:briefById.get(r.id).source_policy,internal_link_targets:briefById.get(r.id).internal_link_targets,
     target_min_korean_eojeol:minWords,instructions:"_factory/EXTERNAL-WRITER.md"};
   })};
 }
