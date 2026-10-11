@@ -622,5 +622,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-053",
+    "parentId": "beginners",
+    "childId": "beginners-1",
+    "path": "/50cc-초보자-가이드/50cc-특징/50cc-특징-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-053.html",
+    "title": "하노이 50cc 특징 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 50cc급 오토바이를 빌릴 때 문의 전 정리부터 견적 대조, 계약 확인, 인수 점검, 매일 점검, 문제 대응, 연장과 반납까지 열 단계 체크리스트로 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
