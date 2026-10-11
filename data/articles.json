@@ -1726,5 +1726,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-145",
+    "parentId": "yamaha",
+    "childId": "yamaha-4",
+    "path": "/야마하-오토바이/야마하-엑사이터/야마하-엑사이터-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-145.html",
+    "title": "하노이 Yamaha Exciter 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 Yamaha Exciter 렌트를 고민하는 한국인 여행자가 자주 묻는 차종 성격, 변속 적응, 요금과 보증금, 동승과 짐, 우천 대응, 변속과 체인 문제, 연장과 반납 질문을 여행 단계 순서로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
