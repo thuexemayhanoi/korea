@@ -826,5 +826,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-070",
+    "parentId": "beginners",
+    "childId": "beginners-4",
+    "path": "/50cc-초보자-가이드/주차-기초/주차-기초-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-070.html",
+    "title": "하노이 주차 기초 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 오토바이를 빌린 여행자가 주차 기초에 관해 자주 묻는 질문을 여행 단계 순서로 모아 답했습니다. 빌리기 전 확인, 첫날 현장, 숙소 체류, 잠금과 소지품, 관광지와 시장, 반납 전까지 상황별로 판단 기준과 다음 행동을 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
