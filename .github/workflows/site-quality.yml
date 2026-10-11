@@ -1,0 +1,22 @@
+name: Korea Site Quality (QA only)
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify generated pages are in sync
+        run: node tools/build.mjs --check
+      - name: Validate Korean SEO and internal links
+        run: node tools/qa.mjs

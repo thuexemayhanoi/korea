@@ -42,3 +42,31 @@ Commit the updated generated HTML pages and sitemap. The builder uses only built
 Every page has `lang="ko"`, a self-referencing canonical, a Korean title, meta description and Open Graph tags. JSON-LD is applied to eligible core pages, including FAQ. Category pages intentionally remain `noindex,follow` while empty. Add proper reciprocal hreflang annotations only after corresponding Vietnamese/English/French/Chinese URLs have been confirmed equivalent and updated reciprocally. Sitemap lists indexable core pages only.
 
 The source site is informational; it must not represent planned topics as published articles or models mentioned in guide topics as in-stock rentals.
+
+## One-place updates and reusable editorial layers (11 October 2026)
+
+All site-wide content is still built by `node tools/build.mjs`; the current URLs, SEO, sitemap and red/black/white design are preserved by default.
+
+- `data/site.json`: contacts, navigation labels, CTA text, optional banner, feature flags. Changing CTA text does not require editing HTML per page.
+- `assets/css/site.css`: sitewide design tokens, no new dependencies.
+- `data/taxonomy.json`: 12 parent topics and 60 child topics. Shared header, footer, breadcrumbs and category pages read this same structure.
+- `site/slots/{before-main,after-article,before-footer}.html`: build-time hooks for optional common blocks (empty by default).
+- `site/templates/article.html`: one reusable layout for **real** future articles; the generator composes it with SEO metadata, published-post related links, parent/child internal links and a matching CTA.
+- `data/articles.json`: approved editorial metadata only; starts as `[]`, so **zero articles are published**. Never turn planned slots into live pages without substantive, verified Korean content.
+- `tools/lib/editorial.mjs`: validates published article records, determines up to three related posts, creates BlogPosting JSON-LD.
+- `tools/qa.mjs`: checks Korean lang, canonical, noindex/index, sitemap, duplicate SEO titles, H1, OG, JSON-LD, images and internal links.
+- `.github/workflows/site-quality.yml`: QA-only CI on pushes and PRs; no AI-writing schedule, no change to GitHub Pages branch deployment.
+
+How to apply a global change:
+
+```sh
+node tools/build.mjs
+node tools/qa.mjs
+node tools/build.mjs --check
+```
+
+Commit changed source files and generated HTML together. Failure in the QA-only workflow indicates a build or metadata mismatch, not that publishing or writing was performed.
+
+Future article metadata must declare `id` matching an allocated `KOR-001`…`KOR-300` plan slot, `status: "PUBLISHED"`, matching taxonomy `parentId`/`childId`, an unmodified Korean URL prefix `path`, `title`, `description`, `publishedAt` and a real HTML `contentFile` under `content/articles/`. The generator automatically indexes its category hubs and adds only **published** URLs to sitemap. Be sure to verify licensing, safety, prices, inventory and source accuracy before approval.
+
+**No automatic writer workflow or 300 filler articles were added.**
