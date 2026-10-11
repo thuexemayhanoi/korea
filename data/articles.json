@@ -58,5 +58,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-006",
+    "parentId": "rental",
+    "childId": "rental-2",
+    "path": "/하노이-오토바이-렌트/단기-렌트/단기-렌트-기본-안내/",
+    "contentFile": "content/articles/KOR-006.html",
+    "title": "하노이 단기 렌트 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에 짧게 머무는 한국인 여행자를 위해 단기 오토바이 렌트의 기본 개념, 어울리는 일정과 여행자 유형, 출국 전 준비 목록, 현지 도착 후 진행 순서와 반납까지의 흐름을 단계별로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
