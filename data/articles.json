@@ -406,5 +406,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-035",
+    "parentId": "price",
+    "childId": "price-2",
+    "path": "/렌트-가격-예약/일일-대여요금/일일-대여요금-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-035.html",
+    "title": "하노이 일일 대여요금 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하루 단위 오토바이 대여에 관해 한국인 여행자가 자주 묻는 포함 항목, 시간 기준, 반납 지연, 연료 기준, 이틀 이상 계산, 동승과 초보자 시작 같은 질문을 여행 단계 순서로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
