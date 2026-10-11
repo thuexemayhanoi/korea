@@ -718,5 +718,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-061",
+    "parentId": "beginners",
+    "childId": "beginners-3",
+    "path": "/50cc-초보자-가이드/초보-출발/첫-출발-기본-안내/",
+    "contentFile": "content/articles/KOR-061.html",
+    "title": "하노이 첫 출발 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 오토바이 첫 출발을 앞둔 초보 여행자를 위해 차량 조작에 익숙해지는 준비 순서, 인수 장소에서의 첫 단계, 주행 감각 익히기와 다음 행동까지 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
