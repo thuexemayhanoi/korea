@@ -20,3 +20,5 @@ jobs:
         run: node tools/build.mjs --check
       - name: Validate Korean SEO and internal links
         run: node tools/qa.mjs
+      - name: Validate local Korean HTML chat index
+        run: node tools/build-chat-index.mjs --check

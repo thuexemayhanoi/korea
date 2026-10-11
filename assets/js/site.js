@@ -10,3 +10,6 @@
   if(text)text.textContent="KO";
  }
 })();
+
+/* Sitewide, dependency-free Korean quick contact and HTML search assistant. */
+if(!window.__koreanLocalAssistant){window.__koreanLocalAssistant=true;const s=document.createElement("script");s.src="/assets/js/assistant.js";s.defer=true;document.body.appendChild(s)}

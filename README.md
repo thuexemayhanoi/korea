@@ -76,3 +76,21 @@ Future article metadata must declare `id` matching an allocated `KOR-001`…`KOR
 The compact `文 EN` link in the shared header opens the same Korean URL using Google Translate’s translated web proxy (`translate.goog`). English text is machine-translated for readers, not stored as separate English SEO content. The original Korean canonical, metadata, sitemap and URLs remain unchanged. On a translated page the switch becomes `KO` and points back to the original Korean path. No old Google Website Translator embed, paid API, or writing workflow is installed.
 
 Translation requires the external Google service; it may be delayed, unavailable in some networks or imperfect. If SEO-targeted English pages become necessary, create verified English pages with dedicated canonical URLs and reciprocal hreflang instead of indexing proxy translations.
+
+## Korean menu, contact dock and HTML knowledge assistant
+
+Top-level Korean menu order: 홈 → 소개 → 사이트 안내 (FAQ, 문의, 개인정보 처리방침, 이용약관) → topic groups → 전체 가이드. Labels and legal-page routes share `data/site.json`; footer uses the same labels. Existing Korean slugs, canonicals and sitemap remain unchanged.
+
+The left-hand quick dock opens phone, Zalo, WhatsApp and the existing Google Maps location from `data/site.json`; it replaces the legacy right-hand phone bubble when successfully mounted. The right-hand Korean browser-local guide answers fixed store facts and retrieves relevant sections from published Korean HTML. It is **not a generative AI model**, does not promise live availability/prices, uses **no LLM/API/account**, and does not send question text to a backend. Its search index is deterministically generated from checked-in HTML and excludes `noindex` categories.
+
+Run after updating site content:
+
+```sh
+node tools/build.mjs
+node tools/build-chat-index.mjs
+node tools/qa.mjs
+node tools/build.mjs --check
+node tools/build-chat-index.mjs --check
+```
+
+QA-only GitHub Actions validates the static chat index; there is no auto-writer agent or additional publishing workflow.

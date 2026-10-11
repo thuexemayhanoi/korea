@@ -86,7 +86,9 @@
     "smartInternalLinks": true,
     "articleSchema": true,
     "slotInjection": true,
-    "siteBanner": false
+    "siteBanner": false,
+    "localChatbot": true,
+    "quickContact": true
   },
   "cta": {
     "headerLabel": "렌트 문의 ↗",
@@ -119,5 +121,6 @@
     "addressLocality": "Long Biên, Hà Nội",
     "addressCountry": "VN"
   },
-  "openingHoursSchema": "Mo-Su 09:00-21:00"
+  "openingHoursSchema": "Mo-Su 09:00-21:00",
+  "siteInfoLabel": "사이트 안내"
 }
