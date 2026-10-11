@@ -1306,5 +1306,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-110",
+    "parentId": "honda",
+    "childId": "honda-2",
+    "path": "/혼다-오토바이/혼다-웨이브/혼다-웨이브-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-110.html",
+    "title": "하노이 Honda Wave 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 Honda Wave 렌트를 고민하는 한국인 여행자가 자주 묻는 변속 적응, 시내 동선, 동승, 짐, 우천, 보증금, 반납과 예약 질문을 상황별로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
