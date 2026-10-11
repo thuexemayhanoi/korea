@@ -946,5 +946,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-080",
+    "parentId": "types",
+    "childId": "types-1",
+    "path": "/오토바이-종류/50cc-오토바이/50cc-오토바이-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-080.html",
+    "title": "하노이 50cc 오토바이 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 50cc 오토바이 렌트에 관해 한국인 여행자가 자주 묻는 질문을 여행 단계 순서로 모아 답했습니다. 예약 질문, 인수 확인, 연료와 동승, 매일 점검, 비 오는 날, 차종 교체, 반납까지 상황별 판단 기준과 다음 행동을 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
