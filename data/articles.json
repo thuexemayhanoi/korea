@@ -1522,5 +1522,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-128",
+    "parentId": "yamaha",
+    "childId": "yamaha-1",
+    "path": "/야마하-오토바이/야마하-누보/야마하-누보-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-128.html",
+    "title": "하노이 Yamaha Nouvo 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 Yamaha Nouvo를 빌릴 때 여행 조건 정리와 문의, 견적 대조, 계약서 대조, 인수 점검, 첫 주행 연습, 매일 루틴, 주차와 이상 대응, 연장, 반납과 반환, 기록 정리까지 전 과정을 단계별 체크리스트로 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
