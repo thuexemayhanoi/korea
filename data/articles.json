@@ -1030,5 +1030,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-087",
+    "parentId": "types",
+    "childId": "types-3",
+    "path": "/오토바이-종류/반자동-오토바이/반자동-오토바이-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-087.html",
+    "title": "하노이 반자동 오토바이 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 반자동 오토바이를 고를 때 기어 경험, 이용 기간과 이동 반경, 동선의 성격, 짐과 동행의 기준으로 비교하는 방법을 정리했습니다. 자동 스쿠터와 수동 차종, 50cc 오토바이, 택시나 투어 같은 대안과의 장단점과 기간별 판단 예시까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
