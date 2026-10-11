@@ -766,5 +766,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-065",
+    "parentId": "beginners",
+    "childId": "beginners-3",
+    "path": "/50cc-초보자-가이드/초보-출발/첫-출발-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-065.html",
+    "title": "하노이 첫 출발 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 오토바이 첫 출발을 앞둔 여행자가 실제로 자주 묻는 연습 시간, 첫날 일정, 도로 흐름, 날씨, 동행, 연장과 문제 대응 같은 질문을 상황별로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
