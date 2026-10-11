@@ -538,5 +538,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-046",
+    "parentId": "price",
+    "childId": "price-5",
+    "path": "/렌트-가격-예약/예약-문의/예약-문의-방법-기본-안내/",
+    "contentFile": "content/articles/KOR-046.html",
+    "title": "하노이 예약·문의 방법 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 오토바이 대여를 처음 준비하는 한국인 여행자를 위해 예약과 문의의 기본 개념, 문의 전에 정리할 세 가지, 연락 경로의 장단점, 차종과 기간을 정확히 전달하는 방법과 예약으로 넘어가는 순서까지 단계별로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
