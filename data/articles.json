@@ -838,5 +838,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-071",
+    "parentId": "beginners",
+    "childId": "beginners-5",
+    "path": "/50cc-초보자-가이드/주행-전-점검/주행-전-점검-기본-안내/",
+    "contentFile": "content/articles/KOR-071.html",
+    "title": "하노이 주행 전 점검 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 오토바이를 빌린 초보 여행자를 위한 주행 전 점검 기본 안내입니다. 타이어와 브레이크 확인 방법, 매장에 물어볼 질문, 매일의 습관으로 만드는 요령과 문제 대응 순서까지 준비 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
