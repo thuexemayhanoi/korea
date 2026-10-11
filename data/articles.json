@@ -1402,5 +1402,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-118",
+    "parentId": "honda",
+    "childId": "honda-4",
+    "path": "/혼다-오토바이/혼다-클릭/혼다-클릭-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-118.html",
+    "title": "하노이 Honda Click 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 Honda Click을 빌릴 때 출국 전 정리, 문의와 견적 대조, 계약서 확인, 인수 점검, 첫 주행 연습, 매일 루틴, 연료와 우천 대비, 연장, 반납과 기록까지 전 과정을 단계별 체크리스트로 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
