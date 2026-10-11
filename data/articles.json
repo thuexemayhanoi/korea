@@ -706,5 +706,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-060",
+    "parentId": "beginners",
+    "childId": "beginners-2",
+    "path": "/50cc-초보자-가이드/50cc-선택/50cc-선택-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-060.html",
+    "title": "하노이 50cc 선택 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 50cc 선택을 고민하는 한국인 여행자가 자주 묻는 질문을 체격, 운전 경험, 동승, 일정, 예약과 반납 상황별로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
