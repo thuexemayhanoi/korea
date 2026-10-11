@@ -370,5 +370,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-032",
+    "parentId": "price",
+    "childId": "price-2",
+    "path": "/렌트-가격-예약/일일-대여요금/일일-대여요금-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-032.html",
+    "title": "하노이 일일 대여요금 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하루 단위 오토바이 이용을 고를 때 일일 대여요금을 기간과 반경, 차종, 포함 범위로 비교하는 방법과 택시, 투어, 자전거 같은 대안과의 장단점을 정리했습니다. 여행 일정과 개인 상황별 판단 예시까지 함께 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
