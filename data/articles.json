@@ -610,5 +610,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-052",
+    "parentId": "beginners",
+    "childId": "beginners-1",
+    "path": "/50cc-초보자-가이드/50cc-특징/50cc-특징-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-052.html",
+    "title": "하노이 50cc 특징 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 50cc 특징을 여행 일정에 맞춰 따져보는 선택 기준을 정리했습니다. 이동 반경, 기간, 경험, 체격, 짐과 날씨의 기준과 스쿠터, 반자동, 전기 차량, 택시와의 비교 방법, 상황별 판단 예시까지 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
