@@ -1066,5 +1066,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-090",
+    "parentId": "types",
+    "childId": "types-3",
+    "path": "/오토바이-종류/반자동-오토바이/반자동-오토바이-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-090.html",
+    "title": "하노이 반자동 오토바이 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 반자동 오토바이 이용 전 여행자가 자주 묻는 질문을 상황별로 모았습니다. 차종 차이, 적응 난이도, 동승과 짐, 우천과 장거리, 계약 확인과 반납까지 실전 답변으로 정리했습니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
