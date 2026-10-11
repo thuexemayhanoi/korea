@@ -178,5 +178,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-016",
+    "parentId": "rental",
+    "childId": "rental-4",
+    "path": "/하노이-오토바이-렌트/외국인-렌트/외국인-렌트-기본-안내/",
+    "contentFile": "content/articles/KOR-016.html",
+    "title": "하노이 외국인 렌트 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이를 여행하는 해외 여행자를 위해 외국인 오토바이 렌트의 기본 개념, 계약 전 확인 항목, 출국 전 준비 목록과 도착 후 진행 순서, 차량 인수와 첫 주행까지 단계별로 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
