@@ -1186,5 +1186,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-100",
+    "parentId": "types",
+    "childId": "types-5",
+    "path": "/오토바이-종류/초보자용-차종/초보자용-차종-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-100.html",
+    "title": "하노이 초보자용 차종 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 초보자용 차종으로 오토바이를 빌리려는 여행자가 자주 묻는 질문을 상황별로 정리했습니다. 차종 선택, 수령 점검, 연료와 반납 조건, 문의 방법까지 실용적으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
