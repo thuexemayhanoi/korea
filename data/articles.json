@@ -1294,5 +1294,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-109",
+    "parentId": "honda",
+    "childId": "honda-2",
+    "path": "/혼다-오토바이/혼다-웨이브/혼다-웨이브-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-109.html",
+    "title": "하노이 Honda Wave 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 Honda Wave를 이용할 때 흔히 빠지는 다섯 가지 오해와 도로에서 자주 생기는 위험 상황을 정리했습니다. 공식 정보를 확인하는 세 가지 질문, 변속 실수 예방과 안전하게 시작하는 대안까지 여행자 눈높이로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]

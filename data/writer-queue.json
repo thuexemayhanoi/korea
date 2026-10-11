@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 108,
-  "remaining": 192,
+  "published": 109,
+  "remaining": 191,
   "queue": [
-    {
-      "id": "KOR-109",
-      "status": "WRITING",
-      "parent_id": "honda",
-      "child_id": "honda-2",
-      "parent_label": "혼다 오토바이",
-      "child_label": "Honda Wave",
-      "category_url": "/혼다-오토바이/혼다-웨이브/",
-      "draft_file": "_factory/inbox/KOR-109.json",
-      "working_title": "Honda Wave 주의사항과 실수 예방: 안전 중심 안내",
-      "primary_keyword": "Honda Wave",
-      "search_intent": "informational",
-      "content_brief": "분야: 혼다 오토바이. 하위 주제: Honda Wave. Wave의 기본 특징과 확인 사항을 살펴봅니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/혼다-오토바이/",
-        "/혼다-오토바이/혼다-웨이브/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-110",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "Honda Air Blade",
       "search_intent": "informational",
       "content_brief": "분야: 혼다 오토바이. 하위 주제: Honda Air Blade. Air Blade 선택 시 고려할 점을 모았습니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/혼다-오토바이/",
+        "/혼다-오토바이/혼다-에어블레이드/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-114",
+      "status": "WRITING",
+      "parent_id": "honda",
+      "child_id": "honda-3",
+      "parent_label": "혼다 오토바이",
+      "child_label": "Honda Air Blade",
+      "category_url": "/혼다-오토바이/혼다-에어블레이드/",
+      "draft_file": "_factory/inbox/KOR-114.json",
+      "working_title": "Honda Air Blade 주의사항과 실수 예방: 안전 중심 안내",
+      "primary_keyword": "Honda Air Blade",
+      "search_intent": "informational",
+      "content_brief": "분야: 혼다 오토바이. 하위 주제: Honda Air Blade. Air Blade 선택 시 고려할 점을 모았습니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
       "internal_link_targets": [
         "/혼다-오토바이/",
