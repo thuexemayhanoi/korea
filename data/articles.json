@@ -454,5 +454,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-039",
+    "parentId": "price",
+    "childId": "price-3",
+    "path": "/렌트-가격-예약/주간-월간-렌트/주간-월간-렌트-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-039.html",
+    "title": "하노이 주간·월간 렌트 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 오토바이를 주 단위와 월 단위로 빌릴 때 흔히 빠지는 다섯 가지 오해와 날씨, 도난, 일정 변경 같은 실제 위험 상황을 정리했습니다. 공식 정보를 확인하는 세 가지 질문과 안전한 대안, 기록 습관까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
