@@ -1,0 +1,72 @@
+name: Korea 300 Article Factory
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_factory/inbox/**'
+      - 'tools/factory.mjs'
+      - '.github/workflows/article-factory.yml'
+  schedule:
+    - cron: '9,24,39,54 * * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Factory control
+        required: true
+        default: status
+        type: choice
+        options: [status, refresh-queue, process, pause, resume]
+permissions:
+  contents: write
+concurrency:
+  group: korea-article-factory
+  cancel-in-progress: false
+jobs:
+  factory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Process external Korean article inbox
+        shell: bash
+        env:
+          REQUESTED: ${{ inputs.action }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo 'Main advanced; safe abort, retry next watchdog cycle.' >&2
+            exit 1
+          fi
+          action=process
+          if [ "$EVENT_NAME" = workflow_dispatch ]; then
+            action="${REQUESTED:-status}"
+          fi
+          node tools/factory.mjs "$action"
+          if [ "$action" = status ]; then
+            exit 0
+          fi
+          node tools/qa.mjs
+          node tools/build.mjs --check
+          node tools/build-chat-index.mjs --check
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No publishable articles or state changes.'
+            exit 0
+          fi
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then
+            echo 'Concurrent update: stale state must not be merged.' >&2
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "factory: Korea QA-checked 300 article iteration"
+          git push origin HEAD:main
