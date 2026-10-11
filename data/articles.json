@@ -1198,5 +1198,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-101",
+    "parentId": "honda",
+    "childId": "honda-1",
+    "path": "/혼다-오토바이/혼다-비전/혼다-비전-기본-안내/",
+    "contentFile": "content/articles/KOR-101.html",
+    "title": "하노이 Honda Vision 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 Honda Vision을 빌려 이용하려는 여행자를 위해 차종의 기본 성격, 어울리는 일정, 수령 전 확인사항과 첫 이용 흐름을 정리했습니다. 문의와 점검 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]

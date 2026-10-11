@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 100,
-  "remaining": 200,
+  "published": 101,
+  "remaining": 199,
   "queue": [
-    {
-      "id": "KOR-101",
-      "status": "WRITING",
-      "parent_id": "honda",
-      "child_id": "honda-1",
-      "parent_label": "혼다 오토바이",
-      "child_label": "Honda Vision",
-      "category_url": "/혼다-오토바이/혼다-비전/",
-      "draft_file": "_factory/inbox/KOR-101.json",
-      "working_title": "Honda Vision 처음 알아보기: 기본 정보와 준비 순서",
-      "primary_keyword": "Honda Vision",
-      "search_intent": "informational",
-      "content_brief": "분야: 혼다 오토바이. 하위 주제: Honda Vision. Vision의 사용 목적과 비교 항목을 살펴봅니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/혼다-오토바이/",
-        "/혼다-오토바이/혼다-비전/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-102",
       "status": "WRITING",
@@ -110,6 +88,28 @@
       "internal_link_targets": [
         "/혼다-오토바이/",
         "/혼다-오토바이/혼다-비전/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-106",
+      "status": "WRITING",
+      "parent_id": "honda",
+      "child_id": "honda-2",
+      "parent_label": "혼다 오토바이",
+      "child_label": "Honda Wave",
+      "category_url": "/혼다-오토바이/혼다-웨이브/",
+      "draft_file": "_factory/inbox/KOR-106.json",
+      "working_title": "Honda Wave 처음 알아보기: 기본 정보와 준비 순서",
+      "primary_keyword": "Honda Wave",
+      "search_intent": "informational",
+      "content_brief": "분야: 혼다 오토바이. 하위 주제: Honda Wave. Wave의 기본 특징과 확인 사항을 살펴봅니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/혼다-오토바이/",
+        "/혼다-오토바이/혼다-웨이브/",
         "/문의/"
       ],
       "target_min_korean_eojeol": 1500,
