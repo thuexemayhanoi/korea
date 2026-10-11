@@ -286,5 +286,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-025",
+    "parentId": "rental",
+    "childId": "rental-5",
+    "path": "/하노이-오토바이-렌트/렌트-체크리스트/렌트-체크리스트-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-025.html",
+    "title": "하노이 렌트 체크리스트 자주 묻는 질문: 여행 단계별 답변 정리",
+    "description": "하노이 오토바이 렌트 체크리스트에 관해 한국인 여행자가 자주 묻는 문의, 계약, 인수, 주행, 반납 단계별 질문을 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
