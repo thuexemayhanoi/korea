@@ -1474,5 +1474,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-124",
+    "parentId": "honda",
+    "childId": "honda-5",
+    "path": "/혼다-오토바이/혼다-모델-비교/혼다-모델-비교-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-124.html",
+    "title": "하노이 혼다 모델 비교 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 혼다 계열 차종을 비교하고 빌릴 때 흔히 빠지는 네 가지 오해와 도로 흐름, 크기와 조작 방식의 착각, 노면과 우천, 주차, 짐과 연료, 반납에서 실제로 자주 생기는 위험 상황을 정리했습니다. 정보를 걸러내는 세 가지 질문과 안전한 대안, 대응 순서까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
