@@ -562,5 +562,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-048",
+    "parentId": "price",
+    "childId": "price-5",
+    "path": "/렌트-가격-예약/예약-문의/예약-문의-방법-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-048.html",
+    "title": "하노이 예약·문의 방법 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이 오토바이 대여에서 예약과 문의의 전 과정을 여덟 단계 체크리스트로 정리했습니다. 문의 전 정보 정리, 경로 선택, 답변 기록, 되묻기와 확정, 예약 확인, 계약 대조, 인수 점검, 이용 중 소통과 반납 후 확인까지 매 단계 항목을 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
