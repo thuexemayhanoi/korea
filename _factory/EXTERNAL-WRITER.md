@@ -14,7 +14,7 @@
 5. Run `node tools/factory.mjs status` and push the **draft JSON files** to `main`. GitHub Actions runs QA and, if compliant, publishes up to **five** per iteration. It automatically rebuilds category listings, canonical/meta, related posts, the sitemap and local Korean HTML chatbot index.
 6. Read `data/factory-state.json` for any `repair` messages. Fix the draft **in place** and push a genuine revision, never submit the same file unchanged repeatedly.
 
-**The GitHub workflow does not generate prose and does not call any AI API.** External AI/Mistral can write content and push draft files through its own authorised GitHub environment. This does not install or configure Mistral access.
+**External writer mode** remains supported. An additional opt-in GitHub AI writer stage can now generate Korean drafts when the repository has an authorised `MISTRAL_API_KEY` or `OPENAI_API_KEY` secret. No secret is created by the workflow. Without a configured provider, the writer logs `UNCONFIGURED`, and external AI/Mistral must continue to submit drafts. See `docs/korea-auto-writer.md`.
 
 ## Exact JSON format (one file per queue ID)
 
@@ -47,7 +47,7 @@ The short example above **fails the minimum-length QA by design**; you must writ
 
 ## Queue behavior and safeguards
 
-- The first 5 IDs start in `WRITING`; there are **295 PLANNED, 0 PUBLISHED**. The next batch is automatically claimed when earlier IDs publish, to a maximum of five active IDs.
+- The initial launch had five IDs in `WRITING` and 295 `PLANNED`, with zero published (historical starting snapshot). **Always read live counters from `data/writer-queue.json` and `data/articles.json`**; these numbers are not static. The next batch is automatically claimed when earlier IDs publish, to a maximum of five active IDs.
 - An absent draft waits; it is not counted as failed. A failing submitted draft becomes `REPAIR` with explicit reasons in `data/factory-state.json`. An unchanged bad draft is not repeatedly penalized on the 30-minute watchdog. Three distinct failed revisions block the factory until a human checks and resumes it.
 - Published articles cannot be silently overwritten; duplicate IDs, titles and paths are rejected.
 - The whole workflow stops and disables itself on 300 published. It does not touch the completed `/web` workflow or `/china`.
