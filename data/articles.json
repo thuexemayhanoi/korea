@@ -778,5 +778,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-066",
+    "parentId": "beginners",
+    "childId": "beginners-4",
+    "path": "/50cc-초보자-가이드/주차-기초/주차-기초-기본-안내/",
+    "contentFile": "content/articles/KOR-066.html",
+    "title": "하노이 주차 기초 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 스쿠터를 빌린 여행자를 위한 주차 기초 안내입니다. 매장에 물어볼 주차 관례, 대표적인 주차 장소 종류, 받침과 잠금의 기초, 두고 갈 때의 확인 습관까지 준비 순서대로 정리했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]

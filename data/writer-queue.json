@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 65,
-  "remaining": 235,
+  "published": 66,
+  "remaining": 234,
   "queue": [
-    {
-      "id": "KOR-066",
-      "status": "WRITING",
-      "parent_id": "beginners",
-      "child_id": "beginners-4",
-      "parent_label": "50cc·초보자 안내",
-      "child_label": "주차 기초",
-      "category_url": "/50cc-초보자-가이드/주차-기초/",
-      "draft_file": "_factory/inbox/KOR-066.json",
-      "working_title": "주차 기초 처음 알아보기: 기본 정보와 준비 순서",
-      "primary_keyword": "주차 기초",
-      "search_intent": "informational",
-      "content_brief": "분야: 50cc·초보자 안내. 하위 주제: 주차 기초. 여행자가 알아둘 주차 관련 기본 사항입니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
-      "internal_link_targets": [
-        "/50cc-초보자-가이드/",
-        "/50cc-초보자-가이드/주차-기초/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-067",
       "status": "WRITING",
@@ -110,6 +88,28 @@
       "internal_link_targets": [
         "/50cc-초보자-가이드/",
         "/50cc-초보자-가이드/주차-기초/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-071",
+      "status": "WRITING",
+      "parent_id": "beginners",
+      "child_id": "beginners-5",
+      "parent_label": "50cc·초보자 안내",
+      "child_label": "주행 전 점검",
+      "category_url": "/50cc-초보자-가이드/주행-전-점검/",
+      "draft_file": "_factory/inbox/KOR-071.json",
+      "working_title": "주행 전 점검 처음 알아보기: 기본 정보와 준비 순서",
+      "primary_keyword": "주행 전 점검",
+      "search_intent": "informational",
+      "content_brief": "분야: 50cc·초보자 안내. 하위 주제: 주행 전 점검. 타이어와 브레이크 등 기본 확인 항목을 안내합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "요금·차량 재고·배송·법률 등 확인되지 않은 사실을 단정하지 말고 정확한 출처를 확인하세요.",
+      "internal_link_targets": [
+        "/50cc-초보자-가이드/",
+        "/50cc-초보자-가이드/주행-전-점검/",
         "/문의/"
       ],
       "target_min_korean_eojeol": 1500,
