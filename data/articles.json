@@ -226,5 +226,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-020",
+    "parentId": "rental",
+    "childId": "rental-4",
+    "path": "/하노이-오토바이-렌트/외국인-렌트/외국인-렌트-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-020.html",
+    "title": "하노이 외국인 렌트 자주 묻는 질문: 체류 유형별 답변 정리",
+    "description": "하노이에서 오토바이 렌트를 알아보는 해외 여행자가 자주 묻는 여권, 동승, 요금, 반납, 고장 대응, 규정 확인 같은 질문을 상황별로 모아 답했습니다. 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
