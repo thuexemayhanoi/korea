@@ -98,7 +98,11 @@
     "travelTitle": "여행 전 체크리스트",
     "travelText": "먼저 운전 자격과 경로, 날씨를 확인하세요.",
     "travelButton": "면허·안전 확인 ↗",
-    "travelUrl": "/면허-교통안전/"
+    "travelUrl": "/면허-교통안전/",
+    "homePrimaryHref": "/하노이-오토바이-렌트/",
+    "homePrimaryLabel": "렌트 가이드 보기 ↗",
+    "homeSecondaryHref": "/문의/",
+    "homeSecondaryLabel": "렌트 문의하기"
   },
   "banner": {
     "label": "하노이 오토바이 렌트",
