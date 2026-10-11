@@ -730,5 +730,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-062",
+    "parentId": "beginners",
+    "childId": "beginners-3",
+    "path": "/50cc-초보자-가이드/초보-출발/첫-출발-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-062.html",
+    "title": "하노이 첫 출발 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이에서 오토바이 첫 출발 계획을 이용 기간, 운전 경험, 동행 여부, 날씨와 대안 교통수단과 비교하는 기준을 정리했습니다. 상황별 판단 예시와 비교표 만들기까지 여행 일정 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
