@@ -64,7 +64,7 @@ function build(config){
   const services=[["tel:"+config.phone,"☎","전화"],[config.zalo,"Z","Zalo"],[config.whatsapp,"WA","WhatsApp"],[config.maps,"⌖","Google 지도"]];
   for(const [href,glyph,label] of services){if(!href)continue;const a=attr(c("a",null,glyph),{href:safeURL(href),"aria-label":label});if(!href.startsWith("tel:")){a.target="_blank";a.rel="noopener noreferrer"}a.append(c("span",null,label));items.append(a)}
   trigger.addEventListener("click",()=>{const state=dock.dataset.open!=="true";dock.dataset.open=String(state);trigger.setAttribute("aria-expanded",String(state))});
-  document.addEventListener("click",e=>{if(!dock.contains(e.target)){dock.dataset.open="false";trigger.setAttribute("aria-expanded","false"}});
+  document.addEventListener("click",e=>{if(!dock.contains(e.target)){dock.dataset.open="false";trigger.setAttribute("aria-expanded","false")}});
   dock.append(trigger,items);document.body.append(dock);
   // Existing legacy right-hand call is redundant when the 4-channel dock is mounted.
   document.querySelectorAll(".floating-call").forEach(el=>el.remove());
