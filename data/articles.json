@@ -526,5 +526,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-045",
+    "parentId": "price",
+    "childId": "price-4",
+    "path": "/렌트-가격-예약/보증금-안내/보증금-안내-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-045.html",
+    "title": "하노이 보증금 안내 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 오토바이 대여에서 한국인 여행자가 보증금에 관해 자주 묻는 질문을 여행 단계 순서로 모아 답했습니다. 지불 방식, 금액 확인, 반환 시점, 흠집과 고장 대응, 연장과 일정 변경, 동승, 예약 전 질문까지 상황별로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
