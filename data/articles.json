@@ -994,5 +994,17 @@
     "publishedAt": "2026-10-11",
     "type": "rental",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-084",
+    "parentId": "types",
+    "childId": "types-2",
+    "path": "/오토바이-종류/자동-스쿠터/자동-스쿠터-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-084.html",
+    "title": "하노이 자동 스쿠터 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이에서 자동 스쿠터를 빌릴 때 흔히 빠지는 다섯 가지 오해와 교차로, 노면, 주차, 반납에서 실제로 자주 생기는 위험 상황을 정리했습니다. 정보를 걸러내는 기준과 안전한 대안, 문의 확인 방법까지 예방 중심으로 안내합니다.",
+    "publishedAt": "2026-10-11",
+    "type": "rental",
+    "status": "PUBLISHED"
   }
 ]
