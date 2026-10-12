@@ -2578,5 +2578,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-216",
+    "parentId": "north",
+    "childId": "north-4",
+    "path": "/베트남-북부-여행/목쩌우/목쩌우-고원-차밭-폭포-첫-여행-216/",
+    "contentFile": "content/articles/KOR-216.html",
+    "title": "목쩌우 여행 첫 준비 가이드: 차밭·폭포·숙소와 교통",
+    "description": "베트남 목쩌우 고원을 처음 찾는 한국인 여행자를 위한 안내입니다. 차밭과 계절 꽃, 자이옘 폭포와 소나무 숲, 하노이 출발 교통편, 숙소와 지역 문화, 날씨와 안전 확인 방법을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
