@@ -1846,5 +1846,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-155",
+    "parentId": "hanoi",
+    "childId": "hanoi-1",
+    "path": "/하노이-지역별-가이드/호안끼엠-올드쿼터/호안끼엠-올드쿼터-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-155.html",
+    "title": "호안끼엠·올드쿼터 자주 묻는 질문: 여행자 상황별 실용 안내",
+    "description": "호안끼엠 호수와 올드쿼터를 처음 방문하는 한국인 여행자가 자주 묻는 질문을 상황별로 정리했습니다. 구역 파악, 첫 이동, 오토바이 렌트 필요 여부, 숙소 기준, 소지품 관리, 계절별 특징과 일정 설계까지 실제 여행에 바로 적용할 수 있는 답변을 담았습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]

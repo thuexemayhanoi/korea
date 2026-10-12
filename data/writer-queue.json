@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 154,
-  "remaining": 146,
+  "published": 155,
+  "remaining": 145,
   "queue": [
-    {
-      "id": "KOR-155",
-      "status": "WRITING",
-      "parent_id": "hanoi",
-      "child_id": "hanoi-1",
-      "parent_label": "하노이 지역별 가이드",
-      "child_label": "호안끼엠·올드쿼터",
-      "category_url": "/하노이-지역별-가이드/호안끼엠-올드쿼터/",
-      "draft_file": "_factory/inbox/KOR-155.json",
-      "working_title": "호안끼엠·올드쿼터 자주 묻는 질문: 여행자 상황별 설명",
-      "primary_keyword": "호안끼엠·올드쿼터",
-      "search_intent": "informational",
-      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 호안끼엠·올드쿼터. 구시가지 방문과 도심 이동 시 고려할 점입니다. 이번 글의 관점: 서로 다른 이용자 상황에 대한 FAQ, 결정 기준과 다음 행동을 안내. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/하노이-지역별-가이드/",
-        "/하노이-지역별-가이드/호안끼엠-올드쿼터/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-156",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "롱비엔",
       "search_intent": "informational",
       "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 롱비엔. 롱비엔 지역과 매장 방문 정보를 안내합니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/하노이-지역별-가이드/",
+        "/하노이-지역별-가이드/롱비엔/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-160",
+      "status": "WRITING",
+      "parent_id": "hanoi",
+      "child_id": "hanoi-2",
+      "parent_label": "하노이 지역별 가이드",
+      "child_label": "롱비엔",
+      "category_url": "/하노이-지역별-가이드/롱비엔/",
+      "draft_file": "_factory/inbox/KOR-160.json",
+      "working_title": "롱비엔 자주 묻는 질문: 여행자 상황별 설명",
+      "primary_keyword": "롱비엔",
+      "search_intent": "informational",
+      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 롱비엔. 롱비엔 지역과 매장 방문 정보를 안내합니다. 이번 글의 관점: 서로 다른 이용자 상황에 대한 FAQ, 결정 기준과 다음 행동을 안내. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/하노이-지역별-가이드/",
