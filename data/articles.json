@@ -2350,5 +2350,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-197",
+    "parentId": "nearby",
+    "childId": "nearby-5",
+    "path": "/하노이-근교-라이딩/근교-여행-준비/하노이-근교-출발-이동수단-비교-197/",
+    "contentFile": "content/articles/KOR-197.html",
+    "title": "하노이 근교 출발 교통수단 비교: 렌트·버스·차량 예약",
+    "description": "하노이 근교 여행의 이동 방법을 비교하는 한국인 여행자 안내입니다. 오토바이 렌트와 운전자 동반 이동, 대중교통, 당일치기와 숙박의 장단점을 일정·날씨·귀가·실제 계약 조건으로 살펴봅니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
