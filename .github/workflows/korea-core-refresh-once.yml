@@ -1,0 +1,52 @@
+name: Korea one-time core-page index sync
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/korea-core-refresh-once.yml'
+permissions:
+  contents: write
+concurrency:
+  group: korea-core-once
+  cancel-in-progress: false
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate content and URL integrity
+        run: |
+          node tools/factory.mjs verify
+          node tools/build.mjs --check
+          node tools/qa.mjs
+      - name: Regenerate current browser-local Korean search index
+        run: |
+          node tools/build-chat-index.mjs
+          node tools/build-chat-index.mjs --check
+      - name: Commit only the regenerated index without force push
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add assets/chat/search-index.json
+          if git diff --cached --quiet; then
+            echo "Index already synchronized."
+            exit 0
+          fi
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Main advanced during index rebuild; refusing stale commit."
+            exit 1
+          fi
+          git config user.name "korea-core-refresh[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "build(korea): synchronize local Korean chat search index with core pages"
+          git push origin HEAD:main
