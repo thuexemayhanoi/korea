@@ -2038,5 +2038,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-171",
+    "parentId": "hanoi",
+    "childId": "hanoi-5",
+    "path": "/하노이-지역별-가이드/하노이-공항-이동/공항-이동-처음-알아보기/",
+    "contentFile": "content/articles/KOR-171.html",
+    "title": "공항 이동 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 노이바이 공항 이동을 처음 계획하는 한국인 여행자를 위한 입문 안내입니다. 공항 기본 정보와 터미널 구조, 택시와 버스 등 이동 수단 종류, 소요 시간 계산, 계절별 특징과 오토바이 렌트와의 조합까지 준비 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
