@@ -2854,5 +2854,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-239",
+    "parentId": "safety",
+    "childId": "safety-3",
+    "path": "/면허-교통안전/베트남-교통표지/교통표지-주의사항/",
+    "contentFile": "content/articles/KOR-239.html",
+    "title": "교통표지 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 오토바이 여행에서 베트남 교통표지에 대해 흔히 빠지는 다섯 가지 오해와 실제 위험, 공식 확인 방법과 안전한 대안을 실수 예방 중심으로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
