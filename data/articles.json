@@ -2782,5 +2782,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-233",
+    "parentId": "safety",
+    "childId": "safety-2",
+    "path": "/면허-교통안전/헬멧-보호장비/헬멧-보호장비-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-233.html",
+    "title": "헬멧·보호장비 실전 체크리스트: 준비와 확인 순서",
+    "description": "출국 전날부터 대여 접수, 매 주행 전, 주행 후, 반납일까지 하노이 오토바이 여행의 헬멧과 보호장비를 단계별로 점검하는 실전 체크리스트입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
