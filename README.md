@@ -4,18 +4,12 @@
 **Repository:** https://github.com/thuexemayhanoi/korea  
 **Branch:** main · **Hosting:** GitHub Pages (native branch deployment)
 
-## Current production status (read from committed data, not README snapshots)
-
-The published Korean article count is the length of `data/articles.json` and the matching number of actual `content/articles/KOR-XXX.html` files. The 300-slot queue and state are kept in `data/article-plan.csv`, `data/factory-state.json` and `data/writer-queue.json`. Existing earlier sections below include historical setup notes, not current status.
-
-**AI draft writer:** see [operations and API requirements](docs/korea-auto-writer.md). GitHub Actions supports opt-in Mistral or OpenAI generation before the unchanged quality-gated publishing stage. No provider credentials are stored in this repository. An absent API secret means that scheduled workflow runs can succeed with **zero** new posts.
-
 ## Scope
 
 A standalone Korean-language static blog skeleton with a bold **black / white / vivid red** identity, responsive mega navigation and footer, accessible light/dark toggle, Korean Unicode URLs, SEO metadata and structured data.
 
 - 12 parent topic silos × 5 child categories = **60 child categories** and **12 hubs**.
-- Editorial allocation: **300 planned articles** (5 per child category), in `data/article-plan.csv`. **Initially 0 articles published** (historical project setup snapshot); check the current committed registry for live totals.
+- Editorial allocation: **300 planned articles** (5 per child category), in `data/article-plan.csv`. **0 articles published**. No article-writing agent or automation workflow is installed.
 - Shared source of truth: `data/site.json` and `data/taxonomy.json`. The navigation menu, footer, breadcrumbs, headings, category links and sitemap are generated from this same data by `tools/build.mjs`.
 - Core indexable pages: Home, About, Contact, FAQ, Privacy, Terms. Blog listing and all empty category pages use **noindex,follow** and are excluded from sitemap until real useful editorial content is ready. No empty fake article URL is generated.
 - Korean slugs are part of directory names, e.g. `/하노이-오토바이-렌트/` and `/하노이-오토바이-렌트/렌트-시작하기/`.
@@ -99,10 +93,10 @@ node tools/build.mjs --check
 node tools/build-chat-index.mjs --check
 ```
 
-The static-site QA workflow still validates the chat index. An optional credential-based writer now runs ahead of the existing Factory; consult the operations document.
+QA-only GitHub Actions validates the static chat index; there is no auto-writer agent or additional publishing workflow.
 
 ## Korea 300 external writer factory · 1,500 Korean eojeol per article
 
-The **only** source repo is `thuexemayhanoi/korea`. The editorial queue is `data/writer-queue.json`. Articles are written by an external AI/human or by the optional credential-based AI writer and placed in `_factory/inbox/KOR-XXX.json` before Factory validation. Without a configured provider secret, GitHub Actions does not generate article prose. The Korea-specific `tools/factory.mjs` checks at least **1,500 Korean eojeol**, Korean SEO metadata, 3 H2, 12 distinct paragraphs, 3 working internal links, parent/child silo link, originality heuristics, safety sources, 85/100 QA score, and duplicate IDs/URLs. It publishes up to **five** per workflow run, stops at 300, and leaves original site design, URLs, navigation and footer intact.
+The **only** source repo is `thuexemayhanoi/korea`. The editorial queue is `data/writer-queue.json`. Articles are written by an external AI/human in `_factory/inbox/KOR-XXX.json`, never by GitHub Actions. The Korea-specific `tools/factory.mjs` checks at least **1,500 Korean eojeol**, Korean SEO metadata, 3 H2, 12 distinct paragraphs, 3 working internal links, parent/child silo link, originality heuristics, safety sources, 85/100 QA score, and duplicate IDs/URLs. It publishes up to **five** per workflow run, stops at 300, and leaves original site design, URLs, navigation and footer intact.
 
 Instructions: [External writer handbook](_factory/EXTERNAL-WRITER.md). Actions: [KOREA 300 External Writer Factory](https://github.com/thuexemayhanoi/korea/actions/workflows/korea-article-factory.yml). For read-only inspection run `node tools/factory.mjs next` or `node tools/factory.mjs status`.
