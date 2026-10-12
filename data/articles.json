@@ -2878,5 +2878,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-241",
+    "parentId": "safety",
+    "childId": "safety-4",
+    "path": "/면허-교통안전/사고-대응/사고-대응-처음-알아보기/",
+    "contentFile": "content/articles/KOR-241.html",
+    "title": "사고 대응 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 오토바이 여행에서 사고가 났을 때의 기본 순서와 인명 우선 원칙, 여행 전에 확인할 연락처와 보험 약관, 계약 조항, 초보자의 첫 계획을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
