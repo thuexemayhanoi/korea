@@ -2554,5 +2554,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-214",
+    "parentId": "north",
+    "childId": "north-3",
+    "path": "/베트남-북부-여행/까오방/까오방-폭포-동굴-산악도로-안전-실수-214/",
+    "contentFile": "content/articles/KOR-214.html",
+    "title": "까오방 여행 안전 실수 예방: 반족 폭포·동굴·산악 도로",
+    "description": "까오방의 반족 폭포와 응으엄응아오 동굴 여행에서 피해야 할 실수를 정리했습니다. 물가와 동굴 관람, 산악 도로, 날씨, 렌트 계약과 귀가를 안전하게 판단하는 한국어 가이드입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
