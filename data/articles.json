@@ -2014,5 +2014,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-169",
+    "parentId": "hanoi",
+    "childId": "hanoi-4",
+    "path": "/하노이-지역별-가이드/바딘/바딘-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-169.html",
+    "title": "바딘 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 바딘 방문에서 저지르기 쉬운 오해와 실수, 도로와 대기 줄에서 실제로 자주 생기는 위험을 안전 중심으로 정리했습니다. 운영 규정, 계절별 대비, 소지품 관리와 공식 정보 확인 방법, 문제 발생 시 대응 순서까지 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
