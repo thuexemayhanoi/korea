@@ -77,7 +77,8 @@ for(const route of expected){
    reportCounts.jsonLdParsed++;
   }catch(e){errors.push("Invalid JSON-LD: "+route+" "+e.message)}
  }
- requireCheck(types.includes("WebPage")||route==="/","WebPage schema missing: "+route);
+ const expectedType=route==="/소개/"?"AboutPage":route==="/문의/"?"ContactPage":"WebPage";
+ requireCheck(route==="/"||types.includes(expectedType),"Page schema type missing ("+expectedType+"): "+route);
  if(route==="/")requireCheck(types.includes("WebSite")&&types.includes("LocalBusiness"),"Home entity schema missing");
  if(posts.some(p=>p.path===route)){
   requireCheck(types.includes("BlogPosting"),"BlogPosting missing: "+route);
