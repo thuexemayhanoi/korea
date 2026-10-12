@@ -2410,5 +2410,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-202",
+    "parentId": "north",
+    "childId": "north-1",
+    "path": "/베트남-북부-여행/하장/하장-루프-일정-운전-숙박-비교-202/",
+    "contentFile": "content/articles/KOR-202.html",
+    "title": "하장 루프 여행 비교: 일정·직접 운전·숙박 선택 기준",
+    "description": "베트남 하장 루프를 계획하는 한국인 여행자를 위한 비교 가이드입니다. 짧은 일정과 장기 일정, 직접 오토바이 운전과 운전자 동반 이동, 숙박, 기후, 비용과 계약 범위를 조건별로 살펴봅니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
