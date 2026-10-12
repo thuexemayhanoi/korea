@@ -27,5 +27,5 @@ export function selectRelated(a,all,max=3){
 }
 
 export function makeArticleSchema(a,site){
- return {"@context":"https://schema.org","@type":"BlogPosting","headline":a.title,"description":a.description,"inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":site.domain+a.path},"datePublished":a.publishedAt,"dateModified":a.updatedAt||a.publishedAt,"publisher":{"@type":"Organization","name":site.brand,"url":site.mainBusiness}};
+ return {"@context":"https://schema.org","@type":"BlogPosting","headline":a.title,"description":a.description,"inLanguage":"ko","mainEntityOfPage":{"@type":"WebPage","@id":site.domain+a.path},"datePublished":a.publishedAt,"dateModified":a.updatedAt||a.publishedAt,"isPartOf":{"@type":"WebSite","@id":site.domain+"/#website"},"publisher":{"@type":"LocalBusiness","@id":site.mainBusiness+"#business","name":site.businessName,"url":site.mainBusiness}};
 }

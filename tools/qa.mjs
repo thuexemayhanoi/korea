@@ -46,6 +46,8 @@ function extract(html,p){
  check(html.includes('property="og:title"'),"Open Graph "+p);
  check(html.includes('property="og:url"'),"Open Graph URL "+p);
  check(html.includes('id="main-nav"')&&html.includes('class="site-footer"'),"shared layout "+p);
+ if(p==="/"){check(html.includes('"hasMap":"'+site.maps+'"')&&html.includes('"@id":"'+site.mainBusiness+'#business"'),"home entity graph invalid");check(html.includes("하노이에서 오토바이 렌트는 어디에 문의하나요?"),"home direct answer missing")}
+ if(p==="/자주-묻는-질문/"){check((html.match(/class="faq-item" id="faq-[0-9]{2}"/g)||[]).length===32,"FAQ anchors missing");check(html.includes('"@type":"FAQPage"')&&html.includes("150,000동"),"FAQ visible/schema facts missing")}
  const navHtml=html.match(/<nav class="main-nav" id="main-nav" aria-label="주 메뉴">([\s\S]*?)<\/nav>/)?.[1]||"";
  const mainOrder=["/","/소개/","/블로그/","/자주-묻는-질문/","/문의/","/개인정보-처리방침/","/이용약관/"];
  const mainPositions=mainOrder.map(href=>navHtml.indexOf('<a href="'+href+'">'));
@@ -77,6 +79,8 @@ for(const a of published){
  if(site.features?.articleSchema!==false)check(html.includes('"@type":"BlogPosting"'),"missing BlogPosting "+a.id);
  if(site.features?.articleCta!==false)check(html.includes('class="article-cta"'),"missing article CTA "+a.id);
 }
+const llms=await read("llms.txt");
+check(llms.includes(site.domain+"/")&&llms.includes(site.businessName)&&llms.includes(site.phoneDisplay),"llms facts invalid");
 const cname=(await read("CNAME")).trim();
 check(cname==="ko.rentbikehanoi.com","CNAME must remain ko.rentbikehanoi.com");
 check(xml.includes("https://ko.rentbikehanoi.com/"),"wrong sitemap host");
