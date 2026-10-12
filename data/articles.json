@@ -3142,5 +3142,65 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-263",
+    "parentId": "planning",
+    "childId": "planning-3",
+    "path": "/베트남-여행-준비/지도-내비게이션/지도-내비게이션-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-263.html",
+    "title": "지도·내비게이션 실전 체크리스트",
+    "description": "베트남 오토바이 여행을 위한 지도와 내비게이션 실전 체크리스트입니다. 출발 전 경로 확인, 오프라인 지도 준비, 주행 중 점검 순서를 단계별로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-264",
+    "parentId": "planning",
+    "childId": "planning-3",
+    "path": "/베트남-여행-준비/지도-내비게이션/지도-내비게이션-주의사항/",
+    "contentFile": "content/articles/KOR-264.html",
+    "title": "지도·내비게이션 주의사항과 실수 예방",
+    "description": "베트남 여행에서 지도와 내비게이션 사용 시 저지르기 쉬운 실수와 그 위험을 정리했습니다. 오해를 바로잡고 공식 정보를 확인하는 안전한 방법을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-265",
+    "parentId": "planning",
+    "childId": "planning-3",
+    "path": "/베트남-여행-준비/지도-내비게이션/지도-내비게이션-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-265.html",
+    "title": "지도·내비게이션 자주 묻는 질문",
+    "description": "베트남 오토바이 여행의 지도와 내비게이션에 대한 자주 묻는 질문에 상황별로 답합니다. 오프라인 지도, 경로 계획, 데이터 사용 판단 기준을 확인하세요.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-266",
+    "parentId": "planning",
+    "childId": "planning-4",
+    "path": "/베트남-여행-준비/여행-짐-준비/짐-꾸리기-처음-알아보기/",
+    "contentFile": "content/articles/KOR-266.html",
+    "title": "짐 꾸리기 처음 알아보기와 첫 단계",
+    "description": "베트남 오토바이 여행을 위한 짐 꾸리기의 기본 개념과 첫 단계를 소개합니다. 누가 어떤 짐을 준비해야 하는지, 현지에서 확인할 준비사항을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-267",
+    "parentId": "planning",
+    "childId": "planning-4",
+    "path": "/베트남-여행-준비/여행-짐-준비/짐-꾸리기-선택-기준/",
+    "contentFile": "content/articles/KOR-267.html",
+    "title": "짐 꾸리기 선택 기준과 비교",
+    "description": "베트남 여행 짐 꾸리기의 선택 기준을 비교합니다. 여행 기간, 가방 종류, 장비 수준, 한국 준비와 현지 구매의 장단점을 상황별로 판단할 수 있게 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
