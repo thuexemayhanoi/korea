@@ -3022,5 +3022,65 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-253",
+    "parentId": "planning",
+    "childId": "planning-1",
+    "path": "/베트남-여행-준비/날씨-우기/날씨-우기-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-253.html",
+    "title": "날씨·우기 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이 우기 오토바이 렌탈 여행을 위한 단계별 실전 체크리스트입니다. 출발 전 예보 확인부터 현지 도착, 차량 점검, 주행 전후 관리까지 시간 순서로 정리했습니다. 놓치기 쉬운 확인 항목을 한눈에 점검하세요.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-254",
+    "parentId": "planning",
+    "childId": "planning-1",
+    "path": "/베트남-여행-준비/날씨-우기/날씨-우기-주의사항/",
+    "contentFile": "content/articles/KOR-254.html",
+    "title": "날씨·우기 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "우기 하노이 오토바이 이용에서 흔히 하는 오해와 실수를 정리했습니다. 젖은 노면과 침수, 시야 제한의 위험과 공식 정보 확인 방법, 안전한 대안을 상황별로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-255",
+    "parentId": "planning",
+    "childId": "planning-1",
+    "path": "/베트남-여행-준비/날씨-우기/날씨-우기-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-255.html",
+    "title": "날씨·우기 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 우기 여행에 대한 한국인 여행자의 자주 묻는 질문에 상황별로 답합니다. 렌탈 조건, 장비 선택, 침수 대응, 건강 관리까지 문답 형식으로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-256",
+    "parentId": "planning",
+    "childId": "planning-2",
+    "path": "/베트남-여행-준비/여행-예산/여행-예산-처음-알아보기/",
+    "contentFile": "content/articles/KOR-256.html",
+    "title": "여행 예산 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "베트남 여행 예산의 기본 구조를 처음부터 정리했습니다. 이동, 숙박, 식비, 렌탈 관련 비용 항목과 우선순위 정하기, 예비비 설정까지 초보자가 첫 단계에서 할 일을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-257",
+    "parentId": "planning",
+    "childId": "planning-2",
+    "path": "/베트남-여행-준비/여행-예산/여행-예산-선택-기준/",
+    "contentFile": "content/articles/KOR-257.html",
+    "title": "여행 예산 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "여행 기간, 이동 방식, 숙박과 식비 배분, 예약 시점 등 여행 예산 선택 기준을 비교합니다. 오토바이 렌탈과 대안들의 장단점을 일정 유형별로 정리해 자신의 여행에 맞는 배분을 찾아 보세요.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
