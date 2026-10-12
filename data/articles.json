@@ -2002,5 +2002,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-168",
+    "parentId": "hanoi",
+    "childId": "hanoi-4",
+    "path": "/하노이-지역별-가이드/바딘/바딘-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-168.html",
+    "title": "바딘 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이 바딘 방문을 위한 단계별 실전 체크리스트입니다. 계획 단계와 출국 전, 전날, 당일 아침부터 현장 도착, 참관 중, 오후 연결, 방문 후 기록까지 점검할 항목과 자주 놓치는 실수를 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
