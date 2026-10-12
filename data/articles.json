@@ -2146,5 +2146,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-180",
+    "parentId": "nearby",
+    "childId": "nearby-1",
+    "path": "/하노이-근교-라이딩/바비/바비-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-180.html",
+    "title": "바비 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 오토바이로 바비를 다녀오는 한국인 여행자가 자주 묻는 질문을 상황별로 정리했습니다. 준비와 렌털, 이동과 날씨, 현지 이용, 안전 대처, 예약 문의까지 실무적인 답변을 담았습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
