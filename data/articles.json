@@ -1882,5 +1882,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-158",
+    "parentId": "hanoi",
+    "childId": "hanoi-2",
+    "path": "/하노이-지역별-가이드/롱비엔/롱비엔-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-158.html",
+    "title": "롱비엔 실전 체크리스트: 준비와 확인 순서",
+    "description": "롱비엔 방문을 출발 전날부터 돌아온 뒤까지 단계별로 점검하는 실전 체크리스트입니다. 날씨와 시간대 확정, 준비물 점검, 현장 도착 후 확인 사항, 다리와 강변 구간의 안전 수칙, 귀가 동선과 방문 후 기록까지 빠짐없이 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
