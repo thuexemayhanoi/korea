@@ -2206,5 +2206,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-185",
+    "parentId": "nearby",
+    "childId": "nearby-2",
+    "path": "/하노이-근교-라이딩/닌빈/닌빈-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-185.html",
+    "title": "닌빈 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이에서 닌빈까지 당일치기와 1박 2일 중 뭘 골라야 할까요? 이동, 보트 투어, Hang Múa 등반, 숙소, 안전 대처까지 닌빈 여행의 대표 질문을 상황별로 답합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
