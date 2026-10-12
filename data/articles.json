@@ -2698,5 +2698,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-226",
+    "parentId": "safety",
+    "childId": "safety-1",
+    "path": "/면허-교통안전/외국인-운전면허/2026-베트남-외국인-운전면허-첫-준비-226/",
+    "contentFile": "content/articles/KOR-226.html",
+    "title": "2026 베트남 외국인 운전면허 첫 준비: 한국인 여행자 확인 순서",
+    "description": "2026년 베트남 외국인 운전면허를 준비하는 한국인 여행자를 위한 첫 안내입니다. 국가면허와 국제운전면허증, 차량 종류, 체류 자격, 36/2024 법률과 108/2026 시행규칙 확인 순서를 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
