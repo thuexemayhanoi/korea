@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 223,
-  "remaining": 77,
+  "published": 224,
+  "remaining": 76,
   "queue": [
-    {
-      "id": "KOR-224",
-      "status": "WRITING",
-      "parent_id": "north",
-      "child_id": "north-5",
-      "parent_label": "베트남 북부 여행",
-      "child_label": "마이쩌우",
-      "category_url": "/베트남-북부-여행/마이쩌우/",
-      "draft_file": "_factory/inbox/KOR-224.json",
-      "working_title": "마이쩌우 주의사항과 실수 예방: 안전 중심 안내",
-      "primary_keyword": "마이쩌우",
-      "search_intent": "informational",
-      "content_brief": "분야: 베트남 북부 여행. 하위 주제: 마이쩌우. 마이쩌우를 방문할 때 알아둘 점을 정리합니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/베트남-북부-여행/",
-        "/베트남-북부-여행/마이쩌우/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-225",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "외국인 운전면허",
       "search_intent": "informational",
       "content_brief": "분야: 면허·교통안전. 하위 주제: 외국인 운전면허. 국적과 차량에 따른 면허 요건은 공식 기관에 확인하세요. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/면허-교통안전/",
+        "/면허-교통안전/외국인-운전면허/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-229",
+      "status": "WRITING",
+      "parent_id": "safety",
+      "child_id": "safety-1",
+      "parent_label": "면허·교통안전",
+      "child_label": "외국인 운전면허",
+      "category_url": "/면허-교통안전/외국인-운전면허/",
+      "draft_file": "_factory/inbox/KOR-229.json",
+      "working_title": "외국인 운전면허 주의사항과 실수 예방: 안전 중심 안내",
+      "primary_keyword": "외국인 운전면허",
+      "search_intent": "informational",
+      "content_brief": "분야: 면허·교통안전. 하위 주제: 외국인 운전면허. 국적과 차량에 따른 면허 요건은 공식 기관에 확인하세요. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/면허-교통안전/",

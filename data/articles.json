@@ -2674,5 +2674,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-224",
+    "parentId": "north",
+    "childId": "north-5",
+    "path": "/베트남-북부-여행/마이쩌우/마이쩌우-숙소-논길-자전거-실수-예방-224/",
+    "contentFile": "content/articles/KOR-224.html",
+    "title": "마이쩌우 여행 실수 7가지: 전통 숙소·논길·자전거 안전",
+    "description": "마이쩌우 여행에서 반복되는 오해를 예방합니다. 락과 뽐꽁 숙소 주소, 논길 촬영 예절, 자전거, 전통 문화 체험, 주변 코스, 렌트 계약과 귀가 안전을 실제 상황 중심으로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
