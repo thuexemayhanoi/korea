@@ -2902,5 +2902,65 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-243",
+    "parentId": "safety",
+    "childId": "safety-4",
+    "path": "/면허-교통안전/사고-대응/사고-대응-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-243.html",
+    "title": "사고 대응 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이 오토바이 여행을 위한 사고 대응 실전 체크리스트입니다. 출발 전 준비물, 사고 현장의 안전 확보와 기록, 연락 순서, 사후 정리까지 단계별로 정리해 한국인 여행자가 당황하지 않고 움직일 수 있게 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-244",
+    "parentId": "safety",
+    "childId": "safety-4",
+    "path": "/면허-교통안전/사고-대응/사고-대응-주의사항/",
+    "contentFile": "content/articles/KOR-244.html",
+    "title": "사고 대응 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "사고 대응에서 흔히 빠지는 오해와 위험한 실수를 정리했습니다. 현장 기록, 보험 요건, 언어 소통, 급한 합의의 함정과 공식 정보 확인 방법까지 안전 중심으로 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-245",
+    "parentId": "safety",
+    "childId": "safety-4",
+    "path": "/면허-교통안전/사고-대응/사고-대응-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-245.html",
+    "title": "사고 대응 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 오토바이 여행 중 사고에 관한 한국인 여행자의 자주 묻는 질문에 상황별로 답합니다. 현장 대응, 보험과 비용, 후속 조치, 예방 준비의 판단 기준과 다음 행동을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-246",
+    "parentId": "safety",
+    "childId": "safety-5",
+    "path": "/면허-교통안전/보험-확인/보험-확인-처음-알아보기/",
+    "contentFile": "content/articles/KOR-246.html",
+    "title": "보험 확인 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "오토바이 렌탈의 보험 개념과 확인 방법을 처음부터 설명합니다. 배상과 면책, 한도, 요건의 기본과 렌탈 보험, 여행자 보험의 역할, 초보자가 문서를 확인하는 순서를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-247",
+    "parentId": "safety",
+    "childId": "safety-5",
+    "path": "/면허-교통안전/보험-확인/보험-확인-선택-기준/",
+    "contentFile": "content/articles/KOR-247.html",
+    "title": "보험 확인 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "오토바이 렌탈의 보험 조건을 비교하는 기준을 정리했습니다. 보장 범위, 면책액과 한도, 제외 조항, 여행 기간별 판단과 업체에게 물어야 할 질문까지 선택 단계에서 확인할 내용을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
