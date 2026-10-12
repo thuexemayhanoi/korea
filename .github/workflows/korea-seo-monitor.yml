@@ -1,0 +1,46 @@
+name: Korea SEO Audit and Monitoring
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: korea-seo-monitor
+  cancel-in-progress: false
+
+jobs:
+  seo-audit:
+    name: Read-only Korean SEO, intent and schema QA
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout production main or PR
+        uses: actions/checkout@v4
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Source syntax, factory state and generated pages
+        run: |
+          node --check tools/seo-monitor.mjs
+          node tools/factory.mjs verify
+          node tools/build.mjs --check
+          node tools/build-chat-index.mjs --check
+          node tools/qa.mjs
+      - name: Audit 379 URLs, 300 articles, FAQ, schemas and search-intent flags
+        run: node tools/seo-monitor.mjs --output /tmp/korea-seo-audit.json
+      - name: Upload read-only audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: korea-seo-audit
+          path: /tmp/korea-seo-audit.json
+          if-no-files-found: warn
+          retention-days: 14
