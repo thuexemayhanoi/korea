@@ -1906,5 +1906,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-160",
+    "parentId": "hanoi",
+    "childId": "hanoi-2",
+    "path": "/하노이-지역별-가이드/롱비엔/롱비엔-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-160.html",
+    "title": "롱비엔 자주 묻는 질문: 여행자 상황별 안내",
+    "description": "하노이 롱비엔에 한국인 여행자가 자주 묻는 질문을 상황별로 정리했습니다. 롱비엔 대교 감상 시간, 새벽 도매시장 이용법, 이동 수단 선택, 계절별 주의점과 안전 매너까지 실전 질문과 답을 모았습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
