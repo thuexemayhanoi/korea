@@ -2602,5 +2602,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-218",
+    "parentId": "north",
+    "childId": "north-4",
+    "path": "/베트남-북부-여행/목쩌우/목쩌우-차밭-폭포-출발-귀가-체크리스트-218/",
+    "contentFile": "content/articles/KOR-218.html",
+    "title": "목쩌우 여행 실전 체크리스트: 차밭부터 귀가까지 42단계",
+    "description": "베트남 목쩌우 여행을 준비하는 한국인을 위한 단계별 체크리스트입니다. 하노이 출발 교통편, 숙소 예약, 차밭과 자이옘 폭포, 지역 문화, 날씨, 차량 반납과 귀가까지 실제 확인 순서를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
