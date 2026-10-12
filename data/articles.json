@@ -2110,5 +2110,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-177",
+    "parentId": "nearby",
+    "childId": "nearby-1",
+    "path": "/하노이-근교-라이딩/바비/바비-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-177.html",
+    "title": "바비 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 근교 바비를 일정에 넣을지 판단하는 기준을 정리했습니다. 이동 수단별 장단점 비교, 근교 대안과의 비교, 당일치기와 숙박 일정별 판단, 계절과 시기별 선택, 비용과 시간 계산법, 안전과 편의의 균형까지 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
