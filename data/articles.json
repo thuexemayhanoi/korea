@@ -1930,5 +1930,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-162",
+    "parentId": "hanoi",
+    "childId": "hanoi-3",
+    "path": "/하노이-지역별-가이드/떠이호/떠이호-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-162.html",
+    "title": "떠이호 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 여행에서 떠이호 일정을 넣을지 결정하는 기준을 정리했습니다. 호안끼엠 구시가지와 쭉박 호수 등 대안 지역 비교, 이동 수단별 장단점, 체류 기간과 동행 상황에 따른 판단 기준까지 실전 중심으로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
