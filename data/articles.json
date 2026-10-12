@@ -2818,5 +2818,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-236",
+    "parentId": "safety",
+    "childId": "safety-3",
+    "path": "/면허-교통안전/베트남-교통표지/교통표지-처음-알아보기/",
+    "contentFile": "content/articles/KOR-236.html",
+    "title": "교통표지 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 오토바이 여행을 처음 준비하는 한국인 여행자를 위해 베트남 교통표지의 기본 개념, 한국과의 차이, 출국 전 예습과 현지 확인 순서를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
