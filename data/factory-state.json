@@ -3,8 +3,8 @@
   "enabled": true,
   "blocked": false,
   "target_reached": false,
-  "last_successful_id": "KOR-204",
-  "last_run": "2026-10-12T09:00:44.784Z",
+  "last_successful_id": "KOR-205",
+  "last_run": "2026-10-12T09:03:16.589Z",
   "last_error": null,
   "repair": {}
 }

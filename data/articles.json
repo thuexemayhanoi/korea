@@ -2446,5 +2446,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-205",
+    "parentId": "north",
+    "childId": "north-1",
+    "path": "/베트남-북부-여행/하장/하장-루프-여행-자주-묻는-질문-일정-교통-날씨/",
+    "contentFile": "content/articles/KOR-205.html",
+    "title": "하장 루프 여행 FAQ: 일정·교통·날씨·숙소 28가지 질문",
+    "description": "하장 루프를 준비하는 한국인 여행자를 위해 일정, 교통수단, 운전 자격, 날씨, 숙박, 식사, 보험, 비상 연락과 일정 변경에 관한 실제 질문 28가지를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
