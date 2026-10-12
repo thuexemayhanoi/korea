@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 163,
-  "remaining": 137,
+  "published": 164,
+  "remaining": 136,
   "queue": [
-    {
-      "id": "KOR-164",
-      "status": "WRITING",
-      "parent_id": "hanoi",
-      "child_id": "hanoi-3",
-      "parent_label": "하노이 지역별 가이드",
-      "child_label": "떠이호",
-      "category_url": "/하노이-지역별-가이드/떠이호/",
-      "draft_file": "_factory/inbox/KOR-164.json",
-      "working_title": "떠이호 주의사항과 실수 예방: 안전 중심 안내",
-      "primary_keyword": "떠이호",
-      "search_intent": "informational",
-      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 떠이호. 서호 주변 이동을 계획할 때의 참고 사항입니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/하노이-지역별-가이드/",
-        "/하노이-지역별-가이드/떠이호/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-165",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "바딘",
       "search_intent": "informational",
       "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 바딘. 바딘 지역 방문과 교통 관련 참고 정보입니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/하노이-지역별-가이드/",
+        "/하노이-지역별-가이드/바딘/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-169",
+      "status": "WRITING",
+      "parent_id": "hanoi",
+      "child_id": "hanoi-4",
+      "parent_label": "하노이 지역별 가이드",
+      "child_label": "바딘",
+      "category_url": "/하노이-지역별-가이드/바딘/",
+      "draft_file": "_factory/inbox/KOR-169.json",
+      "working_title": "바딘 주의사항과 실수 예방: 안전 중심 안내",
+      "primary_keyword": "바딘",
+      "search_intent": "informational",
+      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 바딘. 바딘 지역 방문과 교통 관련 참고 정보입니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/하노이-지역별-가이드/",

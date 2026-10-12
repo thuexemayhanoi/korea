@@ -1954,5 +1954,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-164",
+    "parentId": "hanoi",
+    "childId": "hanoi-3",
+    "path": "/하노이-지역별-가이드/떠이호/떠이호-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-164.html",
+    "title": "떠이호 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 떠이호를 둘러보는 한국인 여행자가 흔히 빠지는 오해와 도로, 호수 주변, 날씨에서 실제로 자주 생기는 위험을 정리했습니다. 공식 정보를 확인하는 세 가지 질문과 초보자를 위한 더 안전한 대안, 문제 대응 순서까지 안전 중심으로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
