@@ -2086,5 +2086,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-175",
+    "parentId": "hanoi",
+    "childId": "hanoi-5",
+    "path": "/하노이-지역별-가이드/하노이-공항-이동/공항-이동-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-175.html",
+    "title": "공항 이동 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 노이바이공항 이동에 관해 한국인 여행자가 자주 묻는 터미널 구분, 입국 과정, 이동 수단 선택, 요금과 결제, 심야 도착, 가족 동반, 오토바이 렌탈 조합, 문제 대응 질문을 상황별로 모아 답했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
