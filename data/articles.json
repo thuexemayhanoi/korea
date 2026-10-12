@@ -2170,5 +2170,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-182",
+    "parentId": "nearby",
+    "childId": "nearby-2",
+    "path": "/하노이-근교-라이딩/닌빈/닌빈-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-182.html",
+    "title": "닌빈 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "닌빈 여행을 계획할 때 비교해야 할 선택 기준을 정리했습니다. 근교 코스와의 비교, 당일과 숙박 일정, 이동 수단과 차량, 동행 구성, 계절 선택, 비용 확인 관점까지 일정별 판단 기준을 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
