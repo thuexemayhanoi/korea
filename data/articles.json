@@ -1810,5 +1810,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-152",
+    "parentId": "hanoi",
+    "childId": "hanoi-1",
+    "path": "/하노이-지역별-가이드/호안끼엠-올드쿼터/호안끼엠-올드쿼터-이동수단-비교-선택-152/",
+    "contentFile": "content/articles/KOR-152.html",
+    "title": "호안끼엠·올드쿼터 이동수단 비교: 도보·오토바이·다른 대안 선택법",
+    "description": "하노이 호안끼엠과 올드쿼터를 여행할 때 도보, 오토바이 렌트, 차량 호출, 대중교통을 어떻게 비교할지 안내합니다. 반나절과 장기 일정, 동행 인원, 주차, 날씨, 실제 계약 조건을 함께 살펴보세요.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
