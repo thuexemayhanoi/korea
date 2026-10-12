@@ -1870,5 +1870,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-157",
+    "parentId": "hanoi",
+    "childId": "hanoi-2",
+    "path": "/하노이-지역별-가이드/롱비엔/롱비엔-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-157.html",
+    "title": "롱비엔 방문 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "롱비엔 일정을 넣을지 고민하는 한국인 여행자를 위한 선택 기준 안내입니다. 방문 목적, 체류 기간, 이동 수단, 숙소 거점, 시간대별 장단점을 비교하고 근교 일정과의 조합까지 검토해 상황에 맞는 판단과 확인 사항을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
