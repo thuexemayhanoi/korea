@@ -2398,5 +2398,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-201",
+    "parentId": "north",
+    "childId": "north-1",
+    "path": "/베트남-북부-여행/하장/하장-여행-초보-루프-문화-안전-201/",
+    "contentFile": "content/articles/KOR-201.html",
+    "title": "베트남 하장 여행 첫 준비 가이드: 루프·숙소·안전과 이동",
+    "description": "하노이에서 베트남 북부 하장 여행을 처음 계획하는 한국인을 위한 가이드입니다. 하장 루프와 동반 고원, 마피렝의 특징, 이동수단, 숙소와 날씨, 현지 문화와 안전 확인 순서를 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
