@@ -1822,5 +1822,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-153",
+    "parentId": "hanoi",
+    "childId": "hanoi-1",
+    "path": "/하노이-지역별-가이드/호안끼엠-올드쿼터/호안끼엠-올드쿼터-실전-체크리스트-153/",
+    "contentFile": "content/articles/KOR-153.html",
+    "title": "호안끼엠·올드쿼터 현장 체크리스트: 출발부터 반납까지",
+    "description": "하노이 호안끼엠과 올드쿼터를 방문하기 전날부터 숙소 출발, 호수 산책, 구시가지 골목 탐방, 차량 이용과 반납까지 단계별로 점검해야 할 항목을 한국인 여행자에게 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
