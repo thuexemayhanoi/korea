@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "blocked": false,
-  "target_reached": false,
-  "last_successful_id": "KOR-295",
-  "last_run": "2026-10-12T13:31:49.099Z",
+  "target_reached": true,
+  "last_successful_id": "KOR-300",
+  "last_run": "2026-10-12T13:38:36.489Z",
   "last_error": null,
   "repair": {}
 }

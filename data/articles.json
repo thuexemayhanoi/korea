@@ -3538,5 +3538,65 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-296",
+    "parentId": "korean",
+    "childId": "korean-5",
+    "path": "/한국인-여행자-가이드/차량-반납-안내/반납-안내-처음-알아보기/",
+    "contentFile": "content/articles/KOR-296.html",
+    "title": "반납 안내 처음 알아보기: 기본 개념과 첫 단계",
+    "description": "오토바이 렌탈의 반납이 무엇인지, 인수와 어떻게 짝을 이루는지 소개하는 입문 안내입니다. 반납 시간과 장소의 개념, 첫 문의의 준비, 인수 때 만드는 기준과 마지막 전날의 재확인까지 첫 단계를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-297",
+    "parentId": "korean",
+    "childId": "korean-5",
+    "path": "/한국인-여행자-가이드/차량-반납-안내/반납-안내-선택-기준/",
+    "contentFile": "content/articles/KOR-297.html",
+    "title": "반납 안내 선택 기준과 비교",
+    "description": "반납 시간과 장소, 상태 정리의 선택 기준을 비교합니다. 전날 저녁 반납과 마지막 아침 반납, 거점 반납의 장단점과 연장 변경 절차, 여행 기간과 상황에 따른 판단의 틀을 정리한 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-298",
+    "parentId": "korean",
+    "childId": "korean-5",
+    "path": "/한국인-여행자-가이드/차량-반납-안내/반납-안내-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-298.html",
+    "title": "반납 안내 실전 체크리스트와 확인 순서",
+    "description": "인수 때의 기준 만들기부터 여행 중의 기록, 마지막 전날 재확인, 반납 당일 실행과 반납 후 정리까지 반납의 전 과정을 단계별 체크리스트로 정리한 실무 안내입니다. 확인 순서와 기록 관리까지 담았습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-299",
+    "parentId": "korean",
+    "childId": "korean-5",
+    "path": "/한국인-여행자-가이드/차량-반납-안내/반납-안내-주의사항/",
+    "contentFile": "content/articles/KOR-299.html",
+    "title": "반납 안내 주의사항과 실수 예방",
+    "description": "반납 지연과 무연락, 상태 대조의 생략, 연료와 장비 조건의 무시, 확인 없는 후기 같은 흔한 실수를 짚습니다. 기록의 대조와 소통의 준비, 안전한 대안까지 위험 예방법을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-300",
+    "parentId": "korean",
+    "childId": "korean-5",
+    "path": "/한국인-여행자-가이드/차량-반납-안내/반납-안내-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-300.html",
+    "title": "반납 안내 자주 묻는 질문",
+    "description": "반납 조건 확인 시간, 시간과 장소의 정함, 상태 대조와 추가 금액, 연장과 변경, 마지막 날의 계획까지 한국인 여행자가 자주 묻는 반납 질문을 문답으로 정리한 FAQ 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
