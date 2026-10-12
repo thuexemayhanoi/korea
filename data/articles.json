@@ -1834,5 +1834,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-154",
+    "parentId": "hanoi",
+    "childId": "hanoi-1",
+    "path": "/하노이-지역별-가이드/호안끼엠-올드쿼터/호안끼엠-올드쿼터-실수-예방-야간-안전-154/",
+    "contentFile": "content/articles/KOR-154.html",
+    "title": "호안끼엠·올드쿼터 여행 실수 7가지: 도로·예약·야간 안전 안내",
+    "description": "호안끼엠 호수와 하노이 올드쿼터를 여행할 때 통행 제한을 잘못 이해하거나 일정과 예약 조건을 확인하지 않아 생기는 실수를 예방하는 안내입니다. 야간 이동, 공식 정보 확인, 차량 점검과 대체 이동 방법을 다룹니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
