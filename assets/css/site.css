@@ -63,3 +63,15 @@ body.kr-keyboard .kr-quick,body.kr-keyboard .kr-chat-fab{visibility:hidden;point
 @media(max-width:1100px) and (min-width:861px){.menu-toggle{display:block}.main-nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg);padding:13px 16px 20px;border-bottom:2px solid var(--red);max-height:75vh;overflow:auto;box-shadow:var(--shadow)}.main-nav.is-open{display:block}.main-nav>a,.nav-drop>summary{font-size:1rem;padding:13px 12px;border-bottom:1px solid var(--line)}.mega{position:static;width:100%;border:0;box-shadow:none;padding:13px 7px;grid-template-columns:repeat(2,minmax(0,1fr));max-height:none}}
 @media(max-width:600px){.kr-quick{left:11px}.kr-chat-fab{right:11px}.kr-chat-panel{left:9px;right:9px;width:auto;bottom:calc(82px + env(safe-area-inset-bottom));height:min(530px,calc(100dvh - 110px))}.kr-quick-items a span{display:none}.site-footer{padding-bottom:calc(85px + env(safe-area-inset-bottom))}}
 @media(prefers-reduced-motion:reduce){.kr-quick-main,.kr-chat-fab{transition:none}}
+
+/* Korea core navigation is present in the original HTML for readers using translation proxies. */
+.mega.mega-topics{right:0;width:min(920px,calc(100vw - 32px));grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (min-width:1101px) and (max-width:1360px){
+ .menu-toggle{display:block}
+ .main-nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg);padding:13px 16px 20px;border-bottom:2px solid var(--red);max-height:75vh;overflow:auto;box-shadow:var(--shadow)}
+ .main-nav.is-open{display:block}
+ .main-nav>a,.nav-drop>summary{font-size:1rem;padding:13px 12px;border-bottom:1px solid var(--line)}
+ .mega.mega-topics{position:static;width:100%;border:0;box-shadow:none;max-height:none;padding:13px 7px;grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:1100px){.mega.mega-topics{position:static;width:100%;border:0;box-shadow:none;max-height:none;padding:13px 7px;grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:550px){.mega.mega-topics{grid-template-columns:1fr;padding:10px}}
