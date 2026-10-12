@@ -2746,5 +2746,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-230",
+    "parentId": "safety",
+    "childId": "safety-1",
+    "path": "/면허-교통안전/외국인-운전면허/외국인-운전면허-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-230.html",
+    "title": "외국인 운전면허 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 오토바이 여행을 준비하는 한국인 여행자가 면허에 대해 자주 묻는 질문을 준비, 현지 이용, 검문과 사고, 상황별 판단의 순서로 답했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
