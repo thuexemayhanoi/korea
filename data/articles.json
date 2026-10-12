@@ -2686,5 +2686,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-225",
+    "parentId": "north",
+    "childId": "north-5",
+    "path": "/베트남-북부-여행/마이쩌우/마이쩌우-락-뽐꽁-자전거-48문답-225/",
+    "contentFile": "content/articles/KOR-225.html",
+    "title": "마이쩌우 FAQ 48문답: 락·뽐꽁 숙소, 논길과 자전거",
+    "description": "베트남 마이쩌우 여행자가 궁금해하는 48가지 질문입니다. 락·뽐꽁 마을 숙소, 논길 촬영, 자전거, 현지 공예와 음식, 하노이 교통, 가족 동행, 렌트 계약과 귀가를 실제 상황별로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
