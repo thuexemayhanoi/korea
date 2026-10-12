@@ -3082,5 +3082,65 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-258",
+    "parentId": "planning",
+    "childId": "planning-2",
+    "path": "/베트남-여행-준비/여행-예산/여행-예산-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-258.html",
+    "title": "여행 예산 실전 체크리스트: 준비와 확인 순서",
+    "description": "베트남 여행 예산을 여행 전부터 마무리까지 단계별로 점검하는 실전 체크리스트입니다. 항목 나열, 배분, 예약 기록, 현지 매일 점검, 회고까지 놓치지 말고 확인할 순서를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-259",
+    "parentId": "planning",
+    "childId": "planning-2",
+    "path": "/베트남-여행-준비/여행-예산/여행-예산-주의사항/",
+    "contentFile": "content/articles/KOR-259.html",
+    "title": "여행 예산 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "여행 예산에서 흔히 하는 오해와 실수를 정리했습니다. 환전과 결제, 계약 조건, 예상 밖 지출의 위험과 공식 정보 확인 방법, 상황별 대안을 안전 중심으로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-260",
+    "parentId": "planning",
+    "childId": "planning-2",
+    "path": "/베트남-여행-준비/여행-예산/여행-예산-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-260.html",
+    "title": "여행 예산 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "베트남 여행 예산에 대한 한국인 여행자의 자주 묻는 질문에 상황별로 답합니다. 준비 금액, 배분 기준, 현금과 카드, 렌탈 비용, 절약 방법까지 문답 형식으로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-261",
+    "parentId": "planning",
+    "childId": "planning-3",
+    "path": "/베트남-여행-준비/지도-내비게이션/지도-내비게이션-처음-알아보기/",
+    "contentFile": "content/articles/KOR-261.html",
+    "title": "지도·내비게이션 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 여행을 위한 지도와 내비게이션 기본 개념을 처음부터 정리했습니다. 오프라인 지도 준비, 주요 지점 저장, 백업 수단, 도착 첫날 익히기까지 초보자의 첫 단계를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-262",
+    "parentId": "planning",
+    "childId": "planning-3",
+    "path": "/베트남-여행-준비/지도-내비게이션/지도-내비게이션-선택-기준/",
+    "contentFile": "content/articles/KOR-262.html",
+    "title": "지도·내비게이션 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "여행 형태와 이동 방식에 따른 지도·내비게이션 선택 기준을 비교합니다. 온라인과 오프라인 배분, 시내와 근교 이동, 악천후 상황별 판단과 안전 원칙까지 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
