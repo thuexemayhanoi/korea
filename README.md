@@ -106,3 +106,11 @@ QA-only GitHub Actions validates the static chat index; there is no auto-writer 
 The **only** source repo is `thuexemayhanoi/korea`. The editorial queue is `data/writer-queue.json`. Articles are written by an external AI/human in `_factory/inbox/KOR-XXX.json`, never by GitHub Actions. The Korea-specific `tools/factory.mjs` checks at least **1,500 Korean eojeol**, Korean SEO metadata, 3 H2, 12 distinct paragraphs, 3 working internal links, parent/child silo link, originality heuristics, safety sources, 85/100 QA score, and duplicate IDs/URLs. It publishes up to **five** per workflow run, stops at 300, and leaves original site design, URLs, navigation and footer intact.
 
 Instructions: [External writer handbook](_factory/EXTERNAL-WRITER.md). Actions: [KOREA 300 External Writer Factory](https://github.com/thuexemayhanoi/korea/actions/workflows/korea-article-factory.yml). For read-only inspection run `node tools/factory.mjs next` or `node tools/factory.mjs status`.
+
+## SEO Implementation — Approved A1–A6 (13 October 2026)
+
+- Approved scope: KOR-001 and KOR-121 link to the rental price/booking topic; KOR-106, KOR-111 and KOR-116 link to daily rental pricing; KOR-057's repeated Korean title word was corrected **without changing its existing URL**.
+- Source changes: `2783893`. Build workflow guardrail: `259620a` now regenerates static HTML after changes to `data/articles.json` or `content/articles/**`. Generated output commit: `53d109e`.
+- **QA release criterion:** both [Site Quality](https://github.com/thuexemayhanoi/korea/actions/workflows/site-quality.yml) and [Korea SEO Monitor](https://github.com/thuexemayhanoi/korea/actions/workflows/korea-seo-monitor.yml) must pass against regenerated source, and [GitHub Pages](https://github.com/thuexemayhanoi/korea/actions) must deploy the latest commit. Earlier QA failures on `2783893` and `259620a` were generated-file sync errors, not permission to rewrite more articles.
+- Homepage, category/service pages and contact retain their existing canonical, schema, contact CTA and Korean-language metadata; no new SEO changes were approved for them. The writer factory remains paused at 300 posts.
+- GSC ranking/indexing and actual SERP Top 10 remain unverified without access to the Korea property; no ranking promises are made.
