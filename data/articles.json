@@ -2566,5 +2566,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-215",
+    "parentId": "north",
+    "childId": "north-3",
+    "path": "/베트남-북부-여행/까오방/까오방-반족-동굴-교통-숙소-faq-215/",
+    "contentFile": "content/articles/KOR-215.html",
+    "title": "까오방 여행 FAQ 40문답: 반족 폭포·동굴·교통·숙소",
+    "description": "베트남 까오방 여행을 준비하는 한국인의 질문 40가지를 정리했습니다. 반족 폭포, 응으엄응아오 동굴, 가족 여행, 하노이 교통, 날씨, 렌트 계약과 숙박까지 상황에 맞는 확인 방법을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
