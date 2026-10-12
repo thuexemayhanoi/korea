@@ -1798,5 +1798,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-151",
+    "parentId": "hanoi",
+    "childId": "hanoi-1",
+    "path": "/하노이-지역별-가이드/호안끼엠-올드쿼터/호안끼엠-올드쿼터-첫-여행-준비-151/",
+    "contentFile": "content/articles/KOR-151.html",
+    "title": "하노이 호안끼엠·올드쿼터 첫 여행 가이드: 동선과 준비 순서",
+    "description": "하노이 호안끼엠 호수와 올드쿼터를 처음 방문하는 한국인 여행자를 위해 위치 관계, 도보 동선, 일정 짜는 법, 현지 정보 확인, 이동수단 선택과 준비물까지 첫날부터 활용할 방법을 소개합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
