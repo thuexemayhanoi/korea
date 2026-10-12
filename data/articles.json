@@ -2158,5 +2158,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-181",
+    "parentId": "nearby",
+    "childId": "nearby-2",
+    "path": "/하노이-근교-라이딩/닌빈/닌빈-처음-알아보기/",
+    "contentFile": "content/articles/KOR-181.html",
+    "title": "닌빈 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 오토바이로 닌빈을 계획하는 초보 여행자를 위한 기본 안내입니다. 닌빈의 특징과 어울리는 여행자, 이동 개요, 숙박 일정이 권장되는 이유, 준비 순서와 첫 단계까지 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
