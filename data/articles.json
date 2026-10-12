@@ -2830,5 +2830,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-237",
+    "parentId": "safety",
+    "childId": "safety-3",
+    "path": "/면허-교통안전/베트남-교통표지/교통표지-선택-기준/",
+    "contentFile": "content/articles/KOR-237.html",
+    "title": "교통표지 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 오토바이 여행에서 베트남 교통표지를 준비하는 방법을 지도 앱, 학습 자료, 자가 주행과 투어로 나누어 비교하고 일정별 권장 조합을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
