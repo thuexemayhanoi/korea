@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 194,
-  "remaining": 106,
+  "published": 195,
+  "remaining": 105,
   "queue": [
-    {
-      "id": "KOR-195",
-      "status": "WRITING",
-      "parent_id": "nearby",
-      "child_id": "nearby-4",
-      "parent_label": "하노이 근교 라이딩",
-      "child_label": "박닌",
-      "category_url": "/하노이-근교-라이딩/박닌/",
-      "draft_file": "_factory/inbox/KOR-195.json",
-      "working_title": "박닌 자주 묻는 질문: 여행자 상황별 설명",
-      "primary_keyword": "박닌",
-      "search_intent": "informational",
-      "content_brief": "분야: 하노이 근교 라이딩. 하위 주제: 박닌. 박닌 근교 방문을 준비하는 데 필요한 정보입니다. 이번 글의 관점: 서로 다른 이용자 상황에 대한 FAQ, 결정 기준과 다음 행동을 안내. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/하노이-근교-라이딩/",
-        "/하노이-근교-라이딩/박닌/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-196",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "근교 출발 준비",
       "search_intent": "informational",
       "content_brief": "분야: 하노이 근교 라이딩. 하위 주제: 근교 출발 준비. 출발 전 차량·날씨·경로 확인 방법입니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/하노이-근교-라이딩/",
+        "/하노이-근교-라이딩/근교-여행-준비/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-200",
+      "status": "WRITING",
+      "parent_id": "nearby",
+      "child_id": "nearby-5",
+      "parent_label": "하노이 근교 라이딩",
+      "child_label": "근교 출발 준비",
+      "category_url": "/하노이-근교-라이딩/근교-여행-준비/",
+      "draft_file": "_factory/inbox/KOR-200.json",
+      "working_title": "근교 출발 준비 자주 묻는 질문: 여행자 상황별 설명",
+      "primary_keyword": "근교 출발 준비",
+      "search_intent": "informational",
+      "content_brief": "분야: 하노이 근교 라이딩. 하위 주제: 근교 출발 준비. 출발 전 차량·날씨·경로 확인 방법입니다. 이번 글의 관점: 서로 다른 이용자 상황에 대한 FAQ, 결정 기준과 다음 행동을 안내. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/하노이-근교-라이딩/",

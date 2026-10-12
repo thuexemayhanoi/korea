@@ -2326,5 +2326,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-195",
+    "parentId": "nearby",
+    "childId": "nearby-4",
+    "path": "/하노이-근교-라이딩/박닌/박닌-여행-faq-28문답-교통-문화-렌트-195/",
+    "contentFile": "content/articles/KOR-195.html",
+    "title": "박닌 여행 FAQ 28문답: 당일치기·관호 문화·렌트 질문",
+    "description": "박닌 여행을 계획하는 한국인이 자주 묻는 질문을 모았습니다. 관호 공연과 사찰, 당일치기, 친구·가족 동행, 교통수단 비교, 렌트 계약과 보증금, 날씨 및 귀가 상황별 확인 방법을 알아보세요.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
