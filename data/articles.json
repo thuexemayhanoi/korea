@@ -3478,5 +3478,65 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-291",
+    "parentId": "korean",
+    "childId": "korean-4",
+    "path": "/한국인-여행자-가이드/픽업-문의/픽업-문의-처음-알아보기/",
+    "contentFile": "content/articles/KOR-291.html",
+    "title": "픽업 문의 처음 알아보기: 기본 개념과 첫 단계",
+    "description": "오토바이 렌탈의 픽업이 무엇인지, 어떤 순간 문의가 필요한지 소개하는 입문 안내입니다. 인수 방식의 개념과 첫 문의의 문장 만들기, 인수 장소 확인과 첫 단계 정리까지 준비 순서를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-292",
+    "parentId": "korean",
+    "childId": "korean-4",
+    "path": "/한국인-여행자-가이드/픽업-문의/픽업-문의-선택-기준/",
+    "contentFile": "content/articles/KOR-292.html",
+    "title": "픽업 문의 선택 기준과 비교",
+    "description": "직접 방문과 찾아오는 방식, 거점 인수의 장단점을 비교합니다. 여행 기간과 짐의 양, 일행과 시간표에 따라 픽업 방식을 고르는 선택 기준과 결정 후의 확인 방법을 정리한 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-293",
+    "parentId": "korean",
+    "childId": "korean-4",
+    "path": "/한국인-여행자-가이드/픽업-문의/픽업-문의-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-293.html",
+    "title": "픽업 문의 실전 체크리스트와 확인 순서",
+    "description": "출국 전 문의부터 여행 전날 재확인, 인수 당일 대조, 점검과 반납 전망까지 픽업의 전 과정을 단계별 체크리스트로 정리했습니다. 기록의 관리 방법과 시점별 확인 순서를 담은 실무 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-294",
+    "parentId": "korean",
+    "childId": "korean-4",
+    "path": "/한국인-여행자-가이드/픽업-문의/픽업-문의-주의사항/",
+    "contentFile": "content/articles/KOR-294.html",
+    "title": "픽업 문의 주의사항과 실수 예방",
+    "description": "픽업은 기본 조건이라는 오해, 문자를 남기지 않는 습관, 무연락 지연, 점검 건너뛰기 같은 흔한 실수를 짚습니다. 확인의 원칙과 안전한 대안, 당일의 위험 예방법을 정리한 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-295",
+    "parentId": "korean",
+    "childId": "korean-4",
+    "path": "/한국인-여행자-가이드/픽업-문의/픽업-문의-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-295.html",
+    "title": "픽업 문의 자주 묻는 질문",
+    "description": "픽업 문의의 시작과 가능 여부, 시간과 장소, 서류와 절차, 상황별 계획과 대안까지 한국인 여행자가 자주 묻는 질문을 문답 형식으로 정리한 FAQ 안내입니다. 결정 기준과 다음 행동을 답에 담았습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
