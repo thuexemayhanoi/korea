@@ -46,6 +46,13 @@ function extract(html,p){
  check(html.includes('property="og:title"'),"Open Graph "+p);
  check(html.includes('property="og:url"'),"Open Graph URL "+p);
  check(html.includes('id="main-nav"')&&html.includes('class="site-footer"'),"shared layout "+p);
+ const navHtml=html.match(/<nav class="main-nav" id="main-nav" aria-label="주 메뉴">([\s\S]*?)<\/nav>/)?.[1]||"";
+ const mainOrder=["/","/소개/","/블로그/","/자주-묻는-질문/","/문의/","/개인정보-처리방침/","/이용약관/"];
+ const mainPositions=mainOrder.map(href=>navHtml.indexOf('<a href="'+href+'">'));
+ check(mainPositions.every((position,i)=>position>=0&&(i===0||position>mainPositions[i-1])),"core menu HTML order incorrect "+p);
+ check(navHtml.includes('class="nav-drop nav-topics"')&&!navHtml.includes('nav-utility'),"topic-only dropdown missing "+p);
+ check((navHtml.match(/class="mega-column"/g)||[]).length===12,"12 topic silos must remain in static menu "+p);
+
  check(html.includes('data-lang-switch')&&html.includes('data-lang-text'),"translation switch missing "+p);
  check(html.includes("onclick=\"if(location.hostname.endsWith('.translate.goog'))"),"Korean return handler missing "+p);
  const translatedURL="https://ko-rentbikehanoi-com.translate.goog"+encodeURI(p)+"?_x_tr_sl=ko&amp;_x_tr_tl=en&amp;_x_tr_hl=en";
