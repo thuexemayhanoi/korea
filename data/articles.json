@@ -2254,5 +2254,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-189",
+    "parentId": "nearby",
+    "childId": "nearby-3",
+    "path": "/하노이-근교-라이딩/땀다오/땀다오-주의사항/",
+    "contentFile": "content/articles/KOR-189.html",
+    "title": "땀다오 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "땀다오 산길에서 가장 위험한 것은 안개와 커브, 그리고 어두워진 하산길입니다. 주행, 시간 계획, 장비, 사고 대처까지 흔한 실수와 예방책을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
