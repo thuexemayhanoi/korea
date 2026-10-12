@@ -2362,5 +2362,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-198",
+    "parentId": "nearby",
+    "childId": "nearby-5",
+    "path": "/하노이-근교-라이딩/근교-여행-준비/하노이-근교-출발-실전-체크리스트-198/",
+    "contentFile": "content/articles/KOR-198.html",
+    "title": "하노이 근교 출발 전후 체크리스트 35가지: 예약·점검·귀가",
+    "description": "하노이 근교 나들이를 준비하는 한국인 여행자를 위한 35가지 점검 항목입니다. 출발 일주일 전 일정부터 렌트·교통수단 예약, 날씨와 도로 확인, 현장 안전, 차량 반납과 귀가까지 순서대로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
