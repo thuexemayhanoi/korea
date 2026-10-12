@@ -2506,5 +2506,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-210",
+    "parentId": "north",
+    "childId": "north-2",
+    "path": "/베트남-북부-여행/사파/사파-여행-faq-교통-숙소-트레킹-날씨-35문답/",
+    "contentFile": "content/articles/KOR-210.html",
+    "title": "사파 여행 FAQ 35문답: 교통·숙소·트레킹·날씨 상황별 답변",
+    "description": "사파 여행을 준비하는 한국인 여행자를 위한 35가지 질문과 답변입니다. 하노이 이동과 환승, 숙소 위치, 트레킹, 판시판, 계절별 풍경, 운전 자격과 보험 확인, 악천후 대응까지 상황별로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
