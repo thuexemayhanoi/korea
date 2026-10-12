@@ -2650,5 +2650,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-222",
+    "parentId": "north",
+    "childId": "north-5",
+    "path": "/베트남-북부-여행/마이쩌우/마이쩌우-락-뽐꽁-숙박-자전거-비교-222/",
+    "contentFile": "content/articles/KOR-222.html",
+    "title": "마이쩌우 여행 비교: 락·뽐꽁 숙박과 자전거·도보 선택",
+    "description": "마이쩌우의 락 마을과 뽐꽁 마을 숙박을 비교하고 자전거와 도보, 논길과 공예 체험, 당일치기와 숙박 일정, 하노이 교통의 장단점을 한국인 여행자 관점에서 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
