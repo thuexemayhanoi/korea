@@ -2218,5 +2218,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-186",
+    "parentId": "nearby",
+    "childId": "nearby-3",
+    "path": "/하노이-근교-라이딩/땀다오/땀다오-처음-알아보기/",
+    "contentFile": "content/articles/KOR-186.html",
+    "title": "땀다오 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이에서 오토바이로 80km, 구름이 내려앉는 산악 휴양지 땀다오. 계절별 날씨, 이동 동선, 준비 순서, 첫 방문자 동선까지 처음 계획하는 여행자를 위한 기본 안내.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
