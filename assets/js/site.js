@@ -13,3 +13,28 @@
 
 /* Sitewide, dependency-free Korean quick contact and HTML search assistant. */
 if(!window.__koreanLocalAssistant){window.__koreanLocalAssistant=true;const s=document.createElement("script");s.src="/assets/js/assistant.js";s.defer=true;document.body.appendChild(s)}
+
+/* Footer site links mirror the seven top-level menu labels and URLs automatically. */
+;(()=>{
+ const footer=document.querySelector(".site-footer .footer-bottom");
+ const oldLinks=footer?.querySelector("span:last-child");
+ const menuLinks=[...document.querySelectorAll("#main-nav > a[href]")];
+ if(!footer||!oldLinks||!menuLinks.length)return;
+ const section=document.createElement("nav");
+ section.className="footer-page-nav";
+ section.setAttribute("aria-label","사이트 안내");
+ const title=document.createElement("h2");
+ title.textContent="사이트 안내";
+ section.appendChild(title);
+ const links=document.createElement("div");
+ links.className="footer-page-links";
+ for(const headerLink of menuLinks){
+  const link=document.createElement("a");
+  link.href=headerLink.getAttribute("href");
+  link.textContent=headerLink.textContent.trim();
+  links.appendChild(link);
+ }
+ section.appendChild(links);
+ oldLinks.replaceWith(section);
+ footer.classList.add("footer-bottom-enhanced");
+})();
