@@ -2098,5 +2098,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-176",
+    "parentId": "nearby",
+    "childId": "nearby-1",
+    "path": "/하노이-근교-라이딩/바비/바비-처음-알아보기/",
+    "contentFile": "content/articles/KOR-176.html",
+    "title": "바비 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 근교 바비를 처음 계획하는 한국인 여행자를 위한 입문 안내입니다. 바비산과 국립공원 지역의 성격, 어울리는 여행자 유형, 이동 수단 선택, 출발 전 준비물과 초보자의 첫 방문 흐름까지 준비 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
