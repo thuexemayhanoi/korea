@@ -2794,5 +2794,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-234",
+    "parentId": "safety",
+    "childId": "safety-2",
+    "path": "/면허-교통안전/헬멧-보호장비/헬멧-보호장비-주의사항/",
+    "contentFile": "content/articles/KOR-234.html",
+    "title": "헬멧·보호장비 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 오토바이 여행에서 헬멧과 보호장비에 대해 흔히 빠지는 여섯 가지 오해와 실제 위험, 확인 방법과 안전한 대안을 실수 예방 중심으로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]

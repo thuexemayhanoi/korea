@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 233,
-  "remaining": 67,
+  "published": 234,
+  "remaining": 66,
   "queue": [
-    {
-      "id": "KOR-234",
-      "status": "WRITING",
-      "parent_id": "safety",
-      "child_id": "safety-2",
-      "parent_label": "면허·교통안전",
-      "child_label": "헬멧·보호장비",
-      "category_url": "/면허-교통안전/헬멧-보호장비/",
-      "draft_file": "_factory/inbox/KOR-234.json",
-      "working_title": "헬멧·보호장비 주의사항과 실수 예방: 안전 중심 안내",
-      "primary_keyword": "헬멧·보호장비",
-      "search_intent": "informational",
-      "content_brief": "분야: 면허·교통안전. 하위 주제: 헬멧·보호장비. 헬멧 선택 및 기본 보호장비에 관해 알아봅니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/면허-교통안전/",
-        "/면허-교통안전/헬멧-보호장비/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-235",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "교통표지",
       "search_intent": "informational",
       "content_brief": "분야: 면허·교통안전. 하위 주제: 교통표지. 도로 표지와 교통 흐름을 이해할 때 참고하세요. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/면허-교통안전/",
+        "/면허-교통안전/베트남-교통표지/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-239",
+      "status": "WRITING",
+      "parent_id": "safety",
+      "child_id": "safety-3",
+      "parent_label": "면허·교통안전",
+      "child_label": "교통표지",
+      "category_url": "/면허-교통안전/베트남-교통표지/",
+      "draft_file": "_factory/inbox/KOR-239.json",
+      "working_title": "교통표지 주의사항과 실수 예방: 안전 중심 안내",
+      "primary_keyword": "교통표지",
+      "search_intent": "informational",
+      "content_brief": "분야: 면허·교통안전. 하위 주제: 교통표지. 도로 표지와 교통 흐름을 이해할 때 참고하세요. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/면허-교통안전/",
