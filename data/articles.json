@@ -2722,5 +2722,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-228",
+    "parentId": "safety",
+    "childId": "safety-1",
+    "path": "/면허-교통안전/외국인-운전면허/외국인-운전면허-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-228.html",
+    "title": "외국인 운전면허 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 오토바이를 빌리기 전 운전 자격을 점검하는 실전 체크리스트입니다. 국제운전면허 발급과 유효기간, 한·베 상호인정 약정 확인, 렌탈 계약 시 서류, 주행 중 지참 원칙과 사고 대처까지 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
