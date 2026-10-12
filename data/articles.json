@@ -2518,5 +2518,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-211",
+    "parentId": "north",
+    "childId": "north-3",
+    "path": "/베트남-북부-여행/까오방/까오방-여행-처음-준비-반족-폭포-동굴-교통/",
+    "contentFile": "content/articles/KOR-211.html",
+    "title": "까오방 여행 처음 준비하기: 반족 폭포·동굴·교통·숙소 안내",
+    "description": "까오방을 처음 방문하는 한국인 여행자를 위해 반족 폭포와 응우엄응아오 동굴, 하노이 출발 교통편, 숙소 위치와 일정 계획, 현지 문화 예절과 기상 점검 순서를 소개합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
