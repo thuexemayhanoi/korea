@@ -2542,5 +2542,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-213",
+    "parentId": "north",
+    "childId": "north-3",
+    "path": "/베트남-북부-여행/까오방/까오방-반족-폭포-동굴-실전-여행-체크리스트-213/",
+    "contentFile": "content/articles/KOR-213.html",
+    "title": "까오방 여행 실전 체크리스트: 반족 폭포·응으엄응아오·귀가",
+    "description": "베트남 까오방을 여행하기 전 확인할 단계별 준비 사항을 정리했습니다. 반족 폭포와 응으엄응아오 동굴, 숙박, 산악 교통, 날씨, 차량 인수와 귀가까지 한국인 여행자를 위한 실전 점검 가이드입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
