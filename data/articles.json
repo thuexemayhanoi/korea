@@ -2194,5 +2194,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-184",
+    "parentId": "nearby",
+    "childId": "nearby-2",
+    "path": "/하노이-근교-라이딩/닌빈/닌빈-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-184.html",
+    "title": "닌빈 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "오토바이로 닌빈을 여행할 때 꼭 알아야 할 주의사항과 흔한 실수를 정리했습니다. 국도 주행 위험, 장거리 피로, 날씨 대응, 면허와 보험, 체류 중 안전, 공식 정보 확인 방법까지 안전 중심으로 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
