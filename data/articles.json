@@ -2314,5 +2314,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-194",
+    "parentId": "nearby",
+    "childId": "nearby-4",
+    "path": "/하노이-근교-라이딩/박닌/박닌-여행-실수-7가지-안전-대안-194/",
+    "contentFile": "content/articles/KOR-194.html",
+    "title": "박닌 여행 실수 7가지와 안전 대안: 도로·렌트·문화 관람",
+    "description": "박닌에 처음 가는 한국인 여행자를 위해 지도와 행사 일정 오해, 면허 확인, 오토바이 점검, 날씨, 계약·보증금, 사찰 예절 등 흔한 실수를 예방하는 실질적인 확인 방법을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
