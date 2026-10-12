@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 173,
-  "remaining": 127,
+  "published": 174,
+  "remaining": 126,
   "queue": [
-    {
-      "id": "KOR-174",
-      "status": "WRITING",
-      "parent_id": "hanoi",
-      "child_id": "hanoi-5",
-      "parent_label": "하노이 지역별 가이드",
-      "child_label": "공항 이동",
-      "category_url": "/하노이-지역별-가이드/하노이-공항-이동/",
-      "draft_file": "_factory/inbox/KOR-174.json",
-      "working_title": "공항 이동 주의사항과 실수 예방: 안전 중심 안내",
-      "primary_keyword": "공항 이동",
-      "search_intent": "informational",
-      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 공항 이동. 공항 도착 후 시내 이동 선택을 비교합니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/하노이-지역별-가이드/",
-        "/하노이-지역별-가이드/하노이-공항-이동/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-175",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "바비",
       "search_intent": "informational",
       "content_brief": "분야: 하노이 근교 라이딩. 하위 주제: 바비. 바비 지역 여행 계획을 세울 때 참고할 점입니다. 이번 글의 관점: 단계별 실무 체크리스트, 사전에 확인할 질문, 이용 전후 점검. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/하노이-근교-라이딩/",
+        "/하노이-근교-라이딩/바비/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-179",
+      "status": "WRITING",
+      "parent_id": "nearby",
+      "child_id": "nearby-1",
+      "parent_label": "하노이 근교 라이딩",
+      "child_label": "바비",
+      "category_url": "/하노이-근교-라이딩/바비/",
+      "draft_file": "_factory/inbox/KOR-179.json",
+      "working_title": "바비 주의사항과 실수 예방: 안전 중심 안내",
+      "primary_keyword": "바비",
+      "search_intent": "informational",
+      "content_brief": "분야: 하노이 근교 라이딩. 하위 주제: 바비. 바비 지역 여행 계획을 세울 때 참고할 점입니다. 이번 글의 관점: 피해야 할 오해, 실제 위험, 공식 정보를 확인하는 방법과 안전한 대안. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/하노이-근교-라이딩/",

@@ -2074,5 +2074,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-174",
+    "parentId": "hanoi",
+    "childId": "hanoi-5",
+    "path": "/하노이-지역별-가이드/하노이-공항-이동/공항-이동-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-174.html",
+    "title": "공항 이동 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "하노이 노이바이공항에서 시내까지 이동할 때 주의할 실수와 위험을 정리했습니다. 흔한 오해, 호객과 요금 분쟁 예방, 짐 관리, 심야 이동, 계절별 위험, 오토바이 이용자 점검 항목과 문제 발생 시 대응 순서를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
