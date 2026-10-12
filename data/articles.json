@@ -2458,5 +2458,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-206",
+    "parentId": "north",
+    "childId": "north-2",
+    "path": "/베트남-북부-여행/사파/사파-여행-처음-준비-교통-계절-숙소-트레킹/",
+    "contentFile": "content/articles/KOR-206.html",
+    "title": "사파 여행 처음 준비하기: 교통·계절·숙소·트레킹 가이드",
+    "description": "베트남 사파를 처음 방문하는 한국인 여행자를 위해 하노이 출발 교통, 라오까이 환승, 계절과 안개, 숙소 선택, 계단식 논 트레킹과 판시판 방문 준비를 순서대로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
