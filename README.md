@@ -4,7 +4,13 @@
 **Repository:** https://github.com/thuexemayhanoi/korea  
 **Branch:** main · **Hosting:** GitHub Pages (native branch deployment)
 
-## Scope
+## CURRENT PRODUCTION STATUS — 13 October 2026
+
+> **Live:** 300/300 Korean articles, 12 parent and 60 child categories, 7 primary pages, 32 FAQ answers and **379 sitemap URLs**. The external writer factory has reached **KOR-300** and is paused; do not restart it as part of SEO auditing. The independent read-only [Korea SEO Monitor](https://github.com/thuexemayhanoi/korea/actions/workflows/korea-seo-monitor.yml) checks all 379 HTML pages. See [SEO Foundation Matrix](docs/SEO-FOUNDATION-MATRIX.md) and [Korea Intent Review](docs/SEO-INTENT-REVIEW.md).
+
+> **Historical notice:** Sections below describing “0 articles”, planned-only scaffolding or absence of GitHub Actions describe the original project setup, **not production**. Indexed counts must be read from Search Console/Bing, never inferred from sitemap inclusion.
+
+## Scope (historical scaffold; current state above)
 
 A standalone Korean-language static blog skeleton with a bold **black / white / vivid red** identity, responsive mega navigation and footer, accessible light/dark toggle, Korean Unicode URLs, SEO metadata and structured data.
 

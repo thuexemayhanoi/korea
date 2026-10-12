@@ -48,6 +48,8 @@ requireCheck(robots.includes("User-agent: *")&&robots.includes("Allow: /")&&robo
 const reportCounts={checkedPages:0,selfCanonicals:0,indexFollow:0,koreanLang:0,jsonLdParsed:0,blogPostSchema:0,faqSchemaQuestions:0};
 const titleIndex=new Map();
 const faqRoute="/자주-묻는-질문/";
+const decodeVisible=s=>String(s||"").replace(/&(?:amp|lt|gt|quot|#39);/g,e=>({"&amp;":"&","&lt;":"<","&gt":">","&quot;":'"',"&#39;":"'"}[e]||e));
+const byId=new Map(briefs.map(b=>[b.id,b]));
 for(const route of expected){
  const path=route==="/"?"index.html":route.slice(1)+"index.html";
  let html;
@@ -63,6 +65,8 @@ for(const route of expected){
  if(/^<!doctype html><html lang="ko">/i.test(html))reportCounts.koreanLang++;
  requireCheck((html.match(/<h1\b/g)||[]).length===1,"Expected one H1: "+route);
  requireCheck(html.includes('name="description"')&&html.includes('name="viewport"')&&html.includes('property="og:title"'),"Missing head SEO/meta: "+route);
+ const metaDescription=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||"";
+ requireCheck(/[가-힣]/.test(metaDescription),"Korean SEO description missing: "+route);
  const title=html.match(/<title>([^<]+)<\/title>/)?.[1]||"";
  const key=normalize(title);
  if(!key)errors.push("No title: "+route);
@@ -85,11 +89,20 @@ for(const route of expected){
   if(types.includes("BlogPosting"))reportCounts.blogPostSchema++;
  }
  if(route===faqRoute){
-  const found=html.match(/"@type":"FAQPage","mainEntity":(\[[\s\S]*?\])\}/);
-  requireCheck(types.includes("FAQPage")&&html.includes('id="faq-32"'),"FAQPage or 32 anchors missing");
-  const visible=(html.match(/class="faq-item" id="faq-/g)||[]).length;
-  requireCheck(visible===faqs.length,"FAQ visible items mismatch");
-  reportCounts.faqSchemaQuestions=visible;
+  let schema=null;
+  for(const block of blocks){
+   try{const obj=JSON.parse(block[1]);if(obj["@type"]==="FAQPage")schema=obj}
+   catch{/* recorded by the standard JSON-LD validation above */}
+  }
+  const visible=[...html.matchAll(/<details class="faq-item" id="faq-(\d{2})"><summary>([\s\S]*?)<\/summary><p>([\s\S]*?)<\/p><\/details>/g)];
+  requireCheck(types.includes("FAQPage")&&visible.length===faqs.length&&schema?.mainEntity?.length===faqs.length,"FAQ count or structured data missing");
+  for(let i=0;i<faqs.length;i++){
+   const source=faqs[i],item=schema?.mainEntity?.[i],display=visible[i];
+   requireCheck(Boolean(display)&&display[1]===String(i+1).padStart(2,"0"),"FAQ anchor missing: "+(i+1));
+   requireCheck(item?.["@type"]==="Question"&&item?.name===source.q&&item?.acceptedAnswer?.text===source.a,"FAQ JSON-LD differs from source: "+(i+1));
+   requireCheck(Boolean(display)&&decodeVisible(display[2]).replace(/^\d+\.\s*/,"")===source.q&&decodeVisible(display[3])===source.a,"FAQ visible text differs from schema/source: "+(i+1));
+  }
+  reportCounts.faqSchemaQuestions=visible.length;
  }
 }
 requireCheck(reportCounts.checkedPages===expected.length,"Not all routes checked");
@@ -117,7 +130,7 @@ for(const group of keywordClusters.values()){
   const pa=publishedById.get(group[i]),pb=publishedById.get(group[j]);
   if(!pa||!pb||pa.childId!==pb.childId)continue;
   const score=similarity(pa.title,pb.title);
-  if(score>=0.6)nearPairs.push({ids:[pa.id,pb.id],titles:[pa.title,pb.title],score:Number(score.toFixed(3))});
+  if(score>=0.6)nearPairs.push({ids:[pa.id,pb.id],titles:[pa.title,pb.title],paths:[pa.path,pb.path],briefIntents:[byId.get(pa.id)?.search_intent||null,byId.get(pb.id)?.search_intent||null],score:Number(score.toFixed(3))});
  }
 }
 nearPairs.sort((a,b)=>b.score-a.score);

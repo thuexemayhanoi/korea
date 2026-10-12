@@ -26,3 +26,12 @@ The new workflow \`.github/workflows/korea-seo-monitor.yml\` is independent of \
 - Read-only monitor has \`contents: read\`; all generated audit output stays under \`/tmp\` and GitHub artifact storage.
 - Do not enable the 300-article factory again, touch /china, change DNS/CNAME or replace any production URLs as part of an audit.
 - On actual findings: source QA → generated page QA → report → human review → separately authorized modifications.
+
+
+## 2026-10-13 — Content intent and schema verification
+
+The successful monitor on commit `faba7cb` verified **379/379 pages**, **300 BlogPosting schemas** and **32 FAQ** with zero SEO QA errors. Three high title-similarity pairs concern `KOR-211`, `KOR-212` and `KOR-215` (Cao Bang travel). Manual content review confirms introductory, comparison and Q&A emphases; see [SEO-INTENT-REVIEW.md](SEO-INTENT-REVIEW.md). No URL changed and no article was merged.
+
+Monitoring now checks that **all visible FAQ answers exactly match the FAQPage JSON-LD and the source JSON**, flags pages without Korean-language SEO descriptions and provides paths + planned search intents for title-similarity candidates.
+
+**Measurement blocker:** The connected GSC integrations do not expose `https://ko.rentbikehanoi.com/`; ownership shown by the user is not the same as successful sitemap fetch/indexing. Investigate the `sitemap.xml` “Couldn't fetch” status in that actual property. Maintain mobile lab baseline as dated (LCP 1.2s, CLS 0, TBT 0ms), not field metrics. Neither this audit nor the workflow changes 379 URLs, DNS, CNAME, content generator or the paused writer.
