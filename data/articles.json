@@ -2434,5 +2434,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-204",
+    "parentId": "north",
+    "childId": "north-1",
+    "path": "/베트남-북부-여행/하장/하장-루프-여행-주의사항-산길-날씨-안전/",
+    "contentFile": "content/articles/KOR-204.html",
+    "title": "하장 루프 여행 주의사항: 산길·날씨·운전 자격과 안전 판단",
+    "description": "베트남 하장 루프를 계획하는 한국인 여행자를 위해 산길 급커브, 비와 안개, 운전 자격, 차량 점검, 보험과 비상 연락까지 위험을 줄이는 실제 판단 기준을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
