@@ -2278,5 +2278,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-191",
+    "parentId": "nearby",
+    "childId": "nearby-4",
+    "path": "/하노이-근교-라이딩/박닌/하노이-박닌-첫-여행-문화-명소-준비-191/",
+    "contentFile": "content/articles/KOR-191.html",
+    "title": "하노이 근교 박닌 여행 처음 준비하기: 문화 명소와 이동 순서",
+    "description": "하노이에서 박닌을 처음 방문하는 한국인 여행자를 위한 준비 안내입니다. 관호 문화와 사찰 관광을 이해하고, 목적지 주소, 이동 수단, 일정, 렌트 계약과 안전 확인 순서를 차근차근 살펴보세요.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
