@@ -3202,5 +3202,65 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-268",
+    "parentId": "planning",
+    "childId": "planning-4",
+    "path": "/베트남-여행-준비/여행-짐-준비/짐-꾸리기-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-268.html",
+    "title": "짐 꾸리기 실전 체크리스트와 확인 순서",
+    "description": "베트남 오토바이 여행을 위한 짐 꾸리기 실전 체크리스트입니다. 여행 확정부터 귀국까지 단계별 확인 항목과 점검 순서를 시간 순서로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-269",
+    "parentId": "planning",
+    "childId": "planning-4",
+    "path": "/베트남-여행-준비/여행-짐-준비/짐-꾸리기-주의사항/",
+    "contentFile": "content/articles/KOR-269.html",
+    "title": "짐 꾸리기 주의사항과 실수 예방",
+    "description": "베트남 여행 짐 꾸리기에서 반복되는 오해와 실수의 패턴을 정리했습니다. 확인하지 않은 가정이 만드는 위험과 공식 정보로 확인하는 예방법을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-270",
+    "parentId": "planning",
+    "childId": "planning-4",
+    "path": "/베트남-여행-준비/여행-짐-준비/짐-꾸리기-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-270.html",
+    "title": "짐 꾸리기 자주 묻는 질문",
+    "description": "베트남 오토바이 여행의 짐 꾸리기에 대한 자주 묻는 질문에 상황별로 답합니다. 가방과 옷, 문서와 귀중품, 장비와 현지 생활의 판단 기준을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-271",
+    "parentId": "planning",
+    "childId": "planning-5",
+    "path": "/베트남-여행-준비/장거리-주행-점검/장거리-점검-처음-알아보기/",
+    "contentFile": "content/articles/KOR-271.html",
+    "title": "장거리 점검 처음 알아보기와 첫 단계",
+    "description": "베트남 오토바이 장거리 주행 전 점검의 기본 개념을 소개합니다. 누가 무엇을 확인해야 하는지, 초보자가 시작할 첫 목록과 첫 단계를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-272",
+    "parentId": "planning",
+    "childId": "planning-5",
+    "path": "/베트남-여행-준비/장거리-주행-점검/장거리-점검-선택-기준/",
+    "contentFile": "content/articles/KOR-272.html",
+    "title": "장거리 점검 선택 기준과 비교",
+    "description": "장거리 점검의 수준을 고르는 기준을 비교합니다. 이동 계획, 경험, 업체와의 나눗셈, 도구 휴대, 쉬는 주기, 날씨 변수까지 상황별로 판단 기준을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
