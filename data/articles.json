@@ -2482,5 +2482,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-208",
+    "parentId": "north",
+    "childId": "north-2",
+    "path": "/베트남-북부-여행/사파/사파-여행-실전-체크리스트-출발-귀환-준비/",
+    "contentFile": "content/articles/KOR-208.html",
+    "title": "사파 여행 실전 체크리스트: 출발 전부터 귀환까지 단계별 준비",
+    "description": "사파 여행을 준비하는 한국인 여행자를 위해 날짜와 숙소, 하노이 교통편, 트레킹 장비, 공식 기상 경보, 도착 당일과 귀환 절차를 단계별 체크리스트로 정리했습니다. 예약 전후 놓치기 쉬운 질문도 확인하세요.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
