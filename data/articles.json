@@ -2866,5 +2866,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-240",
+    "parentId": "safety",
+    "childId": "safety-3",
+    "path": "/면허-교통안전/베트남-교통표지/교통표지-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-240.html",
+    "title": "교통표지 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 오토바이 여행에서 베트남 교통표지에 대해 기본 개념, 출국 전 학습, 현장 대응, 상황별 판단의 순서로 여행자가 자주 묻는 질문에 답했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
