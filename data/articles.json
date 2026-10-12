@@ -2386,5 +2386,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-200",
+    "parentId": "nearby",
+    "childId": "nearby-5",
+    "path": "/하노이-근교-라이딩/근교-여행-준비/하노이-근교-출발-40문답-faq-200/",
+    "contentFile": "content/articles/KOR-200.html",
+    "title": "하노이 근교 출발 준비 FAQ 40문답: 렌트·날씨·귀가",
+    "description": "한국인 여행자가 하노이 근교 출발 전에 자주 묻는 40가지 질문을 정리했습니다. 교통수단 선택, 운전 자격, 날씨, 렌트 요금과 보증금, 가족 여행, 비상 상황과 귀가를 상황별로 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
