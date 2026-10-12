@@ -2290,5 +2290,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-192",
+    "parentId": "nearby",
+    "childId": "nearby-4",
+    "path": "/하노이-근교-라이딩/박닌/박닌-당일치기-숙박-교통수단-비교-192/",
+    "contentFile": "content/articles/KOR-192.html",
+    "title": "하노이 박닌 여행 선택 기준: 당일치기와 교통수단 비교",
+    "description": "박닌 여행을 계획하는 한국인을 위해 당일치기와 숙박, 문화 체험과 사찰 관광, 오토바이 렌트와 운전자 동반 이동을 비교합니다. 개인 일정과 안전, 실제 견적을 기준으로 선택하는 방법을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
