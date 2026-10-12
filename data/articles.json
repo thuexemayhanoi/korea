@@ -2842,5 +2842,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-238",
+    "parentId": "safety",
+    "childId": "safety-3",
+    "path": "/면허-교통안전/베트남-교통표지/교통표지-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-238.html",
+    "title": "교통표지 실전 체크리스트: 준비와 확인 순서",
+    "description": "출국 전 예습부터 대여 전 확인, 매 이동 전 점검, 주행 중 식별, 이동 후 복기까지 하노이 오토바이 여행의 교통표지를 단계별로 점검하는 체크리스트입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
