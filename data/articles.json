@@ -1966,5 +1966,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-165",
+    "parentId": "hanoi",
+    "childId": "hanoi-3",
+    "path": "/하노이-지역별-가이드/떠이호/떠이호-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-165.html",
+    "title": "떠이호 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 떠이호를 계획하는 한국인 여행자가 자주 묻는 서호, 쩐꾝옥 사원, 탄니엔 카페 거리, 이동 수단과 계절별 질문을 상황별로 모아 답했습니다. 오토바이 대여 조건은 매장마다 다르므로 문의 확인을 원칙으로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
