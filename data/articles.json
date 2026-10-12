@@ -2806,5 +2806,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-235",
+    "parentId": "safety",
+    "childId": "safety-2",
+    "path": "/면허-교통안전/헬멧-보호장비/헬멧-보호장비-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-235.html",
+    "title": "헬멧·보호장비 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "하노이 오토바이 여행의 헬멧과 보호장비에 대해 착용과 맞음새, 대여 장비, 개인 지참, 날씨와 동승자 상황, 관리와 반납까지 질문별로 답했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
