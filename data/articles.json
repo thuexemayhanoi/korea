@@ -1978,5 +1978,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-166",
+    "parentId": "hanoi",
+    "childId": "hanoi-4",
+    "path": "/하노이-지역별-가이드/바딘/바딘-처음-알아보기/",
+    "contentFile": "content/articles/KOR-166.html",
+    "title": "바딘 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 바딘을 처음 계획하는 한국인 여행자를 위한 입문 안내입니다. 호치민 묘와 주석궁, 한기둥 사원, 탕로 왕성 등 대표 지점, 이동 수단 선택, 계절별 특징과 첫 방문 하루 동선까지 준비 순서대로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
