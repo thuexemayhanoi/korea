@@ -2,31 +2,9 @@
   "schema_version": 1,
   "status": "READY",
   "target_articles": 300,
-  "published": 166,
-  "remaining": 134,
+  "published": 167,
+  "remaining": 133,
   "queue": [
-    {
-      "id": "KOR-167",
-      "status": "WRITING",
-      "parent_id": "hanoi",
-      "child_id": "hanoi-4",
-      "parent_label": "하노이 지역별 가이드",
-      "child_label": "바딘",
-      "category_url": "/하노이-지역별-가이드/바딘/",
-      "draft_file": "_factory/inbox/KOR-167.json",
-      "working_title": "바딘 선택 기준과 비교: 여행 일정별 확인사항",
-      "primary_keyword": "바딘",
-      "search_intent": "commercial",
-      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 바딘. 바딘 지역 방문과 교통 관련 참고 정보입니다. 이번 글의 관점: 주요 선택 기준, 다른 대안과의 장단점, 이용 기간 및 개인 상황에 따른 판단. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
-      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
-      "internal_link_targets": [
-        "/하노이-지역별-가이드/",
-        "/하노이-지역별-가이드/바딘/",
-        "/문의/"
-      ],
-      "target_min_korean_eojeol": 1500,
-      "instructions": "_factory/EXTERNAL-WRITER.md"
-    },
     {
       "id": "KOR-168",
       "status": "WRITING",
@@ -106,6 +84,28 @@
       "primary_keyword": "공항 이동",
       "search_intent": "informational",
       "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 공항 이동. 공항 도착 후 시내 이동 선택을 비교합니다. 이번 글의 관점: 기본 개념, 대상 독자, 현지에서 확인할 준비사항과 초보자의 첫 단계. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
+      "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
+      "internal_link_targets": [
+        "/하노이-지역별-가이드/",
+        "/하노이-지역별-가이드/하노이-공항-이동/",
+        "/문의/"
+      ],
+      "target_min_korean_eojeol": 1500,
+      "instructions": "_factory/EXTERNAL-WRITER.md"
+    },
+    {
+      "id": "KOR-172",
+      "status": "WRITING",
+      "parent_id": "hanoi",
+      "child_id": "hanoi-5",
+      "parent_label": "하노이 지역별 가이드",
+      "child_label": "공항 이동",
+      "category_url": "/하노이-지역별-가이드/하노이-공항-이동/",
+      "draft_file": "_factory/inbox/KOR-172.json",
+      "working_title": "공항 이동 선택 기준과 비교: 여행 일정별 확인사항",
+      "primary_keyword": "공항 이동",
+      "search_intent": "commercial",
+      "content_brief": "분야: 하노이 지역별 가이드. 하위 주제: 공항 이동. 공항 도착 후 시내 이동 선택을 비교합니다. 이번 글의 관점: 주요 선택 기준, 다른 대안과의 장단점, 이용 기간 및 개인 상황에 따른 판단. 실제 한국인 여행자가 궁금해하는 질문에 구체적이고 검증 가능한 설명으로 답하세요. 다른 4개의 같은 하위 카테고리 글과 겹치지 않는 고유한 내용을 작성하세요.",
       "source_policy": "안전·도로·면허·여행 정보는 최신 공식 자료와 현지 상황을 확인하고 sourceUrls에 실제 HTTPS 출처를 기록하세요.",
       "internal_link_targets": [
         "/하노이-지역별-가이드/",

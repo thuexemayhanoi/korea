@@ -1990,5 +1990,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-167",
+    "parentId": "hanoi",
+    "childId": "hanoi-4",
+    "path": "/하노이-지역별-가이드/바딘/바딘-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-167.html",
+    "title": "바딘 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 여행에서 바딘 일정을 넣을지 결정하는 기준을 정리했습니다. 관심사, 체류 기간, 이동 부담, 운영 시간의 기준과 구시가지, 떠이호 등 대안 지역과의 장단점, 동행 상황별 판단 예시까지 비교 중심으로 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
