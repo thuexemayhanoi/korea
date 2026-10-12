@@ -2242,5 +2242,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-188",
+    "parentId": "nearby",
+    "childId": "nearby-3",
+    "path": "/하노이-근교-라이딩/땀다오/땀다오-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-188.html",
+    "title": "땀다오 실전 체크리스트: 준비와 확인 순서",
+    "description": "땀다오 오토바이 여행, 무엇부터 확인해야 할까요? 출발 일주일 전부터 당일 아침, 주행 중, 체류 중, 하산과 반납까지 시간 순서 체크리스트로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
