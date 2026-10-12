@@ -75,3 +75,14 @@ body.kr-keyboard .kr-quick,body.kr-keyboard .kr-chat-fab{visibility:hidden;point
 }
 @media (max-width:1100px){.mega.mega-topics{position:static;width:100%;border:0;box-shadow:none;max-height:none;padding:13px 7px;grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:550px){.mega.mega-topics{grid-template-columns:1fr;padding:10px}}
+
+/* Readable site-information links in the footer, auto-mirrored from the header. */
+.footer-bottom.footer-bottom-enhanced{display:flex;flex-direction:column;align-items:stretch;gap:22px;opacity:1}
+.footer-bottom-enhanced>span:first-child{order:2;opacity:.65;font-size:.75rem}
+.footer-page-nav{order:1}
+.footer-page-nav h2{font-size:.86rem;margin:0 0 16px;padding-bottom:12px;border-bottom:2px solid var(--red)}
+.footer-page-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 20px}
+.footer-page-links a{display:block;color:inherit;opacity:.82;font-size:.81rem;line-height:1.65;text-decoration:none;padding:5px 0}
+.footer-page-links a:hover{opacity:1;color:var(--red)}
+@media(max-width:860px){.footer-page-links{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:550px){.footer-page-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px}.footer-page-nav h2{margin-bottom:12px}}
