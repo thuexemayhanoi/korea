@@ -2134,5 +2134,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-179",
+    "parentId": "nearby",
+    "childId": "nearby-1",
+    "path": "/하노이-근교-라이딩/바비/바비-주의사항-실수-예방/",
+    "contentFile": "content/articles/KOR-179.html",
+    "title": "바비 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "오토바이로 바비를 당일 여행할 때 꼭 알아야 할 주의사항과 흔한 실수를 정리했습니다. 도로와 날씨 위험, 면허와 보험, 장비 점검, 공식 정보 확인 방법과 안전한 대안까지 안전 중심으로 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
