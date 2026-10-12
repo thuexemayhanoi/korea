@@ -2662,5 +2662,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-223",
+    "parentId": "north",
+    "childId": "north-5",
+    "path": "/베트남-북부-여행/마이쩌우/마이쩌우-여행-40단계-실전-체크리스트-223/",
+    "contentFile": "content/articles/KOR-223.html",
+    "title": "마이쩌우 여행 실전 체크리스트 40단계: 숙박·논길·귀가",
+    "description": "마이쩌우를 처음 찾는 한국인 여행자를 위해 출발 일주일 전 예약부터 락·뽐꽁 마을 숙소, 논길과 자전거, 현지 문화, 날씨 대응, 차량 반납과 귀가까지 40가지 실제 확인 순서를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
