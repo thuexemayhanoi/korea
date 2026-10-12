@@ -3418,5 +3418,65 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-286",
+    "parentId": "korean",
+    "childId": "korean-3",
+    "path": "/한국인-여행자-가이드/한국인-여행자-질문/여행자-질문-처음-알아보기/",
+    "contentFile": "content/articles/KOR-286.html",
+    "title": "여행자 질문 처음 알아보기",
+    "description": "한국인 여행자가 오토바이 렌탈 전 가장 자주 묻는 질문의 종류와 창구를 소개합니다. 서류, 요금, 차량, 일정, 현지 생활의 질문이 왜 다른지 이해하고 준비의 첫 단계를 정리하는 입문 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-287",
+    "parentId": "korean",
+    "childId": "korean-3",
+    "path": "/한국인-여행자-가이드/한국인-여행자-질문/여행자-질문-선택-기준/",
+    "contentFile": "content/articles/KOR-287.html",
+    "title": "여행자 질문 선택 기준과 비교",
+    "description": "같은 질문도 물어야 할 곳이 다릅니다. 업체 문의, 공식 정보, 후기의 장단점을 비교하고 여행 기간과 개인 상황에 따라 질문의 우선순위를 정하는 선택 기준 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-288",
+    "parentId": "korean",
+    "childId": "korean-3",
+    "path": "/한국인-여행자-가이드/한국인-여행자-질문/여행자-질문-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-288.html",
+    "title": "여행자 질문 실전 체크리스트와 확인 순서",
+    "description": "출국 전, 문의 때, 접수 때, 반납 때의 4단계로 질문을 정리한 실전 체크리스트입니다. 시점별로 확인할 질문과 기록 방법을 순서대로 점검하는 실무 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-289",
+    "parentId": "korean",
+    "childId": "korean-3",
+    "path": "/한국인-여행자-가이드/한국인-여행자-질문/여행자-질문-주의사항/",
+    "contentFile": "content/articles/KOR-289.html",
+    "title": "여행자 질문 주의사항과 실수 예방",
+    "description": "잘못된 답이 여행을 흔듭니다. 소문과 확정되지 않은 후기를 그대로 믿는 오해, 확인 없이 계획을 세우는 위험과 그 예방법을 안전 중심으로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-290",
+    "parentId": "korean",
+    "childId": "korean-3",
+    "path": "/한국인-여행자-가이드/한국인-여행자-질문/여행자-질문-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-290.html",
+    "title": "여행자 질문 자주 묻는 질문",
+    "description": "서류와 면허, 요금과 조건, 차량과 장비, 일정과 계획, 안전과 건강, 반납과 이후까지 한국인 여행자가 자주 묻는 질문을 문답 형식으로 정리한 FAQ 안내입니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
