@@ -2182,5 +2182,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-183",
+    "parentId": "nearby",
+    "childId": "nearby-2",
+    "path": "/하노이-근교-라이딩/닌빈/닌빈-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-183.html",
+    "title": "닌빈 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이에서 오토바이로 닌빈을 여행할 때 계획부터 귀환까지 순서대로 확인할 실전 체크리스트입니다. 예약 확인, 전날 점검, 국도 이동, 체류 일정 운영, 문제 대응 순서까지 단계별로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
