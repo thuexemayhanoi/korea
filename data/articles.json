@@ -1918,5 +1918,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-161",
+    "parentId": "hanoi",
+    "childId": "hanoi-3",
+    "path": "/하노이-지역별-가이드/떠이호/떠이호-처음-알아보기/",
+    "contentFile": "content/articles/KOR-161.html",
+    "title": "떠이호 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 떠이호를 처음 계획하는 한국인 여행자를 위한 기본 가이드입니다. 서호와 쩐꾝옥 사원, 탄니엔 도로, 롯데몰 등 대표 지점과 계절별 특징, 이동 수단 선택, 초보자의 첫 방문 흐름까지 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
