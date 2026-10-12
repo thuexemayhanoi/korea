@@ -2962,5 +2962,65 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-248",
+    "parentId": "safety",
+    "childId": "safety-5",
+    "path": "/면허-교통안전/보험-확인/보험-확인-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-248.html",
+    "title": "보험 확인 실전 체크리스트: 준비와 확인 순서",
+    "description": "보험 확인을 예약 전, 계약 당일, 여행 중, 사고 시, 반납의 다섯 단계 체크리스트로 정리했습니다. 각 시점에 확인할 항목과 순서를 단계별로 안내해 한국인 여행자가 놓치는 것 없이 준비할 수 있게 돕습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-249",
+    "parentId": "safety",
+    "childId": "safety-5",
+    "path": "/면허-교통안전/보험-확인/보험-확인-주의사항/",
+    "contentFile": "content/articles/KOR-249.html",
+    "title": "보험 확인 주의사항과 실수 예방: 안전 중심 안내",
+    "description": "보험 확인에서 흔히 빠지는 오해와 위험한 실수를 정리했습니다. 문서 읽기, 적용 요건, 여행자 보험 착각, 사고와 정산 단계의 실수, 공식 정보 확인 방법까지 안전 중심으로 설명합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-250",
+    "parentId": "safety",
+    "childId": "safety-5",
+    "path": "/면허-교통안전/보험-확인/보험-확인-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-250.html",
+    "title": "보험 확인 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "오토바이 렌탈 보험에 관한 한국인 여행자의 자주 묻는 질문에 상황별로 답합니다. 보장 범위, 면책액과 한도, 요건과 제외 조항, 사고 접수, 반납 정산의 판단 기준과 다음 행동을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-251",
+    "parentId": "planning",
+    "childId": "planning-1",
+    "path": "/베트남-여행-준비/날씨-우기/날씨-우기-처음-알아보기/",
+    "contentFile": "content/articles/KOR-251.html",
+    "title": "날씨·우기 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "베트남 북부 여행의 날씨와 우기를 처음부터 설명합니다. 우기와 건기의 특징, 여행에 미치는 영향, 예보 확인 방법, 초보자가 장비와 일정을 준비하는 첫 단계를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-252",
+    "parentId": "planning",
+    "childId": "planning-1",
+    "path": "/베트남-여행-준비/날씨-우기/날씨-우기-선택-기준/",
+    "contentFile": "content/articles/KOR-252.html",
+    "title": "날씨·우기 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "여행 시기를 비교하고 선택하는 기준을 정리했습니다. 우기와 건기의 장단점, 여행 방식별 최적 시기, 비용과 예약 전략, 우기 대비 기준과 업체에게 물어야 할 질문을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
