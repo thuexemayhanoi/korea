@@ -2266,5 +2266,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-190",
+    "parentId": "nearby",
+    "childId": "nearby-3",
+    "path": "/하노이-근교-라이딩/땀다오/땀다오-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-190.html",
+    "title": "땀다오 자주 묻는 질문: 여행자 상황별 설명",
+    "description": "땀다오는 하노이보다 추울까요, 구름바다는 언제 보이나요? 당일치기와 1박 선택, 오토바이 초보, 숙소, 주차, 대처까지 여행자 상황별 질문에 답합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
