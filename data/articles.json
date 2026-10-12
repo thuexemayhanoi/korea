@@ -2302,5 +2302,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-193",
+    "parentId": "nearby",
+    "childId": "nearby-4",
+    "path": "/하노이-근교-라이딩/박닌/박닌-여행-실전-체크리스트-귀가-193/",
+    "contentFile": "content/articles/KOR-193.html",
+    "title": "박닌 여행 실전 체크리스트: 출발 전부터 귀가까지",
+    "description": "하노이에서 박닌으로 문화 여행을 떠나는 한국인을 위해 출발 전 준비와 최신 행사 확인, 교통수단, 유적지 예절, 차량 인수 점검과 하노이 귀가까지 단계별 체크리스트를 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
