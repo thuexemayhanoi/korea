@@ -2062,5 +2062,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-173",
+    "parentId": "hanoi",
+    "childId": "hanoi-5",
+    "path": "/하노이-지역별-가이드/하노이-공항-이동/공항-이동-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-173.html",
+    "title": "공항 이동 실전 체크리스트: 준비와 확인 순서",
+    "description": "하노이 노이바이공항 도착부터 시내 숙소까지 단계별 실전 체크리스트를 정리했습니다. 출발 전 확인 항목, 입국 심사, 수하물 점검, 이동 수단 결정 순서, 승차 전 점검, 귀국 날 계획과 문제 대응 순서를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
