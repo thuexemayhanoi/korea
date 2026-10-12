@@ -2710,5 +2710,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-227",
+    "parentId": "safety",
+    "childId": "safety-1",
+    "path": "/면허-교통안전/외국인-운전면허/2026-베트남-외국인-운전면허-idp-교환-비교-227/",
+    "contentFile": "content/articles/KOR-227.html",
+    "title": "베트남 외국인 운전면허 선택 비교: IDP·면허 교환·대중교통",
+    "description": "베트남 외국인 운전면허를 준비할 때 국제운전면허증, 현지 면허 교환, 직접 운전과 대체 교통수단을 비교합니다. 2026년 법령 변경, 체류 유형, 차량 종류와 계약 조건을 확인하는 기준을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
