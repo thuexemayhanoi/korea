@@ -2530,5 +2530,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-212",
+    "parentId": "north",
+    "childId": "north-3",
+    "path": "/베트남-북부-여행/까오방/까오방-여행-선택-기준-폭포-동굴-숙소-교통/",
+    "contentFile": "content/articles/KOR-212.html",
+    "title": "까오방 여행 선택 기준: 반족 폭포·동굴·숙소·교통 비교",
+    "description": "까오방 여행에서 반족 폭포와 응우엄응아오 동굴, 중심지와 외곽 숙소, 버스와 운전자가 있는 차량을 비교하는 기준을 정리했습니다. 여행 기간과 동행자 유형별 판단 질문도 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
