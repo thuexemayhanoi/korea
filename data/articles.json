@@ -2614,5 +2614,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-219",
+    "parentId": "north",
+    "childId": "north-4",
+    "path": "/베트남-북부-여행/목쩌우/목쩌우-차밭-폭포-산악교통-실수-예방-219/",
+    "contentFile": "content/articles/KOR-219.html",
+    "title": "목쩌우 여행 실수 예방: 차밭·폭포·산악 교통 안전 가이드",
+    "description": "목쩌우 여행에서 피해야 할 실제 실수를 정리했습니다. 차밭과 자이옘 폭포의 관람 범위, 고원 날씨, 산악 교통, 렌트 계약, 숙소 예약, 마을 예절과 가족 여행 및 귀가 안전을 살펴봅니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
   }
 ]
