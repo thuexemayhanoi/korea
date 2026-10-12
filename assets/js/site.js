@@ -13,3 +13,43 @@
 
 /* Sitewide, dependency-free Korean quick contact and HTML search assistant. */
 if(!window.__koreanLocalAssistant){window.__koreanLocalAssistant=true;const s=document.createElement("script");s.src="/assets/js/assistant.js";s.defer=true;document.body.appendChild(s)}
+
+
+/* Single source for core-navigation order, applied across all generated pages.
+   Keep core links individually crawlable; retain existing topic silos in one mega menu. */
+;(()=>{
+ const nav=document.querySelector("#main-nav");if(!nav||nav.dataset.coreOrdered==="true")return;
+ const order=[
+  ["/","홈"],["/소개/","소개"],["/블로그/","전체 가이드"],
+  ["/자주-묻는-질문/","자주 묻는 질문"],["/문의/","문의"],
+  ["/개인정보-처리방침/","개인정보 처리방침"],["/이용약관/","이용약관"]
+ ];
+ const oldLinks=new Map([...nav.querySelectorAll(":scope > a")].map(a=>[a.getAttribute("href"),a]));
+ const silos=[...nav.querySelectorAll(":scope > details.nav-drop:not(.nav-utility)")];
+ const links=order.map(([href,label])=>{
+  const a=oldLinks.get(href)||document.createElement("a");
+  a.href=href;a.textContent=label;
+  if(decodeURI(location.pathname)===href)a.setAttribute("aria-current","page");
+  else a.removeAttribute("aria-current");
+  return a;
+ });
+ const topics=document.createElement("details");topics.className="nav-drop nav-topics";
+ const heading=document.createElement("summary");heading.textContent="주제별 안내";topics.appendChild(heading);
+ const panel=document.createElement("div");panel.className="mega mega-topics";
+ for(const section of silos){
+  for(const col of section.querySelectorAll(".mega-column"))panel.appendChild(col);
+ }
+ topics.appendChild(panel);
+ nav.replaceChildren(...links,topics);
+ nav.dataset.coreOrdered="true";
+ topics.addEventListener("toggle",()=>{if(topics.open)document.querySelectorAll(".nav-drop").forEach(other=>{if(other!==topics)other.open=false})});
+ const bottom=document.querySelector(".footer-bottom span:last-child");
+ if(bottom){
+  const existing=new Map([...bottom.querySelectorAll("a")].map(a=>[a.getAttribute("href"),a]));
+  const pieces=[];
+  for(const [href,label] of order){
+   const a=existing.get(href)||document.createElement("a");a.href=href;a.textContent=label;pieces.push(a);
+  }
+  bottom.replaceChildren(...pieces.flatMap((a,i)=>i===0?[a]:[document.createTextNode(" · "),a]));
+ }
+})();
