@@ -1786,5 +1786,17 @@
     "publishedAt": "2026-10-11",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-150",
+    "parentId": "yamaha",
+    "childId": "yamaha-5",
+    "path": "/야마하-오토바이/야마하-모델-비교/하노이-야마하-모델-비교-faq-여행자-질문-150/",
+    "contentFile": "content/articles/KOR-150.html",
+    "title": "하노이 야마하 오토바이 모델 비교 FAQ: 여행자 상황별 28가지 질문",
+    "description": "하노이에서 야마하 오토바이 모델을 고르는 한국인 여행자를 위해 초보 운전자, 혼자 여행, 동행, 예산, 인수 점검, 도심 이동, 반납 상황별 자주 묻는 질문을 정리했습니다. 예약 전에 확인할 기준과 안전한 대안도 함께 살펴보세요.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
