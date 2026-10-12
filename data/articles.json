@@ -2422,5 +2422,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-203",
+    "parentId": "north",
+    "childId": "north-1",
+    "path": "/베트남-북부-여행/하장/하장-루프-숙박-안전-실전-체크리스트-203/",
+    "contentFile": "content/articles/KOR-203.html",
+    "title": "하장 여행 실전 체크리스트 40가지: 루프·숙박·귀가",
+    "description": "베트남 하장 루프를 계획하는 한국인 여행자를 위한 40단계 점검표입니다. 하노이 출발, 운전 자격, 산악 날씨, 숙소와 경로, 고개·마을 관람, 차량 반납 및 귀가까지 준비 순서를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
