@@ -2050,5 +2050,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-172",
+    "parentId": "hanoi",
+    "childId": "hanoi-5",
+    "path": "/하노이-지역별-가이드/하노이-공항-이동/공항-이동-선택-기준-비교/",
+    "contentFile": "content/articles/KOR-172.html",
+    "title": "공항 이동 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 노이바이공항에서 시내까지 이동 수단을 고르는 기준을 정리했습니다. 인원, 짐, 도착 시간대, 숙소 위치, 예산에 따라 공항 버스, 택시, 픽업 차량, 오토바이 렌탈을 비교하고 일정 유형별 판단 흐름을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
