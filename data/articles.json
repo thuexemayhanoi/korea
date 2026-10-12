@@ -2770,5 +2770,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-232",
+    "parentId": "safety",
+    "childId": "safety-2",
+    "path": "/면허-교통안전/헬멧-보호장비/헬멧-보호장비-선택-기준/",
+    "contentFile": "content/articles/KOR-232.html",
+    "title": "헬멧·보호장비 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 오토바이 여행의 헬멧과 보호장비를 업체 제공, 개인 지참, 현지 구매로 나누어 비교하고 이용 기간과 이동 패턴에 따른 권장 조합을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
