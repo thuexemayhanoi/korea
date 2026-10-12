@@ -3262,5 +3262,41 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-273",
+    "parentId": "planning",
+    "childId": "planning-5",
+    "path": "/베트남-여행-준비/장거리-주행-점검/장거리-점검-실전-체크리스트/",
+    "contentFile": "content/articles/KOR-273.html",
+    "title": "장거리 점검 실전 체크리스트와 확인 순서",
+    "description": "베트남 오토바이 장거리 주행의 실전 점검 체크리스트입니다. 접수 때부터 반납 전까지 시점별 확인 항목과 점검 순서를 단계별로 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-274",
+    "parentId": "planning",
+    "childId": "planning-5",
+    "path": "/베트남-여행-준비/장거리-주행-점검/장거리-점검-주의사항/",
+    "contentFile": "content/articles/KOR-274.html",
+    "title": "장거리 점검 주의사항과 실수 예방",
+    "description": "장거리 점검에서 반복되는 여덟 가지 오해와 실수의 패턴을 정리했습니다. 확인을 미루는 습관의 위험과 안전한 예방 원칙을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "safety",
+    "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-275",
+    "parentId": "planning",
+    "childId": "planning-5",
+    "path": "/베트남-여행-준비/장거리-주행-점검/장거리-점검-자주-묻는-질문/",
+    "contentFile": "content/articles/KOR-275.html",
+    "title": "장거리 점검 자주 묻는 질문",
+    "description": "베트남 오토바이 장거리 주행 점검에 대한 자주 묻는 질문에 상황별로 답합니다. 확인 항목, 고장 대응, 차량과 서류의 판단 기준을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
