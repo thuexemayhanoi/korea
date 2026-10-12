@@ -2374,5 +2374,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-199",
+    "parentId": "nearby",
+    "childId": "nearby-5",
+    "path": "/하노이-근교-라이딩/근교-여행-준비/하노이-근교-출발-실수-예방-199/",
+    "contentFile": "content/articles/KOR-199.html",
+    "title": "하노이 근교 출발 실수 예방: 귀가·차량·날씨·안전",
+    "description": "하노이 근교 여행에서 자주 발생하는 계획 실수를 줄이는 방법입니다. 귀가편 미확인, 운전 자격 오해, 차량 점검 생략, 날씨와 시간 과신, 렌트 계약 문제까지 구체적인 예방 절차를 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "guide",
+    "status": "PUBLISHED"
   }
 ]
