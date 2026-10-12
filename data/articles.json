@@ -2626,5 +2626,17 @@
     "publishedAt": "2026-10-12",
     "type": "safety",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-220",
+    "parentId": "north",
+    "childId": "north-4",
+    "path": "/베트남-북부-여행/목쩌우/목쩌우-차밭-폭포-교통-숙소-faq-220/",
+    "contentFile": "content/articles/KOR-220.html",
+    "title": "목쩌우 여행 FAQ 42문답: 차밭·폭포·숙소·교통",
+    "description": "목쩌우를 여행하는 한국인이 자주 묻는 질문 42가지를 정리했습니다. 차밭과 계절 꽃, 자이옘 폭포와 동굴, 하노이 교통, 렌트 조건, 가족 숙박, 날씨와 귀가까지 상황별 확인 방법을 안내합니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
