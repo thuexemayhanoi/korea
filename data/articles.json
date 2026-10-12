@@ -2890,5 +2890,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-242",
+    "parentId": "safety",
+    "childId": "safety-4",
+    "path": "/면허-교통안전/사고-대응/사고-대응-선택-기준/",
+    "contentFile": "content/articles/KOR-242.html",
+    "title": "사고 대응 선택 기준과 비교: 여행 일정별 확인사항",
+    "description": "하노이 오토바이 여행에서 사고 대응을 위한 여행자 보험의 선택 기준, 보험사와 영사 지원, 업체 지원의 분업 구조와 여행 유형별 권장 준비 조합을 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
