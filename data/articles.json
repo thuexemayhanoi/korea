@@ -2470,5 +2470,17 @@
     "publishedAt": "2026-10-12",
     "type": "travel",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-207",
+    "parentId": "north",
+    "childId": "north-2",
+    "path": "/베트남-북부-여행/사파/사파-여행-선택-기준-숙소-교통-트레킹-비교/",
+    "contentFile": "content/articles/KOR-207.html",
+    "title": "사파 여행 선택 기준 비교: 숙소·교통·트레킹을 일정별로 고르는 법",
+    "description": "사파 여행을 계획하는 한국인 여행자를 위해 중심지와 계곡 숙소, 하노이 출발 교통편, 트레킹과 전망 관광, 계절별 날씨, 동반자별 선택 기준을 비교합니다. 예약 전 확인 질문과 안전한 대안까지 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
