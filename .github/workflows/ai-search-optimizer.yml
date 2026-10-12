@@ -6,6 +6,8 @@ on:
       - 'tools/build.mjs'
       - 'tools/lib/editorial.mjs'
       - 'data/faqs.json'
+      - 'data/articles.json'
+      - 'content/articles/**'
       - '.github/workflows/ai-search-optimizer.yml'
 permissions:
   contents: write
