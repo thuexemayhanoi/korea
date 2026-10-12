@@ -1858,5 +1858,17 @@
     "publishedAt": "2026-10-12",
     "type": "guide",
     "status": "PUBLISHED"
+  },
+  {
+    "id": "KOR-156",
+    "parentId": "hanoi",
+    "childId": "hanoi-2",
+    "path": "/하노이-지역별-가이드/롱비엔/롱비엔-처음-알아보기/",
+    "contentFile": "content/articles/KOR-156.html",
+    "title": "롱비엔 처음 알아보기: 기본 정보와 준비 순서",
+    "description": "하노이 여행에서 롱비엔을 처음 알아보는 한국인 여행자를 위한 입문 안내입니다. 지역의 성격, 홍강과 롱비엔 다리의 특징, 접근 방법, 어울리는 여행자 유형, 방문 전 준비 순서와 첫 방문 동선까지 실제 일정에 바로 적용할 수 있게 정리했습니다.",
+    "publishedAt": "2026-10-12",
+    "type": "travel",
+    "status": "PUBLISHED"
   }
 ]
